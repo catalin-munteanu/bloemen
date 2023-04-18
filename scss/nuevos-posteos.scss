@@ -1,0 +1,25 @@
+.nuevos-posteos-title {
+    text-transform: uppercase;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #3D3845;
+    text-align: center;
+    margin: 1em;
+
+        .texto-negrita {
+            font-weight: 700;
+        }
+}
+
+.container-posteos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        .img-posteos {
+            max-width: 86vw;
+            margin: 0 7% 7%;
+        }
+}

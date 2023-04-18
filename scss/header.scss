@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #3A57D8;
+    width: 100%;
+    height: 105px;
+
+        .logo-bloemen {
+            width: 207px;
+            margin: 20px;
+        }
+
+        .burger-menu {
+            width: 36px;
+            margin: 20px;
+            display: block;
+        }
+
+}
+

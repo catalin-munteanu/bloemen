@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #3A57D8;
+  width: 100%;
+  height: 105px;
+}
+header .logo-bloemen {
+  width: 207px;
+  margin: 20px;
+}
+header .burger-menu {
+  width: 36px;
+  margin: 20px;
+  display: block;
+}
+
+.galeria-presentacion {
+  min-height: 100vh;
+}
+.galeria-presentacion .img-slider {
+  max-width: 100vw;
+}
+
+.nuevos-posteos-title {
+  text-transform: uppercase;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #3D3845;
+  text-align: center;
+  margin: 1em;
+}
+.nuevos-posteos-title .texto-negrita {
+  font-weight: 700;
+}
+
+.container-posteos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-posteos .img-posteos {
+  max-width: 86vw;
+  margin: 0 7% 7%;
+}
+
+.nosotros {
+  color: #FFFFFF;
+  background-color: #009B3E;
+  padding: 24px;
+}
+.nosotros .nosotros-title {
+  text-transform: uppercase;
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 1em;
+}
+.nosotros article {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
