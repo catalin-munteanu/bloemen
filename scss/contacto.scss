@@ -1,0 +1,64 @@
+.contacto {
+
+    h2 {
+        color: white;
+        font-weight: 800;
+        font-size: 24px;
+        background-color: #009B3E;
+        padding: 18px 24px;
+    }
+
+    div {
+        color: white;
+        background-image: linear-gradient(to bottom right, #009B3E, #3A57D8);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        form {
+            padding: 1em 24px;
+            font-size: 16px;
+            width: 100%;
+
+            label {
+                text-align: left;
+            }
+
+            input, textarea {
+                width: 100%;
+                border-radius: 5px;
+                margin: 0.3em 0 1em;
+            }
+
+            input {
+                height: 31px;
+            }
+        }
+
+        .footerInsertado {
+            text-align: center;
+
+            img {
+                width: 40px;
+                margin: 8.5px;
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        .iconosContacto {
+
+            width: 105px;
+            margin: 20px 20px 39px;
+            display: flex;
+            justify-content: space-between;
+        
+            img {
+                width: 29px;
+            }
+
+        }
+    }
+}

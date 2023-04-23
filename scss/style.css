@@ -10,6 +10,24 @@
 
 * {
   scroll-behavior: smooth;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.uppercaseText {
+  text-transform: uppercase;
+}
+
+.page-title {
+  height: 60px;
+  background-color: #009B3E;
+  display: flex;
+  align-items: center;
+}
+.page-title h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  margin-left: 30px;
 }
 
 header {
@@ -41,7 +59,6 @@ header .burger-menu {
 
 .nuevos-posteos-title {
   text-transform: uppercase;
-  font-family: "Roboto", Arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #3D3845;
@@ -70,13 +87,88 @@ header .burger-menu {
 }
 .nosotros .nosotros-title {
   text-transform: uppercase;
-  font-family: "Roboto", Arial, sans-serif;
   font-weight: 800;
   font-size: 24px;
   margin-bottom: 1em;
 }
 .nosotros article {
-  font-family: "Roboto", Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
+}
+
+.contacto h2 {
+  color: white;
+  font-weight: 800;
+  font-size: 24px;
+  background-color: #009B3E;
+  padding: 18px 24px;
+}
+.contacto div {
+  color: white;
+  background-image: linear-gradient(to bottom right, #009B3E, #3A57D8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacto div form {
+  padding: 1em 24px;
+  font-size: 16px;
+  width: 100%;
+}
+.contacto div form label {
+  text-align: left;
+}
+.contacto div form input, .contacto div form textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0.3em 0 1em;
+}
+.contacto div form input {
+  height: 31px;
+}
+.contacto div .footerInsertado {
+  text-align: center;
+}
+.contacto div .footerInsertado img {
+  width: 40px;
+  margin: 8.5px;
+}
+.contacto div .footerInsertado p {
+  font-size: 12px;
+}
+.contacto div .iconosContacto {
+  width: 105px;
+  margin: 20px 20px 39px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacto div .iconosContacto img {
+  width: 29px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(to bottom right, #009B3E, #3A57D8);
+}
+footer .datos-contacto {
+  text-align: center;
+}
+footer .datos-contacto img {
+  width: 40px;
+  margin: 8.5px;
+}
+footer .datos-contacto p {
+  font-size: 12px;
+}
+footer .redes-footer {
+  width: 105px;
+  margin: 20px 20px 39px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .redes-footer img {
+  width: 29px;
 }/*# sourceMappingURL=style.css.map */

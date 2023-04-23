@@ -10,4 +10,22 @@
 
 * {
   scroll-behavior: smooth;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.uppercaseText {
+  text-transform: uppercase;
+}
+
+.page-title {
+  height: 60px;
+  background-color: #009B3E;
+  display: flex;
+  align-items: center;
+}
+.page-title h2 {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  margin-left: 30px;
 }/*# sourceMappingURL=reset.css.map */

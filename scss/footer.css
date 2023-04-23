@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-image: linear-gradient(to bottom right, #009B3E, #3A57D8);
+}
+footer .datos-contacto {
+  text-align: center;
+}
+footer .datos-contacto img {
+  width: 40px;
+  margin: 8.5px;
+}
+footer .datos-contacto p {
+  font-size: 12px;
+}
+footer .redes-footer {
+  width: 105px;
+  margin: 20px 20px 39px;
+  display: flex;
+  justify-content: space-between;
+}
+footer .redes-footer img {
+  width: 29px;
+}/*# sourceMappingURL=footer.css.map */
