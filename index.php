@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
     <script src="js/main.js"></script>
     <title>Bloemen - Fertilizantes Sustentables</title>
@@ -65,8 +65,8 @@
                 </form>
                 <article class="footerInsertado">
                     <img src="img/icono-bloemen.png">
-                    <p class="uppercaseText">Química Bloemendaal SRL</p>
-                    <p class="uppercaseText">Juan B. Justo 5450</p>
+                    <p class="uppercase-text">Química Bloemendaal SRL</p>
+                    <p class="uppercase-text">Juan B. Justo 5450</p>
                     <p>Mar del Plata (7600) - Buenos Aires</p>
                     <p>WhatsApp: 223 528 4000</p>
                 </article>

@@ -13,7 +13,7 @@
   font-family: "Roboto", Arial, sans-serif;
 }
 
-.uppercaseText {
+.uppercase-text {
   text-transform: uppercase;
 }
 
@@ -144,6 +144,45 @@ header .burger-menu {
 }
 .contacto div .iconosContacto img {
   width: 29px;
+}
+
+.detalle-cultivos {
+  padding: 24px;
+}
+.detalle-cultivos article h5 {
+  color: #009B3E;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.detalle-cultivos article li {
+  color: #706F6F;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.detalle-productos .portadas-productos {
+  width: 100vw;
+  max-width: 100vw;
+  display: block;
+}
+
+.proyecto-tipos {
+  margin: 24px;
+}
+.proyecto-tipos article {
+  display: flex;
+  align-items: center;
+}
+.proyecto-tipos article img {
+  width: 95px;
+  margin: 10px 10px 10px 0;
+}
+.proyecto-tipos article h3 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #706F6F;
 }
 
 footer {

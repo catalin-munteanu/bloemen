@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
     <script src="js/main.js"></script>
     <title>Bloemen - Fertilizantes Sustentables | Productos</title>
@@ -26,8 +26,32 @@
 
         <section class="page-section">
             <article class="page-title">
-                <h2 class="uppercaseText">Sumá tu proyecto</h2>
+                <h2 class="uppercase-text">Sumá tu proyecto</h2>
             </article>
+        </section>
+
+        <section class="proyecto-tipos">
+
+            <article class="ideas-proyectos">
+                <img src="img/suma-01-ideas-proyectos.png">
+                <h3 class="uppercase-text">Ideas y proyectos</h3>
+            </article>
+
+            <article class="soluciones-sustentables">
+                <img src="img/suma-02-soluciones.png">
+                <h3 class="uppercase-text">Soluciones sustentables para empresas</h3>
+            </article>
+
+            <article class="tu-cv">
+                <img src="img/suma-03-cv.png">
+                <h3 class="uppercase-text">Tu CV</h3>
+            </article>
+
+            <article class="desarrollo-propuestas">
+                <img src="img/suma-04-desarrollo.png">
+                <h3 class="uppercase-text">Desarrollo de propuestas</h3>
+            </article>
+
         </section>
 
     </main>
@@ -35,8 +59,8 @@
     <footer>
             <article class="datos-contacto">
                     <img src="img/icono-bloemen.png">
-                    <p class="uppercaseText">Química Bloemendaal SRL</p>
-                    <p class="uppercaseText">Juan B. Justo 5450</p>
+                    <p class="uppercase-text">Química Bloemendaal SRL</p>
+                    <p class="uppercase-text">Juan B. Justo 5450</p>
                     <p>Mar del Plata (7600) - Buenos Aires</p>
                     <p>WhatsApp: 223 528 4000</p>
                 </article>

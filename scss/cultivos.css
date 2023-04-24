@@ -1,1 +1,15 @@
-/*# sourceMappingURL=cultivos.css.map */
+.detalle-cultivos {
+  padding: 24px;
+}
+.detalle-cultivos article h5 {
+  color: #009B3E;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+.detalle-cultivos article li {
+  color: #706F6F;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}/*# sourceMappingURL=cultivos.css.map */

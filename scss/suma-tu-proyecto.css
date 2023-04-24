@@ -1,0 +1,16 @@
+.proyecto-tipos {
+  margin: 24px;
+}
+.proyecto-tipos article {
+  display: flex;
+  align-items: center;
+}
+.proyecto-tipos article img {
+  width: 95px;
+  margin: 10px 10px 10px 0;
+}
+.proyecto-tipos article h3 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #706F6F;
+}/*# sourceMappingURL=suma-tu-proyecto.css.map */
