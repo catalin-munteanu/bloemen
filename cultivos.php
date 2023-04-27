@@ -35,49 +35,199 @@
             <article class="cultivos-extensivos">
                 <h5 class="uppercase-text">Extensivos</h5>
                 <ul class="uppercase-text">
-                    <li>+ Trigo</li>
-                    <li>+ Cebada</li>
-                    <li>+ Maíz</li>
-                    <li>+ Soja</li>
-                    <li>+ Girasol</li>
-                    <li>+ Pasturas</li>
+                    <li>
+                        <details>
+                            <summary>+ Trigo</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Cebada</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Maíz</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Soja</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Girasol</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Pasturas</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
                 </ul>
             </article>
 
             <article class="cultivos-hortalizas">
-            <h5 class="uppercase-text">Hortalizas</h5>
+                <h5 class="uppercase-text">Hortalizas</h5>
                 <ul class="uppercase-text">
-                    <li>+ Ajo</li>
-                    <li>+ Tomate</li>
-                    <li>+ Pimiento</li>
-                    <li>+ Zanahoria</li>
-                    <li>+ Cebolla</li>
-                    <li>+ Verduras de hoja</li>
-                    <li>+ Otros</li>
+                    <li>
+                        <details>
+                            <summary>+ Ajo</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Tomate</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Pimiento</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Zanahoria</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Cebolla</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Verduras de hoja</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Otros</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
                 </ul>
             </article>
 
             <article class="cultivos-frutales">
                 <h5 class="uppercase-text">Frutales</h5>
                 <ul class="uppercase-text">
-                    <li>+ Cítricos</li>
-                    <li>+ Manzana</li>
-                    <li>+ Pera</li>
-                    <li>+ Kiwi</li>
-                    <li>+ Durazno</li>
-                    <li>+ Vid</li>
+                    <li>
+                        <details>
+                            <summary>+ Cítricos</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Manzana</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Pera</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Kiwi</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Durazno</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Vid</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
                 </ul>
             </article>
 
             <article class="cultivos-intensivos">
                 <h5 class="uppercase-text">Intensivos</h5>
                 <ul class="uppercase-text">
-                    <li>+ Yerba mate</li>
-                    <li>+ Azúcar</li>
-                    <li>+ Tabaco</li>
-                    <li>+ Maní</li>
-                    <li>+ Papa</li>
-                    <li>+ Olivos</li>
+                    <li>
+                        <details>
+                            <summary>+ Yerba mate</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Azúcar</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Tabaco</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Maní</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Papa</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>+ Olivos</summary>
+                            <img src="img/icono-bloemen.png">
+                            <img src="img/icono-bloemen.png">
+                        </details>
+                    </li>
                 </ul>
             </article>
 
@@ -86,18 +236,18 @@
     </main>
 
     <footer>
-            <article class="datos-contacto">
-                    <img src="img/icono-bloemen.png">
-                    <p class="uppercase-text">Química Bloemendaal SRL</p>
-                    <p class="uppercase-text">Juan B. Justo 5450</p>
-                    <p>Mar del Plata (7600) - Buenos Aires</p>
-                    <p>WhatsApp: 223 528 4000</p>
-                </article>
-                <article class="redes-footer">
-                    <img src="img/icono-fb.png">
-                    <img src="img/icono-linkedin.png">
-                    <img src="img/icono-ig.png">
-                </article>
+        <article class="datos-contacto">
+            <img src="img/icono-bloemen.png">
+            <p class="uppercase-text">Química Bloemendaal SRL</p>
+            <p class="uppercase-text">Juan B. Justo 5450</p>
+            <p>Mar del Plata (7600) - Buenos Aires</p>
+            <p>WhatsApp: 223 528 4000</p>
+        </article>
+        <article class="redes-footer">
+            <img src="img/icono-fb.png">
+            <img src="img/icono-linkedin.png">
+            <img src="img/icono-ig.png">
+        </article>
     </footer>
 
 </body>
