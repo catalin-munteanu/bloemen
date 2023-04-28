@@ -46,3 +46,14 @@ header {
     }
 }
 
+@media (min-width: 1024px) {
+
+    header {
+
+        height: 130px;
+
+        .logo-bloemen {
+            width: 326px;
+        }
+    }
+}

@@ -65,4 +65,10 @@
   width: 8%;
   left: 55%;
   top: 46%;
+}
+
+@media (min-width: 1024px) {
+  .mapa-y-detalles .mapa-distribuidores .mapa-argentina {
+    width: 45vw;
+  }
 }/*# sourceMappingURL=distribuidores.css.map */

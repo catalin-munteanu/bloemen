@@ -34,4 +34,13 @@ header .container-menus-header .social-menu-header .social-element-header {
 header .container-menus-header .social-menu-header .social-element-header img {
   width: 29px;
   display: block;
+}
+
+@media (min-width: 1024px) {
+  header {
+    height: 130px;
+  }
+  header .logo-bloemen {
+    width: 326px;
+  }
 }/*# sourceMappingURL=header.css.map */

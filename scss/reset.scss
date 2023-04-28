@@ -34,3 +34,13 @@ a {
         margin-left: 30px;
     }
 }
+
+@media (min-width: 1024px){
+    .page-title {
+        height: 100px;
+
+    h2 {
+        font-size: 48px;
+    }
+}
+}

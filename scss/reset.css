@@ -32,4 +32,13 @@ a {
   font-weight: 800;
   color: white;
   margin-left: 30px;
+}
+
+@media (min-width: 1024px) {
+  .page-title {
+    height: 100px;
+  }
+  .page-title h2 {
+    font-size: 48px;
+  }
 }/*# sourceMappingURL=reset.css.map */
