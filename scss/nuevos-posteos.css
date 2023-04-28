@@ -19,4 +19,21 @@
 .container-posteos .img-posteos {
   max-width: 86vw;
   margin: 0 7% 7%;
+}
+
+@media (min-width: 1024px) {
+  .nuevos-posteos {
+    padding: 48px;
+  }
+  .nuevos-posteos .nuevos-posteos-title {
+    font-size: 48px;
+  }
+  .nuevos-posteos .container-posteos {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nuevos-posteos .container-posteos .img-posteos {
+    max-width: 28vw;
+    margin: 0 0 7%;
+  }
 }/*# sourceMappingURL=nuevos-posteos.css.map */

@@ -12,4 +12,17 @@
 .nosotros article {
   font-size: 12px;
   font-weight: 400;
+}
+
+@media (min-width: 1024px) {
+  .nosotros {
+    padding: 24px 48px 48px;
+  }
+  .nosotros .nosotros-title {
+    font-size: 48px;
+    margin-bottom: 0.5em;
+  }
+  .nosotros article {
+    font-size: 18px;
+  }
 }/*# sourceMappingURL=nosotros.css.map */

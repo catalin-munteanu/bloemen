@@ -72,13 +72,55 @@ header .container-menus-header .social-menu-header .social-element-header img {
   display: block;
 }
 
-.galeria-presentacion {
-  min-height: 100vh;
+.slider-container {
+  height: 100vh;
+  position: relative;
+  margin: auto;
 }
-.galeria-presentacion .img-slider {
+.slider-container .prev, .slider-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+.slider-container .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.slider-container .prev:hover, .slider-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.slider-container .fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.slider-container .img-slider {
   max-width: 100vw;
 }
 
+@media (min-width: 1024px) {
+  .slider-container {
+    display: none;
+  }
+}
 .nuevos-posteos-title {
   text-transform: uppercase;
   font-weight: 400;
@@ -102,6 +144,22 @@ header .container-menus-header .social-menu-header .social-element-header img {
   margin: 0 7% 7%;
 }
 
+@media (min-width: 1024px) {
+  .nuevos-posteos {
+    padding: 48px;
+  }
+  .nuevos-posteos .nuevos-posteos-title {
+    font-size: 48px;
+  }
+  .nuevos-posteos .container-posteos {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .nuevos-posteos .container-posteos .img-posteos {
+    max-width: 28vw;
+    margin: 0 0 7%;
+  }
+}
 .nosotros {
   color: #FFFFFF;
   background-color: #009B3E;
@@ -118,12 +176,24 @@ header .container-menus-header .social-menu-header .social-element-header img {
   font-weight: 400;
 }
 
+@media (min-width: 1024px) {
+  .nosotros {
+    padding: 24px 48px 48px;
+  }
+  .nosotros .nosotros-title {
+    font-size: 48px;
+    margin-bottom: 0.5em;
+  }
+  .nosotros article {
+    font-size: 18px;
+  }
+}
 .contacto h2 {
   color: white;
   font-weight: 800;
   font-size: 24px;
   background-color: #009B3E;
-  padding: 18px 24px;
+  padding: 18px 48px;
 }
 .contacto div {
   color: white;
@@ -133,7 +203,7 @@ header .container-menus-header .social-menu-header .social-element-header img {
   align-items: center;
 }
 .contacto div form {
-  padding: 1em 24px;
+  padding: 1em 48px;
   font-size: 16px;
   width: 100%;
 }
@@ -168,6 +238,17 @@ header .container-menus-header .social-menu-header .social-element-header img {
   width: 29px;
 }
 
+@media (min-width: 1024px) {
+  .contacto h2 {
+    font-size: 48px;
+  }
+  .contacto div form {
+    font-size: 24px;
+  }
+  .contacto div form input {
+    height: 51px;
+  }
+}
 .detalle-cultivos {
   padding: 24px;
 }

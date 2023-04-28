@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
-    <script src="js/main.js"></script>
+    <script src="main.js"></script>
     <title>Bloemen - Fertilizantes Sustentables</title>
 </head>
 
@@ -19,9 +19,52 @@
 
     <main>
 
-        <section class="galeria-presentacion">
-            <img class="img-slider" src="img/index-1.png">
-        </section>
+        <section class="slider-container">
+
+            <div class="mySlides fade">
+                <img class="img-slider" src="img/index-1.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img class="img-slider" src="img/index-2.png">
+            </div>
+
+            <div class="mySlides fade">
+                <img class="img-slider" src="img/index-3.png">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+            <script>
+                let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+</section>
 
         <section class="nuevos-posteos">
             <h2 class="nuevos-posteos-title">Nuevos <strong class="texto-negrita">posteos</strong></h2>
@@ -44,7 +87,7 @@
         </section>
 
         <section class="contacto" id="ancla-contacto">
-            <h2 class="contacto-title uppercaseText">Contacto</h2>
+            <h2 class="contacto-title uppercase-text">Contacto</h2>
             <div class="gradient-background">
                 <form>
                     <label for="nombre">Nombre/Razón Social</label><br>

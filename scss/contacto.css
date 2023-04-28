@@ -3,7 +3,7 @@
   font-weight: 800;
   font-size: 24px;
   background-color: #009B3E;
-  padding: 18px 24px;
+  padding: 18px 48px;
 }
 .contacto div {
   color: white;
@@ -13,7 +13,7 @@
   align-items: center;
 }
 .contacto div form {
-  padding: 1em 24px;
+  padding: 1em 48px;
   font-size: 16px;
   width: 100%;
 }
@@ -46,4 +46,16 @@
 }
 .contacto div .iconosContacto img {
   width: 29px;
+}
+
+@media (min-width: 1024px) {
+  .contacto h2 {
+    font-size: 48px;
+  }
+  .contacto div form {
+    font-size: 24px;
+  }
+  .contacto div form input {
+    height: 51px;
+  }
 }/*# sourceMappingURL=contacto.css.map */
