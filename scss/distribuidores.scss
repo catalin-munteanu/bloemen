@@ -1,7 +1,79 @@
-.mapa-distribuidores {
+.mapa-y-detalles {
     text-align: center;
 
-    img {
-        margin: 40px;
+    .mapa-distribuidores {
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        max-width: 100%;
+
+        .mapa-argentina {
+            margin: 10%;
+            /*position: relative;*/
+        }
+
+        .logo-distr-mendoza {
+            position: absolute;
+            width: 25px;
+            left: 21.5%;
+            top: 40%;
+        }
+
+        .logo-distr-rio-negro {
+            position: absolute;
+            width: 25px;
+            left: 30%;
+            top: 57%;
+        }
+
+        .logo-distr-santa-cruz {
+            position: absolute;
+            width: 25px;
+            left: 20%;
+            top: 82%;
+        }
+
+        .logo-distr-san-juan {
+            position: absolute;
+            width: 25px;
+            left: 18%;
+            top: 30%;
+        }
+
+        .logo-distr-cordoba {
+            position: absolute;
+            width: 25px;
+            left: 47%;
+            top: 32%;
+        }
+
+        .logo-distr-entre-rios {
+            position: absolute;
+            width: 25px;
+            left: 71%;
+            top: 33%;
+        }
+
+        .logo-distr-corrientes {
+            position: absolute;
+            width: 25px;
+            left: 81%;
+            top: 23%;
+        }
+
+        .logo-distr-tucuman {
+            position: absolute;
+            width: 25px;
+            left: 37%;
+            top: 18%;
+        }
+
+        .logo-distr-buenos-aires {
+            position: absolute;
+            width: 25px;
+            left: 64%;
+            top: 46%;
+        }
     }
+
 }

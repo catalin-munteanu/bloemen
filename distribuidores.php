@@ -15,7 +15,7 @@
 
 <body>
 
-<?php require_once 'header.php'; ?>
+    <?php require_once 'header.php'; ?>
 
     <main>
 
@@ -25,8 +25,20 @@
             </article>
         </section>
 
-        <section class="mapa-distribuidores">
-            <img src="img/mapa-argentina.svg">
+        <section class="mapa-y-detalles">
+            <article class="mapa-distribuidores">
+                <img src="img/mapa-argentina.svg" class="mapa-argentina">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-mendoza">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-rio-negro">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-santa-cruz">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-san-juan">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-cordoba">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-entre-rios">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-corrientes">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-tucuman">
+                <img src="img/logo-bloemen-map.png" class="logo-distr-buenos-aires">
+            </article>
+
         </section>
 
     </main>
