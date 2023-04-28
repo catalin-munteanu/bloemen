@@ -194,6 +194,13 @@ header .container-menus-header .social-menu-header .social-element-header img {
   display: block;
 }
 
+.mapa-distribuidores {
+  text-align: center;
+}
+.mapa-distribuidores img {
+  margin: 40px;
+}
+
 .proyecto-tipos {
   margin: 24px;
 }

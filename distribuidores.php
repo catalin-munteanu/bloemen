@@ -25,6 +25,10 @@
             </article>
         </section>
 
+        <section class="mapa-distribuidores">
+            <img src="img/mapa-argentina.svg">
+        </section>
+
     </main>
 
     <?php require_once 'footer.php'; ?>
