@@ -8,60 +8,61 @@
   max-width: 100%;
 }
 .mapa-y-detalles .mapa-distribuidores .mapa-argentina {
-  margin: 10%;
-  /*position: relative;*/
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 70vw;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-mendoza {
   position: absolute;
-  width: 25px;
-  left: 21.5%;
+  width: 8%;
+  left: 13%;
   top: 40%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-rio-negro {
   position: absolute;
-  width: 25px;
-  left: 30%;
+  width: 8%;
+  left: 20%;
   top: 57%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-santa-cruz {
   position: absolute;
-  width: 25px;
-  left: 20%;
-  top: 82%;
+  width: 8%;
+  left: 13%;
+  top: 80%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-san-juan {
   position: absolute;
-  width: 25px;
-  left: 18%;
+  width: 8%;
+  left: 10%;
   top: 30%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-cordoba {
   position: absolute;
-  width: 25px;
-  left: 47%;
+  width: 8%;
+  left: 38%;
   top: 32%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-entre-rios {
   position: absolute;
-  width: 25px;
-  left: 71%;
+  width: 8%;
+  left: 62%;
   top: 33%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-corrientes {
   position: absolute;
-  width: 25px;
-  left: 81%;
-  top: 23%;
+  width: 8%;
+  left: 71%;
+  top: 24%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-tucuman {
   position: absolute;
-  width: 25px;
-  left: 37%;
+  width: 8%;
+  left: 28%;
   top: 18%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-buenos-aires {
   position: absolute;
-  width: 25px;
-  left: 64%;
+  width: 8%;
+  left: 55%;
   top: 46%;
 }/*# sourceMappingURL=distribuidores.css.map */
