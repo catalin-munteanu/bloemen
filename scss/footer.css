@@ -10,14 +10,14 @@ footer .datos-contacto {
 }
 footer .datos-contacto img {
   width: 40px;
-  margin: 8.5px;
+  margin: 20px 8.5px 8.5px;
 }
 footer .datos-contacto p {
   font-size: 12px;
 }
 footer .redes-footer {
   width: 105px;
-  margin: 20px 20px 39px;
+  margin: 20px 20px;
   display: flex;
   justify-content: space-between;
 }

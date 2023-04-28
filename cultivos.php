@@ -15,12 +15,7 @@
 
 <body>
 
-    <header>
-        <img class="logo-bloemen" src="img\logo-bloemen.png">
-        <nav>
-            <img class="burger-menu" src="img\burger-menu.png">
-        </nav>
-    </header>
+<?php require_once 'header.php'; ?> 
 
     <main>
 
@@ -50,10 +45,9 @@
                         </details>
                     </li>
                     <li>
-                        <details>
+                        <details class="info-cultivos-tablas">
                             <summary>+ Maíz</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
+                            <img class="cultivos-imagen" src="img/img-tabla-cultivos-maiz.png">
                         </details>
                     </li>
                     <li>
@@ -235,20 +229,7 @@
 
     </main>
 
-    <footer>
-        <article class="datos-contacto">
-            <img src="img/icono-bloemen.png">
-            <p class="uppercase-text">Química Bloemendaal SRL</p>
-            <p class="uppercase-text">Juan B. Justo 5450</p>
-            <p>Mar del Plata (7600) - Buenos Aires</p>
-            <p>WhatsApp: 223 528 4000</p>
-        </article>
-        <article class="redes-footer">
-            <img src="img/icono-fb.png">
-            <img src="img/icono-linkedin.png">
-            <img src="img/icono-ig.png">
-        </article>
-    </footer>
+    <?php require_once 'footer.php'; ?>
 
 </body>
 

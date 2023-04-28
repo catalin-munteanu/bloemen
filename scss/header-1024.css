@@ -1,0 +1,19 @@
+@media (min-width: 1024px) {
+  header {
+    height: 130px;
+  }
+  header .burger-menu {
+    display: none;
+  }
+  header .container-menus-header {
+    display: flex;
+    align-items: center;
+  }
+  header .container-menus-header .nav-menu {
+    display: flex;
+  }
+  header .container-menus-header .social-menu-header {
+    display: flex;
+    margin: 14px;
+  }
+}/*# sourceMappingURL=header-1024.css.map */

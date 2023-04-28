@@ -15,12 +15,7 @@
 
 <body>
 
-    <header>
-        <img class="logo-bloemen" src="img\logo-bloemen.png">
-        <nav>
-            <img class="burger-menu" src="img\burger-menu.png">
-        </nav>
-    </header>
+<?php require_once 'header.php'; ?>
 
     <main>
 
@@ -37,7 +32,7 @@
             </article>
         </section>
 
-        <section class="nosotros">
+        <section class="nosotros" id="ancla-nosotros">
             <h2 class="nosotros-title">Nosotros</h2>
             <article>
                 <p>Ya en el año 1962 el fundador de la empresa el Dr. JUAN CORNELIO BAKKER, comenzaba a trabajar con distintas materias orgánicas y formulaba los primeros fertilizantes orgánicos, en el año 1964 registraba su primer curasemillas CURASEM 64. A partir de allí fue un continuo proceso de investigación, fabricación y ensayos de nuevos productos, siempre en el área acotada al sudeste de la Prov. de Buenos Aires.</p>
@@ -48,7 +43,7 @@
             </article>
         </section>
 
-        <section class="contacto">
+        <section class="contacto" id="ancla-contacto">
             <h2 class="contacto-title uppercaseText">Contacto</h2>
             <div class="gradient-background">
                 <form>

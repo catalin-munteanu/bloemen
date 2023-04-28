@@ -4,6 +4,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+    color: #FFFFFF;
     background-color: #3A57D8;
     width: 100%;
     height: 105px;
@@ -18,6 +19,29 @@ header {
             margin: 20px;
             display: block;
         }
+        
+        .container-menus-header {
 
+        .nav-menu {
+            display: none;
+
+            .nav-menu-element {
+                margin: 0.5em;
+            }
+        }
+
+        .social-menu-header {
+            display: none;
+
+            .social-element-header {
+                margin: 0.5em;
+
+                img {
+                    width: 29px;
+                    display: block;
+                }
+            }
+        }
+    }
 }
 
