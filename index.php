@@ -15,7 +15,7 @@
 
 <body>
 
-<?php require_once 'header.php'; ?>
+    <?php require_once 'header.php'; ?>
 
     <main>
 
@@ -66,9 +66,9 @@
                     <p>WhatsApp: 223 528 4000</p>
                 </article>
                 <article class="iconosContacto">
-                    <img src="img/icono-fb.png">
-                    <img src="img/icono-linkedin.png">
-                    <img src="img/icono-ig.png">
+                    <a href="https://www.facebook.com/profile.php?id=100088179257884&mibextid=ZbWKwL" target="_blank"><img src="img/icono-fb.png"></a>
+                    <a href="https://www.linkedin.com/in/fertilizantes-bloemen-a4a4b884" target="_blank"><img src="img/icono-linkedin.png"></a>
+                    <a href="https://instagram.com/bloemen_fertilizantes" target="_blank"><img src="img/icono-ig.png"></a>
                 </article>
             </div>
         </section>
