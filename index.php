@@ -19,51 +19,57 @@
 
     <main>
 
-        <section class="slider-container">
+<section>
+    <div class="slideshow-container">
 
-            <div class="mySlides fade">
-                <img class="img-slider" src="img/index-1.png">
-            </div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/index-1.png" style="width:100%">
+  <div class="text"></div>
+</div>
 
-            <div class="mySlides fade">
-                <img class="img-slider" src="img/index-2.png">
-            </div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/index-2.png" style="width:100%">
+  <div class="text"></div>
+</div>
 
-            <div class="mySlides fade">
-                <img class="img-slider" src="img/index-3.png">
-            </div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="img/index-3.png" style="width:100%">
+  <div class="text"></div>
+</div>
 
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-            <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<br>
 
-            <script>
-                let slideIndex = 1;
-showSlides(slideIndex);
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+<script>
+let slideIndex = 0;
+showSlides();
 
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
 }
-    </script>
+</script>
 </section>
 
         <section class="nuevos-posteos">
