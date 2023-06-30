@@ -9,7 +9,7 @@ footer .datos-contacto {
   text-align: center;
 }
 footer .datos-contacto img {
-  width: 40px;
+  width: 139px;
   margin: 20px 8.5px 8.5px;
 }
 footer .datos-contacto p {
@@ -23,4 +23,25 @@ footer .redes-footer {
 }
 footer .redes-footer img {
   width: 29px;
+}
+
+@media (min-width: 1024px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 203px;
+  }
+  footer .datos-contacto {
+    margin-left: 5%;
+  }
+  footer .datos-contacto img {
+    width: 213px;
+  }
+  footer .redes-footer {
+    margin-right: 5%;
+    width: 214px;
+  }
+  footer .redes-footer img {
+    width: 57px;
+  }
 }/*# sourceMappingURL=footer.css.map */

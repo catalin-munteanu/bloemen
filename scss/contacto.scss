@@ -8,7 +8,7 @@
         padding: 18px 48px;
     }
 
-    div {
+    div.gradient-background {
         color: white;
         background-image: linear-gradient(to bottom right, #009B3E, #3A57D8);
         display: flex;
@@ -24,7 +24,8 @@
                 text-align: left;
             }
 
-            input, textarea {
+            input,
+            textarea {
                 width: 100%;
                 border-radius: 5px;
                 margin: 0.3em 0 1em;
@@ -35,30 +36,32 @@
             }
         }
 
-        .footerInsertado {
-            text-align: center;
+        div.footer-index {
 
-            img {
-                width: 40px;
-                margin: 8.5px;
+            .footerInsertado {
+                text-align: center;
+
+                img {
+                    width: 139px;
+                    margin: 8.5px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
             }
 
-            p {
-                font-size: 12px;
+            .iconosContacto {
+
+                width: 105px;
+                margin: 20px 20px 39px;
+                display: flex;
+                justify-content: space-between;
+
+                img {
+                    width: 29px;
+                }
             }
-        }
-
-        .iconosContacto {
-
-            width: 105px;
-            margin: 20px 20px 39px;
-            display: flex;
-            justify-content: space-between;
-        
-            img {
-                width: 29px;
-            }
-
         }
     }
 }
@@ -69,7 +72,7 @@
             font-size: 48px;
         }
 
-        div {
+        div.gradient-background {
 
             form {
                 font-size: 24px;
@@ -79,6 +82,31 @@
                 }
             }
 
+            div.footer-index{
+                width: 100%;
+                height: 203px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                .footerInsertado{
+                    margin-left: 5%;
+                    
+                    img{
+                        width: 213px;
+                    }
+                }
+
+                .iconosContacto{
+                    margin-right: 5%;
+                    width: 214px;
+
+                    img{
+                        width: 57px;
+                    }
+                }
+            }
         }
     }
 }

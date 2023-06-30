@@ -9,7 +9,7 @@ footer {
     text-align: center;
 
     img {
-        width: 40px;
+        width: 139px;
         margin: 20px 8.5px 8.5px;
     }
 
@@ -30,4 +30,29 @@ footer {
     }
 }
 
+}
+
+@media (min-width: 1024px) {
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        height: 203px;
+
+        .datos-contacto{
+            margin-left: 5%;
+
+            img{
+                width: 213px;
+            }
+        }
+
+        .redes-footer{
+            margin-right: 5%;
+            width: 214px;
+
+            img{
+                width: 57px;
+            }
+        }
+    }
 }
