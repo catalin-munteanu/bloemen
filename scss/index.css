@@ -42,8 +42,9 @@ img {
     opacity: 1;
   }
 }
-@media (min-width: 1024px) {
-  .slideshow-container {
-    display: none;
-  }
-}/*# sourceMappingURL=index.css.map */
+/* @media (min-width: 1024px){
+
+    .slideshow-container {
+        display: none;
+    }
+} *//*# sourceMappingURL=index.css.map */

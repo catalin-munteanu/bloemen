@@ -24,19 +24,28 @@
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="img/index-1.png" style="width:100%">
+  <picture>
+    <source media="(min-width:1024px)" srcset="img/index-1-desktop.png">
+    <img src="img/index-1.png" style="width:100%">
+  </picture>
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="img/index-2.png" style="width:100%">
+  <picture>
+    <source media="(min-width:1024px)" srcset="img/index-2-desktop.png">
+    <img src="img/index-2.png" style="width:100%">
+  </picture>
   <div class="text"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="img/index-3.png" style="width:100%">
+  <picture>
+    <source media="(min-width:1024px)" srcset="img/index-3-desktop.png">
+    <img src="img/index-3.png" style="width:100%">
+  </picture>
   <div class="text"></div>
 </div>
 

@@ -132,11 +132,12 @@ img {
     opacity: 1;
   }
 }
-@media (min-width: 1024px) {
-  .slideshow-container {
-    display: none;
-  }
-}
+/* @media (min-width: 1024px){
+
+    .slideshow-container {
+        display: none;
+    }
+} */
 .nuevos-posteos-title {
   text-transform: uppercase;
   font-weight: 400;
