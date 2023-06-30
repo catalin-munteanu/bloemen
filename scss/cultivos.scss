@@ -1,38 +1,40 @@
-.detalle-cultivos {
+section.detalle-cultivos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
 
-    padding: 24px;
+    div.un-cultivo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        flex-basis: 12%;
 
-    article {
-
-        h5 {
-            color: #009B3E;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 30px;
+        img.img-cultivo {
+            width: 90px;
         }
 
-        li {
-            color: #706F6F;
-            font-weight: 500;
+        p.nombre-cultivo {
             font-size: 20px;
-            line-height: 30px;
+            font-weight: 800;
+            color: #787778;
+            margin: 5px;
+            text-align: center;
         }
-
     }
 
-}
+    @media (min-width: 1024px){
+        section.detalle-cultivos {
+            div.un-cultivo {
+                img.img-cultivo {
+                    width: 132px;
+                }
 
-.cultivos-imagen {
-    width: 100%;
-    max-width: 100%;
-}
-
-@media (min-width: 1024px) {
-
-    .detalle-cultivos {
-
-        padding: 50px;
-
-}
-
+                p.nombre-cultivo {
+                    font-size: 32px;
+                }
+            }
+        }
+    }
 }

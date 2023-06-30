@@ -26,204 +26,120 @@
         </section>
 
         <section class="detalle-cultivos">
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/01-ajo-inac.png">
+                <p class="uppercase-text nombre-cultivo">Ajo</p>
+            </div>
 
-            <article class="cultivos-extensivos">
-                <h5 class="uppercase-text">Extensivos</h5>
-                <ul class="uppercase-text">
-                    <li>
-                        <details>
-                            <summary>+ Trigo</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Cebada</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details class="info-cultivos-tablas">
-                            <summary>+ Maíz</summary>
-                            <img class="cultivos-imagen" src="img/img-tabla-cultivos-maiz.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Soja</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Girasol</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Pasturas</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                </ul>
-            </article>
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/02-algodon-inac.png">
+                <p class="uppercase-text nombre-cultivo">Algodón</p>
+            </div>
 
-            <article class="cultivos-hortalizas">
-                <h5 class="uppercase-text">Hortalizas</h5>
-                <ul class="uppercase-text">
-                    <li>
-                        <details>
-                            <summary>+ Ajo</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Tomate</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Pimiento</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Zanahoria</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Cebolla</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Verduras de hoja</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Otros</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                </ul>
-            </article>
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/03-brocoli-inac.png">
+                <p class="uppercase-text nombre-cultivo">Brócoli</p>
+            </div>
 
-            <article class="cultivos-frutales">
-                <h5 class="uppercase-text">Frutales</h5>
-                <ul class="uppercase-text">
-                    <li>
-                        <details>
-                            <summary>+ Cítricos</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Manzana</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Pera</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Kiwi</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Durazno</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Vid</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                </ul>
-            </article>
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/04-cania-inac.png">
+                <p class="uppercase-text nombre-cultivo">Caña de azúcar</p>
+            </div>
 
-            <article class="cultivos-intensivos">
-                <h5 class="uppercase-text">Intensivos</h5>
-                <ul class="uppercase-text">
-                    <li>
-                        <details>
-                            <summary>+ Yerba mate</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Azúcar</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Tabaco</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Maní</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Papa</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                    <li>
-                        <details>
-                            <summary>+ Olivos</summary>
-                            <img src="img/icono-bloemen.png">
-                            <img src="img/icono-bloemen.png">
-                        </details>
-                    </li>
-                </ul>
-            </article>
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/05-cebada-inac.png">
+                <p class="uppercase-text nombre-cultivo">Cebada</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/06-cebolla-inac.png">
+                <p class="uppercase-text nombre-cultivo">Cebolla</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/07-citricos-inac.png">
+                <p class="uppercase-text nombre-cultivo">Cítricos</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/08-girasol-inac.png">
+                <p class="uppercase-text nombre-cultivo">Girasol</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/09-kiwi-inac.png">
+                <p class="uppercase-text nombre-cultivo">Kiwi</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/10-maiz-inac.png">
+                <p class="uppercase-text nombre-cultivo">Maíz</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/11-manzana-inac.png">
+                <p class="uppercase-text nombre-cultivo">Manzana</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/12-olivos-inac.png">
+                <p class="uppercase-text nombre-cultivo">Olivos</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/13-papa-inac.png">
+                <p class="uppercase-text nombre-cultivo">Papa</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/14-pasturas-inac.png">
+                <p class="uppercase-text nombre-cultivo">Pasturas</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/15-pera-inac.png">
+                <p class="uppercase-text nombre-cultivo">Pera</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/16-poroto-inac.png">
+                <p class="uppercase-text nombre-cultivo">Poroto</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/17-soja-inac.png">
+                <p class="uppercase-text nombre-cultivo">Soja</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/18-tabaco-inac.png">
+                <p class="uppercase-text nombre-cultivo">Tabaco</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/19-tomate-inac.png">
+                <p class="uppercase-text nombre-cultivo">Tomate</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/20-trigo-inac.png">
+                <p class="uppercase-text nombre-cultivo">Trigo</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/21-vid-inac.png">
+                <p class="uppercase-text nombre-cultivo">Vid</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/22-yerba-inac.png">
+                <p class="uppercase-text nombre-cultivo">Yerba mate</p>
+            </div>
+
+            <div class="un-cultivo">
+                <img class="img-cultivo" src="img/23-zanahoria-inac.png">
+                <p class="uppercase-text nombre-cultivo">Zanahoria</p>
+            </div>
 
         </section>
 
