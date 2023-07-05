@@ -28,12 +28,12 @@
         <section class="detalle-productos">
             <article class="productos-foliar">
                 <figure>
-                    <img class="portadas-productos" src="img/productos-foliar.png">
+                    <img class="portadas-productos" src="img/productos-foliar-sintexto.png">
                 </figure>
             </article>
             <article class="productos-suelo">
                 <figure>
-                    <img class="portadas-productos" src="img/productos-suelo.png">
+                    <img class="portadas-productos" src="img/productos-suelo-sintexto.png">
                 </figure>
             </article>
         </section>

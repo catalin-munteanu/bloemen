@@ -54,6 +54,50 @@ header {
   width: 100%;
   height: 105px;
 }
+header #open-mobile-menu {
+  height: 40px;
+  padding: 10px;
+  display: block;
+}
+header #burger-menu-toggler {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+header #open-mobile-menu {
+  display: block;
+}
+header #close-mobile-menu {
+  display: none;
+  width: 32px;
+}
+header body.mobile-menu-active {
+  overflow: hidden;
+}
+header body.mobile-menu-active #open-mobile-menu {
+  display: none;
+}
+header body.mobile-menu-active #close-mobile-menu {
+  display: block;
+}
+header body.mobile-menu-active #mainMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.9058823529);
+}
+header #mainMenu li a {
+  font-weight: 600;
+}
 header .logo-bloemen {
   width: 207px;
   margin: 20px;
@@ -190,6 +234,7 @@ img {
 @media (min-width: 1024px) {
   .nosotros {
     padding: 24px 48px 48px;
+    scroll-margin-top: 128px;
   }
   .nosotros .nosotros-title {
     font-size: 48px;
@@ -198,6 +243,9 @@ img {
   .nosotros article {
     font-size: 18px;
   }
+}
+.contacto {
+  scroll-margin-top: 130px;
 }
 .contacto h2 {
   color: white;
@@ -287,6 +335,7 @@ section.detalle-cultivos {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  margin: 30px 0;
 }
 section.detalle-cultivos div.un-cultivo {
   display: flex;
@@ -296,7 +345,7 @@ section.detalle-cultivos div.un-cultivo {
   flex-basis: 12%;
 }
 section.detalle-cultivos div.un-cultivo img.img-cultivo {
-  width: 90px;
+  width: 100px;
 }
 section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
   font-size: 20px;
@@ -305,15 +354,18 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
   margin: 5px;
   text-align: center;
 }
+
 @media (min-width: 1024px) {
-  section.detalle-cultivos section.detalle-cultivos div.un-cultivo img.img-cultivo {
+  section.detalle-cultivos {
+    margin: 30px 5%;
+  }
+  section.detalle-cultivos div.un-cultivo img.img-cultivo {
     width: 132px;
   }
-  section.detalle-cultivos section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
-    font-size: 32px;
+  section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
+    font-size: 26px;
   }
 }
-
 .detalle-productos .portadas-productos {
   width: 100vw;
   max-width: 100vw;
@@ -322,6 +374,7 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
 
 .mapa-y-detalles {
   text-align: center;
+  background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
 }
 .mapa-y-detalles .mapa-distribuidores {
   text-align: center;
@@ -337,56 +390,56 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
 .mapa-y-detalles .mapa-distribuidores .logo-distr-mendoza {
   position: absolute;
   width: 8%;
-  left: 13%;
-  top: 40%;
+  left: 14%;
+  top: 38%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-rio-negro {
   position: absolute;
   width: 8%;
   left: 20%;
-  top: 57%;
+  top: 54%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-santa-cruz {
   position: absolute;
   width: 8%;
-  left: 13%;
-  top: 80%;
+  left: 11%;
+  top: 77%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-san-juan {
   position: absolute;
   width: 8%;
-  left: 10%;
-  top: 30%;
+  left: 12%;
+  top: 28%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-cordoba {
   position: absolute;
   width: 8%;
-  left: 38%;
-  top: 32%;
+  left: 39%;
+  top: 31%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-entre-rios {
   position: absolute;
   width: 8%;
   left: 62%;
-  top: 33%;
+  top: 32%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-corrientes {
   position: absolute;
   width: 8%;
   left: 71%;
-  top: 24%;
+  top: 23%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-tucuman {
   position: absolute;
   width: 8%;
-  left: 28%;
-  top: 18%;
+  left: 30.7%;
+  top: 17%;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-buenos-aires {
   position: absolute;
   width: 8%;
-  left: 55%;
-  top: 46%;
+  left: 56%;
+  top: 43%;
 }
 
 @media (min-width: 1024px) {
@@ -395,7 +448,8 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
   }
 }
 .proyecto-tipos {
-  margin: 24px;
+  padding: 24px;
+  background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
 }
 .proyecto-tipos article {
   display: flex;
@@ -411,6 +465,14 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
   color: #706F6F;
 }
 
+@media (min-width: 1024px) {
+  .proyecto-tipos {
+    display: flex;
+  }
+  .proyecto-tipos article {
+    width: 25%;
+  }
+}
 footer {
   display: flex;
   flex-direction: column;

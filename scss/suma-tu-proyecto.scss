@@ -1,6 +1,7 @@
 .proyecto-tipos {
 
-    margin: 24px;
+    padding: 24px;
+    background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
 
     article {
 
@@ -18,6 +19,18 @@
             color: #706F6F;
         }
 
+    }
+
+}
+
+@media (min-width: 1024px) {
+ 
+    .proyecto-tipos {
+        display: flex;
+
+        article {
+            width: 25%;
+        }
     }
 
 }

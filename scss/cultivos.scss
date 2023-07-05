@@ -3,6 +3,7 @@ section.detalle-cultivos {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    margin: 30px 0;
 
     div.un-cultivo {
         display: flex;
@@ -12,7 +13,7 @@ section.detalle-cultivos {
         flex-basis: 12%;
 
         img.img-cultivo {
-            width: 90px;
+            width: 100px;
         }
 
         p.nombre-cultivo {
@@ -23,17 +24,21 @@ section.detalle-cultivos {
             text-align: center;
         }
     }
+}
 
-    @media (min-width: 1024px){
-        section.detalle-cultivos {
-            div.un-cultivo {
-                img.img-cultivo {
-                    width: 132px;
-                }
+@media (min-width: 1024px) {
+    section.detalle-cultivos {
 
-                p.nombre-cultivo {
-                    font-size: 32px;
-                }
+        margin: 30px 5%;
+
+        div.un-cultivo {
+
+            img.img-cultivo {
+                width: 132px;
+            }
+
+            p.nombre-cultivo {
+                font-size: 26px;
             }
         }
     }

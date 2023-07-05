@@ -1,0 +1,32 @@
+Bloemen
+
+- CULTIVOS -
+
+Faltan las fichas de los cultivos
+
+1) mobile: debajo de caña de azúcar es demasiado grande el espacio
+(usé la propiedad gap)
+
+2) cómo cambio entre la versión desactivada y la activada de las frutitas?
+
+3) desktop: se produce una cosa espantosa en el responsive alrededor de los 1024px
+
+
+
+- PRODUCTOS -
+
+1) mobile: línea blanca entre fotitos
+
+2) cómo hacer de esto unos botonitos
+
+
+
+- DISTRIBUIDORES -
+
+Faltan las fichas de los distribuidores
+
+
+
+- SUMÁ TU PROYECTO -
+
+1) cómo armar un form diferenciado para cada botonito

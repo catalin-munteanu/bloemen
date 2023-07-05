@@ -27,7 +27,7 @@
 
         <section class="mapa-y-detalles">
             <article class="mapa-distribuidores">
-                <img src="img/mapa-argentina.svg" class="mapa-argentina">
+                <img src="img/mapa-distribuidores.svg" class="mapa-argentina">
                 <img src="img/logo-bloemen-map.png" class="logo-distr-mendoza">
                 <img src="img/logo-bloemen-map.png" class="logo-distr-rio-negro">
                 <img src="img/logo-bloemen-map.png" class="logo-distr-santa-cruz">
