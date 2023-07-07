@@ -54,50 +54,6 @@ header {
   width: 100%;
   height: 105px;
 }
-header #open-mobile-menu {
-  height: 40px;
-  padding: 10px;
-  display: block;
-}
-header #burger-menu-toggler {
-  background: transparent;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  z-index: 2;
-}
-header #open-mobile-menu {
-  display: block;
-}
-header #close-mobile-menu {
-  display: none;
-  width: 32px;
-}
-header body.mobile-menu-active {
-  overflow: hidden;
-}
-header body.mobile-menu-active #open-mobile-menu {
-  display: none;
-}
-header body.mobile-menu-active #close-mobile-menu {
-  display: block;
-}
-header body.mobile-menu-active #mainMenu {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
-  background: rgba(0, 0, 0, 0.9058823529);
-}
-header #mainMenu li a {
-  font-weight: 600;
-}
 header .logo-bloemen {
   width: 207px;
   margin: 20px;
@@ -344,6 +300,9 @@ section.detalle-cultivos div.un-cultivo {
   margin: 20px 0;
   flex-basis: 12%;
 }
+section.detalle-cultivos div.un-cultivo button {
+  cursor: pointer;
+}
 section.detalle-cultivos div.un-cultivo img.img-cultivo {
   width: 100px;
 }
@@ -353,6 +312,15 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
   color: #787778;
   margin: 5px;
   text-align: center;
+}
+section.detalle-cultivos div.un-cultivo .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.detalle-cultivos div.un-cultivo .modal .modal-img {
+  max-width: 70vw;
 }
 
 @media (min-width: 1024px) {

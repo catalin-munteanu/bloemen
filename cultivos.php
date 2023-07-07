@@ -15,7 +15,7 @@
 
 <body>
 
-<?php require_once 'header.php'; ?> 
+    <?php require_once 'header.php'; ?>
 
     <main>
 
@@ -27,117 +27,123 @@
 
         <section class="detalle-cultivos">
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/01-ajo-inac.png">
-                <p class="uppercase-text nombre-cultivo">Ajo</p>
+                <button class="button open-button">
+                    <img class="img-cultivo" src="img/24-ajo-act.png">
+                    <p class="uppercase-text nombre-cultivo">Ajo</p>
+                </button>
+                <dialog class="modal" id="modal">
+                    <img class="modal-img" src="img/ficha-ajo.png"><br>
+                    <button class="button close-button">close modal</button>
+                </dialog>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/02-algodon-inac.png">
+                <img class="img-cultivo" src="img/25-algodon-act.png">
                 <p class="uppercase-text nombre-cultivo">Algodón</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/03-brocoli-inac.png">
+                <img class="img-cultivo" src="img/26-brocoli-act.png">
                 <p class="uppercase-text nombre-cultivo">Brócoli</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/04-cania-inac.png">
+                <img class="img-cultivo" src="img/27-cania-act.png">
                 <p class="uppercase-text nombre-cultivo">Caña de azúcar</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/05-cebada-inac.png">
+                <img class="img-cultivo" src="img/28-cebada-act.png">
                 <p class="uppercase-text nombre-cultivo">Cebada</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/06-cebolla-inac.png">
+                <img class="img-cultivo" src="img/29-cebolla-act.png">
                 <p class="uppercase-text nombre-cultivo">Cebolla</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/07-citricos-inac.png">
+                <img class="img-cultivo" src="img/30-citricos-act.png">
                 <p class="uppercase-text nombre-cultivo">Cítricos</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/08-girasol-inac.png">
+                <img class="img-cultivo" src="img/31-girasol-act.png">
                 <p class="uppercase-text nombre-cultivo">Girasol</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/09-kiwi-inac.png">
+                <img class="img-cultivo" src="img/32-kiwi-act.png">
                 <p class="uppercase-text nombre-cultivo">Kiwi</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/10-maiz-inac.png">
+                <img class="img-cultivo" src="img/33-maiz-act.png">
                 <p class="uppercase-text nombre-cultivo">Maíz</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/11-manzana-inac.png">
+                <img class="img-cultivo" src="img/34-manzana-act.png">
                 <p class="uppercase-text nombre-cultivo">Manzana</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/12-olivos-inac.png">
+                <img class="img-cultivo" src="img/35-olivos-act.png">
                 <p class="uppercase-text nombre-cultivo">Olivos</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/13-papa-inac.png">
+                <img class="img-cultivo" src="img/36-papa-act.png">
                 <p class="uppercase-text nombre-cultivo">Papa</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/14-pasturas-inac.png">
+                <img class="img-cultivo" src="img/37-pasturas-act.png">
                 <p class="uppercase-text nombre-cultivo">Pasturas</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/15-pera-inac.png">
+                <img class="img-cultivo" src="img/38-pera-act.png">
                 <p class="uppercase-text nombre-cultivo">Pera</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/16-poroto-inac.png">
+                <img class="img-cultivo" src="img/39-poroto-act.png">
                 <p class="uppercase-text nombre-cultivo">Poroto</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/17-soja-inac.png">
+                <img class="img-cultivo" src="img/40-soja-act.png">
                 <p class="uppercase-text nombre-cultivo">Soja</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/18-tabaco-inac.png">
+                <img class="img-cultivo" src="img/41-tabaco-act.png">
                 <p class="uppercase-text nombre-cultivo">Tabaco</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/19-tomate-inac.png">
+                <img class="img-cultivo" src="img/42-tomate-act.png">
                 <p class="uppercase-text nombre-cultivo">Tomate</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/20-trigo-inac.png">
+                <img class="img-cultivo" src="img/43-trigo-act.png">
                 <p class="uppercase-text nombre-cultivo">Trigo</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/21-vid-inac.png">
+                <img class="img-cultivo" src="img/44-vid-act.png">
                 <p class="uppercase-text nombre-cultivo">Vid</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/22-yerba-inac.png">
+                <img class="img-cultivo" src="img/45-yerba-act.png">
                 <p class="uppercase-text nombre-cultivo">Yerba mate</p>
             </div>
 
             <div class="un-cultivo">
-                <img class="img-cultivo" src="img/23-zanahoria-inac.png">
+                <img class="img-cultivo" src="img/46-zana-act.png">
                 <p class="uppercase-text nombre-cultivo">Zanahoria</p>
             </div>
 

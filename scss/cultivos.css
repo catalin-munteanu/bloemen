@@ -12,6 +12,9 @@ section.detalle-cultivos div.un-cultivo {
   margin: 20px 0;
   flex-basis: 12%;
 }
+section.detalle-cultivos div.un-cultivo button {
+  cursor: pointer;
+}
 section.detalle-cultivos div.un-cultivo img.img-cultivo {
   width: 100px;
 }
@@ -21,6 +24,15 @@ section.detalle-cultivos div.un-cultivo p.nombre-cultivo {
   color: #787778;
   margin: 5px;
   text-align: center;
+}
+section.detalle-cultivos div.un-cultivo .modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.detalle-cultivos div.un-cultivo .modal .modal-img {
+  max-width: 70vw;
 }
 
 @media (min-width: 1024px) {
