@@ -1,14 +1,22 @@
 // Modal
 document.addEventListener('DOMContentLoaded', () => {
-  const modal = document.querySelector('#modal');
-  const openModal = document.querySelector('.open-button');
-  const closeModal = document.querySelector('.close-button');
+  const openButtons = document.querySelectorAll('.open-button');
+  const closeButtons = document.querySelectorAll('.close-button');
 
-  openModal.addEventListener('click', () => {
-    modal.showModal();
+  openButtons.forEach((openButton) => {
+    const modalId = openButton.dataset.modal;
+    const modal = document.querySelector(`#${modalId}`);
+
+    openButton.addEventListener('click', () => {
+      modal.showModal();
+    });
   });
 
-  closeModal.addEventListener('click', () => {
-    modal.close();
+  closeButtons.forEach((closeButton) => {
+    const modal = closeButton.closest('dialog');
+
+    closeButton.addEventListener('click', () => {
+      modal.close();
+    });
   });
 });
