@@ -33,7 +33,9 @@
                 </button>
                 <dialog class="modal" id="modal">
                     <img class="modal-img" src="img/ficha-ajo.png"><br>
-                    <button class="button close-button">close modal</button>
+                    <button class="button close-button">
+                        <img src="img/burger-close.png" alt="Cerrar">
+                    </button>
                 </dialog>
             </div>
 

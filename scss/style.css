@@ -302,6 +302,7 @@ section.detalle-cultivos div.un-cultivo {
 }
 section.detalle-cultivos div.un-cultivo button {
   cursor: pointer;
+  background: none;
 }
 section.detalle-cultivos div.un-cultivo img.img-cultivo {
   width: 100px;
@@ -320,7 +321,20 @@ section.detalle-cultivos div.un-cultivo .modal {
   transform: translate(-50%, -50%);
 }
 section.detalle-cultivos div.un-cultivo .modal .modal-img {
-  max-width: 70vw;
+  max-height: 90vh;
+}
+section.detalle-cultivos div.un-cultivo .modal .close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+}
+section.detalle-cultivos div.un-cultivo .modal .close-button img {
+  width: 40px;
+}
+section.detalle-cultivos div.un-cultivo .modal::backdrop {
+  background: rgba(0, 0, 0, 0.7);
 }
 
 @media (min-width: 1024px) {
