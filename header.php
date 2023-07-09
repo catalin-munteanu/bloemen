@@ -1,7 +1,10 @@
 <header>
         <a href="index.php"><img class="logo-bloemen" src="img\logo-bloemen.png"></a>
         <nav>
-            <img class="burger-menu" src="img\burger-menu.png">
+        <button id="burger-menu-toggler" aria-label="Menú de navegación">
+            <img id="open-mobile-menu" src="img/burger-menu.png" alt="Botón de apertura del menú">
+            <img id="close-mobile-menu" src="img/burger-close.png" alt="Botón de cierre del menú">
+        </button>
             <div class="container-menus-header">
             <ul class="nav-menu">
                 <li class="nav-menu-element"><a href="index.php">Novedades</a></li>

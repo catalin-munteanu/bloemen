@@ -58,10 +58,20 @@ header .logo-bloemen {
   width: 207px;
   margin: 20px;
 }
-header .burger-menu {
+header button#burger-menu-toggler {
+  background: none;
+  position: relative;
+  z-index: 3;
+}
+header button#burger-menu-toggler #open-mobile-menu {
   width: 36px;
   margin: 20px;
   display: block;
+}
+header button#burger-menu-toggler #close-mobile-menu {
+  width: 36px;
+  margin: 20px;
+  display: none;
 }
 header .container-menus-header .nav-menu {
   display: none;
@@ -80,12 +90,42 @@ header .container-menus-header .social-menu-header .social-element-header img {
   display: block;
 }
 
+body.mobile-menu-active {
+  overflow: hidden;
+}
+
+body.mobile-menu-active header button#burger-menu-toggler #open-mobile-menu {
+  display: none;
+}
+
+body.mobile-menu-active header button#burger-menu-toggler #close-mobile-menu {
+  display: block;
+}
+
+body.mobile-menu-active .nav-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #3a57d8;
+  background: rgba(255, 255, 255, 0.5882352941);
+}
+
 @media (min-width: 1024px) {
   header {
     height: 130px;
   }
   header .logo-bloemen {
     width: 326px;
+  }
+  header #burger-menu-toggler {
+    display: none;
   }
 }
 .mySlides {
@@ -369,7 +409,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 }
 .detalle-productos .productos-foliar ul li p.descripcion-productos,
 .detalle-productos .productos-suelo ul li p.descripcion-productos {
-  margin: 1em;
+  margin: 1em 0;
 }
 .detalle-productos .productos-foliar ul li img,
 .detalle-productos .productos-suelo ul li img {

@@ -19,7 +19,7 @@
 }
 .detalle-productos .productos-foliar ul li p.descripcion-productos,
 .detalle-productos .productos-suelo ul li p.descripcion-productos {
-  margin: 1em;
+  margin: 1em 0;
 }
 .detalle-productos .productos-foliar ul li img,
 .detalle-productos .productos-suelo ul li img {

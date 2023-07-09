@@ -10,18 +10,31 @@ header {
     width: 100%;
     height: 105px;
 
-        .logo-bloemen {
-            width: 207px;
-            margin: 20px;
-        }
+    .logo-bloemen {
+        width: 207px;
+        margin: 20px;
+    }
 
-        .burger-menu {
+    button#burger-menu-toggler {
+
+        background: none;
+        position: relative;
+        z-index: 3;
+
+        #open-mobile-menu {
             width: 36px;
             margin: 20px;
             display: block;
         }
-        
-        .container-menus-header {
+
+        #close-mobile-menu {
+            width: 36px;
+            margin: 20px;
+            display: none;
+        }
+    }
+
+    .container-menus-header {
 
         .nav-menu {
             display: none;
@@ -46,6 +59,33 @@ header {
     }
 }
 
+body.mobile-menu-active {
+    overflow: hidden;
+}
+
+body.mobile-menu-active header button#burger-menu-toggler #open-mobile-menu {
+    display: none;   
+}
+
+body.mobile-menu-active header button#burger-menu-toggler #close-mobile-menu {
+    display: block;
+}
+
+body.mobile-menu-active .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    color: #3a57d8;
+    background: #ffffff96;  
+}
+
 @media (min-width: 1024px) {
 
     header {
@@ -54,6 +94,10 @@ header {
 
         .logo-bloemen {
             width: 326px;
+        }
+
+        #burger-menu-toggler {
+            display: none;
         }
     }
 }

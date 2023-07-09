@@ -91,16 +91,33 @@
                         <li>
                             <details>
                                 <summary class="uppercase-text">Líquidos</summary>
+                                <p class="descripcion-productos">
+                                    Los fertilizantes orgánicos Líquidos Bloemen, poseen un elevado contenido de materia orgánica, y son elaborados a partir de materias orgánicas de alta calidad, las cuales son sometidas a estrictos procedimientos de compostación, mediante un lento proceso de pre-fermentaciones y fermentaciones aeróbicas bacterianas, siguiendo estrictos controles de verificación de su contenido nutricional, transformando el material orgánico original, en diferentes fracciones y nutrientes totalmente asimilables por las plantas.
+                                    Contienen macronutrientes, micronutrientes quelatados, aminoácidos libres, ácidos húmicos micorrizas arbusculares y microorganismos aeróbicos que lo transforman en un fertilizante complejo orgánico y biológico.
+                                    Ideales para riego por goteo, fertirriego, chorreado y en riego por manto.
+                                </p>
                             </details>
                         </li>
                         <li>
                             <details>
                                 <summary class="uppercase-text">Promotor de crecimiento</summary>
+                                <p class="descripcion-productos">
+                                    Fertilizante biológico que contiene Micorrizas arbusculares, Azospirillum Brasilense,
+                                    Pseudomonas fluorescens, ácidos húmicos, micronutrientes quelatados y otros microorganismos benéficos.<br>
+                                    – Aumenta la cantidad de raíces y pelos radiculares.<br>
+                                    – Incrementa disponibilidad y captación de los nutrientes.<br>
+                                    – Aumenta rendimiento, calidad y sanidad de los cultivos.
+                                </p>
                             </details>
                         </li>
                         <li>
                             <details>
                                 <summary class="uppercase-text">Sólidos</summary>
+                                <p class="descripcion-productos">
+                                    Son fertilizantes completos con alto contenido de materia orgánica y microorganismos benéficos.
+                                    Poseen un importante contenido de nutrientes y micronutrientes quelatados.
+                                    La forma de pellet permite mecanizar su distribución, realizando una importante reducción de los costos de mano de obra.
+                                </p>
                             </details>
                         </li>
                     </ul>
