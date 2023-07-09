@@ -82,11 +82,31 @@
                     </ul>
                 </article>
             </details>
-            <article class="productos-suelo">
-                <figure>
+            <details>
+                <summary>
                     <img class="portadas-productos" src="img/productos-suelo-mobile.png">
-                </figure>
-            </article>
+                </summary>
+                <article class="productos-suelo">
+                    <ul>
+                        <li>
+                            <details>
+                                <summary class="uppercase-text">Líquidos</summary>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="uppercase-text">Promotor de crecimiento</summary>
+                            </details>
+                        </li>
+                        <li>
+                            <details>
+                                <summary class="uppercase-text">Sólidos</summary>
+                            </details>
+                        </li>
+                    </ul>
+                </article>
+            </details>
+
         </section>
 
     </main>

@@ -3,20 +3,25 @@
   max-width: 100vw;
   display: block;
 }
-.detalle-productos .productos-foliar {
+.detalle-productos .productos-foliar,
+.detalle-productos .productos-suelo {
   background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
   padding: 37px;
 }
-.detalle-productos .productos-foliar ul {
+.detalle-productos .productos-foliar ul,
+.detalle-productos .productos-suelo ul {
   font-weight: 500;
   color: #706F6F;
 }
-.detalle-productos .productos-foliar ul li {
+.detalle-productos .productos-foliar ul li,
+.detalle-productos .productos-suelo ul li {
   margin: 1em;
 }
-.detalle-productos .productos-foliar ul li p.descripcion-productos {
+.detalle-productos .productos-foliar ul li p.descripcion-productos,
+.detalle-productos .productos-suelo ul li p.descripcion-productos {
   margin: 1em;
 }
-.detalle-productos .productos-foliar ul li img {
+.detalle-productos .productos-foliar ul li img,
+.detalle-productos .productos-suelo ul li img {
   margin: 1em 0;
 }/*# sourceMappingURL=productos.css.map */
