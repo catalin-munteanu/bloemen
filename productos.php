@@ -28,7 +28,10 @@
         <section class="detalle-productos">
             <details>
                 <summary>
-                    <img class="portadas-productos" src="img/productos-foliar-mobile.png">
+                    <picture>
+                        <source media="(min-width:1024px)" srcset="img/desktop/foliar-desktop.png">
+                        <img class="portadas-productos" src="img/productos-foliar-mobile.png">
+                    </picture>
                 </summary>
                 <article class="productos-foliar">
                     <ul>
@@ -37,7 +40,7 @@
                                 <summary class="uppercase-text">Aminocorrectores</summary>
                                 <p class="descripcion-productos">Son correctores foliares a base de Aminoácidos más el elemento corrector con el agregado de micronutrientes.
                                     Actúan en el crecimiento, activan la fotosíntesis y mejoran la calidad y el rendimiento de los cultivos.</p>
-                                <div class="lista-productos-foliar">
+                                <!--<div class="lista-productos-foliar">
                                     <img src="img/prod-foliar AMINO-Fe.png"><br>
                                     <img src="img/prod-foliar-AMINO-K.png"><br>
                                     <img src="img/prod-foliar-Amino-ZN_MN.png"><br>
@@ -48,7 +51,26 @@
                                     <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png"><br>
                                     <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png"><br>
                                     <img src="img/prod-foliar-VERDIGER.png"><br>
+                                </div>-->
+                                <div class="slideshow">
+                                    <div class="slide">
+                                        <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
+                                        <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
+                                        <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
+                                        <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
+                                        <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
+                                    </div>
+                                    <div class="slide">
+                                        <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 4">
+                                        <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 5">
+                                        <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 6">
+                                    </div>
                                 </div>
+                                <button id="prevButton">Previous</button>
+                                <button id="nextButton">Next</button>
                             </details>
                         </li>
                         <li>
@@ -84,7 +106,10 @@
             </details>
             <details>
                 <summary>
-                    <img class="portadas-productos" src="img/productos-suelo-mobile.png">
+                    <picture>
+                        <source media="(min-width:1024px)" srcset="img/desktop/suelo-desktop.png">
+                        <img class="portadas-productos" src="img/productos-suelo-mobile.png">
+                    </picture>
                 </summary>
                 <article class="productos-suelo">
                     <ul>

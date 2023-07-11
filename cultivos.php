@@ -32,7 +32,10 @@
                     <p class="uppercase-text nombre-cultivo">Ajo</p>
                 </button>
                 <dialog class="modal" id="modal-1">
-                    <img class="modal-img" src="img/ficha-ajo.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-ajo.png">
+                        <img class="modal-img" src="img/ficha-ajo-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -45,7 +48,10 @@
                     <p class="uppercase-text nombre-cultivo">Algodón</p>
                 </button>
                 <dialog class="modal" id="modal-2">
-                    <img class="modal-img" src="img/ficha-algodon.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-algodon.png">
+                        <img class="modal-img" src="img/ficha-algodon-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -68,10 +74,13 @@
             <div class="un-cultivo">
                 <button class="button open-button" data-modal="modal-4">
                     <img class="img-cultivo" src="img/27-cania-act.png">
-                    <p class="uppercase-text nombre-cultivo">Caña de azúcar</p> 
+                    <p class="uppercase-text nombre-cultivo">Caña de azúcar</p>
                 </button>
                 <dialog class="modal" id="modal-4">
-                    <img class="modal-img" src="img/ficha-cania.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-cania.png">
+                        <img class="modal-img" src="img/ficha-cania-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -84,7 +93,10 @@
                     <p class="uppercase-text nombre-cultivo">Cebada</p>
                 </button>
                 <dialog class="modal" id="modal-5">
-                    <img class="modal-img" src="img/ficha-cebada.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-cebada.png">
+                        <img class="modal-img" src="img/ficha-cebada-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -97,7 +109,10 @@
                     <p class="uppercase-text nombre-cultivo">Cebolla</p>
                 </button>
                 <dialog class="modal" id="modal-6">
-                    <img class="modal-img" src="img/ficha-cebolla.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-cebolla.png">
+                        <img class="modal-img" src="img/ficha-cebolla-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -110,7 +125,10 @@
                     <p class="uppercase-text nombre-cultivo">Cítricos</p>
                 </button>
                 <dialog class="modal" id="modal-7">
-                    <img class="modal-img" src="img/ficha-citricos.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-citricos.png">
+                        <img class="modal-img" src="img/ficha-citricos-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -123,7 +141,10 @@
                     <p class="uppercase-text nombre-cultivo">Girasol</p>
                 </button>
                 <dialog class="modal" id="modal-8">
-                    <img class="modal-img" src="img/ficha-girasol.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-girasol.png">
+                        <img class="modal-img" src="img/ficha-girasol-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -136,7 +157,10 @@
                     <p class="uppercase-text nombre-cultivo">Kiwi</p>
                 </button>
                 <dialog class="modal" id="modal-9">
-                    <img class="modal-img" src="img/ficha-kiwi.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-kiwi.png">
+                        <img class="modal-img" src="img/ficha-kiwi-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -253,7 +277,10 @@
                     <p class="uppercase-text nombre-cultivo">Tabaco</p>
                 </button>
                 <dialog class="modal" id="modal-18">
-                    <img class="modal-img" src="img/ficha-tabaco.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-tabaco.png">
+                        <img class="modal-img" src="img/ficha-tabaco-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -279,7 +306,10 @@
                     <p class="uppercase-text nombre-cultivo">Trigo</p>
                 </button>
                 <dialog class="modal" id="modal-20">
-                    <img class="modal-img" src="img/ficha-trigo.png">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="img/ficha-trigo.png">
+                        <img class="modal-img" src="img/ficha-trigo-movil.png">
+                    </picture>
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
