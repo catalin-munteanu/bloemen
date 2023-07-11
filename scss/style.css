@@ -564,18 +564,64 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   padding: 24px;
   background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
 }
-.proyecto-tipos article {
+.proyecto-tipos article details summary {
   display: flex;
   align-items: center;
 }
-.proyecto-tipos article img {
+.proyecto-tipos article details summary img {
   width: 95px;
   margin: 10px 10px 10px 0;
 }
-.proyecto-tipos article h3 {
+.proyecto-tipos article details summary h3 {
   font-weight: 900;
   font-size: 24px;
   color: #706F6F;
+}
+.proyecto-tipos article details .form-ideas-proyectos,
+.proyecto-tipos article details .form-tu-cv {
+  background-color: #3A57D8;
+  color: #FFFFFF;
+  padding: 1em 28px;
+  border-radius: 5px;
+}
+.proyecto-tipos article details .form-ideas-proyectos label,
+.proyecto-tipos article details .form-tu-cv label {
+  text-align: left;
+}
+.proyecto-tipos article details .form-ideas-proyectos input,
+.proyecto-tipos article details .form-ideas-proyectos textarea,
+.proyecto-tipos article details .form-tu-cv input,
+.proyecto-tipos article details .form-tu-cv textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0.3em 0 1em;
+}
+.proyecto-tipos article details .form-ideas-proyectos input,
+.proyecto-tipos article details .form-tu-cv input {
+  height: 31px;
+}
+.proyecto-tipos article details .form-soluciones-sustentables,
+.proyecto-tipos article details .form-desarrollo-propuestas {
+  background-color: #009B3E;
+  color: #FFFFFF;
+  padding: 1em 28px;
+  border-radius: 5px;
+}
+.proyecto-tipos article details .form-soluciones-sustentables label,
+.proyecto-tipos article details .form-desarrollo-propuestas label {
+  text-align: left;
+}
+.proyecto-tipos article details .form-soluciones-sustentables input,
+.proyecto-tipos article details .form-soluciones-sustentables textarea,
+.proyecto-tipos article details .form-desarrollo-propuestas input,
+.proyecto-tipos article details .form-desarrollo-propuestas textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin: 0.3em 0 1em;
+}
+.proyecto-tipos article details .form-soluciones-sustentables input,
+.proyecto-tipos article details .form-desarrollo-propuestas input {
+  height: 31px;
 }
 
 @media (min-width: 1024px) {

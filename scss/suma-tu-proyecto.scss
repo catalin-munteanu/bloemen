@@ -5,26 +5,77 @@
 
     article {
 
-        display: flex;
-        align-items: center;
+        details {
 
-        img {
-            width: 95px;
-            margin: 10px 10px 10px 0;
+            summary {
+
+                display: flex;
+                align-items: center;
+
+                img {
+                    width: 95px;
+                    margin: 10px 10px 10px 0;
+                }
+
+                h3 {
+                    font-weight: 900;
+                    font-size: 24px;
+                    color: #706F6F;
+                }
+
+            }
+
+            .form-ideas-proyectos,
+            .form-tu-cv {
+                background-color: #3A57D8;
+                color: #FFFFFF;
+                padding: 1em 28px;
+                border-radius: 5px;
+
+                label {
+                    text-align: left;
+                }
+    
+                input,
+                textarea {
+                    width: 100%;
+                    border-radius: 5px;
+                    margin: 0.3em 0 1em;
+                }
+    
+                input {
+                    height: 31px;
+                }
+            }
+
+            .form-soluciones-sustentables,
+            .form-desarrollo-propuestas {
+                background-color: #009B3E;
+                color: #FFFFFF;
+                padding: 1em 28px;
+                border-radius: 5px;
+
+                label {
+                    text-align: left;
+                }
+    
+                input,
+                textarea {
+                    width: 100%;
+                    border-radius: 5px;
+                    margin: 0.3em 0 1em;
+                }
+    
+                input {
+                    height: 31px;
+                }
+            }
         }
-
-        h3 {
-            font-weight: 900;
-            font-size: 24px;
-            color: #706F6F;
-        }
-
     }
-
 }
 
 @media (min-width: 1024px) {
- 
+
     .proyecto-tipos {
         display: flex;
 

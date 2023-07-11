@@ -68,6 +68,9 @@
                                         <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                         <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                     </div>
+                                    <div class="slide">
+                                        <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
+                                    </div>
                                     <button id="prevButton"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton"><img src="img/next-arrow.png"></button>
                                 </div>
