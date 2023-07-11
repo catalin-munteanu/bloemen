@@ -64,13 +64,13 @@
                                         <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
                                     </div>
                                     <div class="slide">
-                                        <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 4">
-                                        <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 5">
-                                        <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 6">
+                                        <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
+                                        <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
+                                        <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                     </div>
+                                    <button id="prevButton"><img src="img/prev-arrow.png"></button>
+                                    <button id="nextButton"><img src="img/next-arrow.png"></button>
                                 </div>
-                                <button id="prevButton">Previous</button>
-                                <button id="nextButton">Next</button>
                             </details>
                         </li>
                         <li>
@@ -78,7 +78,7 @@
                                 <summary class="uppercase-text">Maxicorrectores</summary>
                                 <p class="descripcion-productos">Son correctores foliares de elevada concentración de nutriente corrector, mejoran el cuajado, la floración
                                     y la calidad de los cultivos.</p>
-                                <div class="lista-productos-foliar">
+                                <div class="lista-productos-foliar" id="galeria-maxicorrectores">
                                     <img src="img/prod-maxi-foliar-MAXIBORO.png"><br>
                                     <img src="img/prod-maxi-foliar-MAXICALCIO.png"><br>
                                 </div>
@@ -91,13 +91,27 @@
                                     – Incrementa las defensas naturales de las plantas.<br>
                                     – Reduce las situaciones de estrés.<br>
                                     – Incorpora alto contenido de nutrientes.</p>
-                                <div class="lista-productos-foliar">
+                                <!--<div class="lista-productos-foliar">
                                     <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png"><br>
                                     <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png"><br>
                                     <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png"><br>
                                     <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png"><br>
                                     <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png"><br>
                                     <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png"><br>
+                                </div>-->
+                                <div class="slideshow-fosfito">
+                                    <div class="slide-fosfito">
+                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 1">
+                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 2">
+                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 3">
+                                    </div>
+                                    <div class="slide-fosfito">
+                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 4">
+                                        <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 5">
+                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 6">
+                                    </div>
+                                    <button id="prevButton-fosfito"><img src="img/prev-arrow.png"></button>
+                                    <button id="nextButton-fosfito"><img src="img/next-arrow.png"></button>
                                 </div>
                             </details>
                         </li>
