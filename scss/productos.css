@@ -39,24 +39,72 @@
 }
 .detalle-productos .productos-foliar ul li .slide,
 .detalle-productos .productos-foliar ul li .slide-fosfito,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar,
 .detalle-productos .productos-suelo ul li .slide,
-.detalle-productos .productos-suelo ul li .slide-fosfito {
+.detalle-productos .productos-suelo ul li .slide-fosfito,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar {
   display: none;
   justify-content: space-between;
   width: 100%;
   transition: transform 0.3s ease;
 }
-.detalle-productos .productos-foliar ul li .slide img,
-.detalle-productos .productos-foliar ul li .slide-fosfito img,
-.detalle-productos .productos-suelo ul li .slide img,
-.detalle-productos .productos-suelo ul li .slide-fosfito img {
+.detalle-productos .productos-foliar ul li .slide figure,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure,
+.detalle-productos .productos-suelo ul li .slide figure,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure {
   width: calc(33.33% - 10px);
   /* Adjust the width as needed */
   height: auto;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.detalle-productos .productos-foliar ul li button,
-.detalle-productos .productos-suelo ul li button {
+.detalle-productos .productos-foliar ul li .slide figure p.titulo-producto,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure p.titulo-producto,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure p.titulo-producto,
+.detalle-productos .productos-suelo ul li .slide figure p.titulo-producto,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure p.titulo-producto,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure p.titulo-producto {
+  display: inline-block;
+  font-size: 32;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption,
+.detalle-productos .productos-suelo ul li .slide figure figcaption,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption {
+  position: relative;
+  text-align: center;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .boton-ficha-producto {
+  display: inline-block; /* Ensures the button respects text-align */
+  margin: 20px;
+  width: 190px;
+  height: 53px;
+  background-color: #4660a6;
+  color: #fff;
+  font-size: 24px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.detalle-productos .productos-foliar ul li button#prevButton,
+.detalle-productos .productos-foliar ul li button#nextButton,
+.detalle-productos .productos-foliar ul li button#prevButton-fosfito,
+.detalle-productos .productos-foliar ul li button#nextButton-fosfito,
+.detalle-productos .productos-suelo ul li button#prevButton,
+.detalle-productos .productos-suelo ul li button#nextButton,
+.detalle-productos .productos-suelo ul li button#prevButton-fosfito,
+.detalle-productos .productos-suelo ul li button#nextButton-fosfito {
   background: none;
   border: none;
   color: #333;
@@ -67,8 +115,14 @@
   bottom: 0;
   transition: 0.6s ease;
 }
-.detalle-productos .productos-foliar ul li button img,
-.detalle-productos .productos-suelo ul li button img {
+.detalle-productos .productos-foliar ul li button#prevButton img,
+.detalle-productos .productos-foliar ul li button#nextButton img,
+.detalle-productos .productos-foliar ul li button#prevButton-fosfito img,
+.detalle-productos .productos-foliar ul li button#nextButton-fosfito img,
+.detalle-productos .productos-suelo ul li button#prevButton img,
+.detalle-productos .productos-suelo ul li button#nextButton img,
+.detalle-productos .productos-suelo ul li button#prevButton-fosfito img,
+.detalle-productos .productos-suelo ul li button#nextButton-fosfito img {
   width: 80px;
 }
 .detalle-productos .productos-foliar ul li button#prevButton,
@@ -89,8 +143,8 @@
   padding: 2% 10%;
   justify-content: center;
 }
-.detalle-productos .productos-foliar ul li div#galeria-maxicorrectores img,
-.detalle-productos .productos-suelo ul li div#galeria-maxicorrectores img {
+.detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure,
+.detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure {
   width: calc(33.33% - 10px);
   margin: 0 10px;
 }/*# sourceMappingURL=productos.css.map */

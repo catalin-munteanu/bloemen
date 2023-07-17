@@ -54,22 +54,82 @@
                                 </div>-->
                                 <div class="slideshow">
                                     <div class="slide">
-                                        <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
-                                        <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
-                                        <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
+                                        <figure>
+                                            <p class="titulo-producto">AMINO Fe</p>
+                                            <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">AMINO K</p>
+                                            <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">AMINO Zn-Mn</p>
+                                            <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                     <div class="slide">
-                                        <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
-                                        <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
-                                        <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
+                                        <figure>
+                                            <p class="titulo-producto">BIOBLOEMEN</p>
+                                            <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">CORRECTOR AMINO B</p>
+                                            <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">CORRECTOR AMINO Mg</p>
+                                            <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                     <div class="slide">
-                                        <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
-                                        <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
-                                        <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
+                                        <figure>
+                                            <p class="titulo-producto">CORRECTOR AMINO Zn</p>
+                                            <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">CORRECTOR de Ca</p>
+                                            <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">CORRECTOR de N</p>
+                                            <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                     <div class="slide">
-                                        <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
+                                        <figure>
+                                            <p class="titulo-producto">VERDIGER</p>
+                                            <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                     <button id="prevButton"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton"><img src="img/next-arrow.png"></button>
@@ -82,8 +142,18 @@
                                 <p class="descripcion-productos">Son correctores foliares de elevada concentración de nutriente corrector, mejoran el cuajado, la floración
                                     y la calidad de los cultivos.</p>
                                 <div class="lista-productos-foliar" id="galeria-maxicorrectores">
-                                    <img src="img/prod-maxi-foliar-MAXIBORO.png"><br>
-                                    <img src="img/prod-maxi-foliar-MAXICALCIO.png"><br>
+                                    <figure>
+                                        <img src="img/prod-maxi-foliar-MAXIBORO.png">
+                                        <figcaption>
+                                            <button class="boton-ficha-producto">ver ficha</button>
+                                        </figcaption>
+                                    </figure><br>
+                                    <figure>
+                                        <img src="img/prod-maxi-foliar-MAXICALCIO.png">
+                                        <figcaption>
+                                            <button class="boton-ficha-producto">ver ficha</button>
+                                        </figcaption>
+                                    </figure><br>
                                 </div>
                             </details>
                         </li>
@@ -104,14 +174,44 @@
                                 </div>-->
                                 <div class="slideshow-fosfito">
                                     <div class="slide-fosfito">
-                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 1">
-                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 2">
-                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 3">
+                                        <figure>
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 1">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 2">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 3">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                     <div class="slide-fosfito">
-                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 4">
-                                        <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 5">
-                                        <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 6">
+                                        <figure>
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 4">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 5">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 6">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto">ver ficha</button>
+                                            </figcaption>
+                                        </figure>
                                     </div>
                                     <button id="prevButton-fosfito"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton-fosfito"><img src="img/next-arrow.png"></button>
@@ -167,6 +267,10 @@
             </details>
 
         </section>
+
+        <div id="cont-whatsapp-fixed">
+            <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
+        </div>
 
     </main>
 

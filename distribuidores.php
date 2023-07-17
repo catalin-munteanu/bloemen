@@ -41,6 +41,10 @@
 
         </section>
 
+        <div id="cont-whatsapp-fixed">
+          <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
+        </div>
+
     </main>
 
     <?php require_once 'footer.php'; ?>
