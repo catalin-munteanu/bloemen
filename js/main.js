@@ -143,3 +143,22 @@ document.addEventListener('DOMContentLoaded', () => {
     showSlide(currentSlide + 1);
   })
 });
+
+// Modal productos
+
+document.addEventListener('DOMContentLoaded', () => {
+  const openButtonsProd = document.querySelectorAll('.open-boton-prod');
+
+  openButtonsProd.forEach((openButtonProd) => {
+    const modal = openButtonProd.nextElementSibling;
+
+    openButtonProd.addEventListener('click', () => {
+      modal.showModal();
+    });
+
+    const closeButtonProd = modal.querySelector('.close-boton-prod');
+    closeButtonProd.addEventListener('click', () => {
+      modal.close();
+    });
+  });
+});

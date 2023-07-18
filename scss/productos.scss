@@ -18,7 +18,10 @@
 
             li {
                 margin: 1em;
-                cursor: pointer;
+
+                summary {
+                    cursor: pointer;
+                }
 
                 p.descripcion-productos {
                     margin: 1em 0;
@@ -72,6 +75,34 @@
                                 border: none;
                                 border-radius: 50px;
                                 cursor: pointer;
+                            }
+
+                            .modal-prod {
+                                position: fixed;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                    
+                                .modal-prod-img {
+                                    max-height: 90vh;
+                                }
+                    
+                                .close-boton-prod {
+                                    position: absolute;
+                                    width: 40px;
+                                    top: 20px;
+                                    right: 20px;
+                                    background: none;
+                                    border: none;
+                    
+                                    img {
+                                        width: 40px;
+                                    }
+                                }
+                            }
+                    
+                            .modal-prod::backdrop {
+                                background: rgba($color: #000000, $alpha: 0.7)
                             }
                         }
                     }

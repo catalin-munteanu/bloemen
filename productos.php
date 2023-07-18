@@ -58,21 +58,39 @@
                                             <p class="titulo-producto">AMINO Fe</p>
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-1">
+                                                    <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">AMINO K</p>
                                             <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-2">
+                                                    <img class="modal-prod-img" src="img/ft-02-amino-k.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">AMINO Zn-Mn</p>
                                             <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-3">
+                                                    <img class="modal-prod-img" src="img/ft-03-amino-zn-mn.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -88,14 +106,26 @@
                                             <p class="titulo-producto">CORRECTOR AMINO B</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-5">
+                                                    <img class="modal-prod-img" src="img/ft-05-corrector-amino-b.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR AMINO Mg</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-6">
+                                                    <img class="modal-prod-img" src="img/ft-06-corrector-mg.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -104,21 +134,39 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Zn</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-7">
+                                                    <img class="modal-prod-img" src="img/ft-07-corrector-amino-zn.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR de Ca</p>
                                             <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-8">
+                                                    <img class="modal-prod-img" src="img/ft-08-corrector-ca.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR de N</p>
                                             <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-9">
+                                                    <img class="modal-prod-img" src="img/ft-09-corrector-n.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                     </div>

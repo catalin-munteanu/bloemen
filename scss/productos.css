@@ -17,10 +17,13 @@
 .detalle-productos .productos-foliar ul li,
 .detalle-productos .productos-suelo ul li {
   margin: 1em;
-  cursor: pointer;
   /*img {
           margin: 1em 0;
       }*/
+}
+.detalle-productos .productos-foliar ul li summary,
+.detalle-productos .productos-suelo ul li summary {
+  cursor: pointer;
 }
 .detalle-productos .productos-foliar ul li p.descripcion-productos,
 .detalle-productos .productos-suelo ul li p.descripcion-productos {
@@ -96,6 +99,54 @@
   border: none;
   border-radius: 50px;
   cursor: pointer;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod .modal-prod-img {
+  max-height: 90vh;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod {
+  position: absolute;
+  width: 40px;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod img {
+  width: 40px;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod::backdrop {
+  background: rgba(0, 0, 0, 0.7);
 }
 .detalle-productos .productos-foliar ul li button#prevButton,
 .detalle-productos .productos-foliar ul li button#nextButton,
