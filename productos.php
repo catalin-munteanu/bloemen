@@ -191,15 +191,27 @@
                                     y la calidad de los cultivos.</p>
                                 <div class="lista-productos-foliar" id="galeria-maxicorrectores">
                                     <figure>
-                                        <img src="img/prod-maxi-foliar-MAXIBORO.png">
+                                        <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11">
                                         <figcaption>
-                                            <button class="boton-ficha-producto">ver ficha</button>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-11">
+                                                <img class="modal-prod-img" src="img/ft-11-maxiboro.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
                                         </figcaption>
                                     </figure><br>
                                     <figure>
                                         <img src="img/prod-maxi-foliar-MAXICALCIO.png">
                                         <figcaption>
-                                            <button class="boton-ficha-producto">ver ficha</button>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-12">
+                                                <img class="modal-prod-img" src="img/ft-12-maxicalcio.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
                                         </figcaption>
                                     </figure><br>
                                 </div>
@@ -223,41 +235,77 @@
                                 <div class="slideshow-fosfito">
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 1">
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 13">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-13">
+                                                    <img class="modal-prod-img" src="img/ft-13-fosfito-ca.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 2">
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 14">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-14">
+                                                    <img class="modal-prod-img" src="img/ft-14-fosfito-cu.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 3">
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 15">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-15">
+                                                    <img class="modal-prod-img" src="img/ft-15-fosfito-mg.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 4">
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 16">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-16">
+                                                    <img class="modal-prod-img" src="img/ft-16-fosfito-mn.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 5">
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 17">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-17">
+                                                    <img class="modal-prod-img" src="img/ft-17-fosfito-potasio.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 6">
+                                            <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 18">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-18">
+                                                    <img class="modal-prod-img" src="img/ft-18-fosfito-zn.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                     </div>
