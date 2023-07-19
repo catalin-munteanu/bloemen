@@ -55,7 +55,7 @@
                                 <div class="slideshow">
                                     <div class="slide">
                                         <figure>
-                                            <p class="titulo-producto">AMINO Fe</p>
+                                            <p class="titulo-producto">AMINO Fe</p><br>
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -68,7 +68,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">AMINO K</p>
+                                            <p class="titulo-producto">AMINO K</p><br>
                                             <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -81,7 +81,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">AMINO Zn-Mn</p>
+                                            <p class="titulo-producto">AMINO Zn-Mn</p><br>
                                             <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -96,10 +96,16 @@
                                     </div>
                                     <div class="slide">
                                         <figure>
-                                            <p class="titulo-producto">BIOBLOEMEN</p>
+                                            <p class="titulo-producto">BIOBLOEMEN</p><br>
                                             <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-3">
+                                                    <img class="modal-prod-img" src="img/ft-04-aminoacidos.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
                                             </figcaption>
                                         </figure>
                                         <figure>
@@ -172,7 +178,7 @@
                                     </div>
                                     <div class="slide">
                                         <figure>
-                                            <p class="titulo-producto">VERDIGER</p>
+                                            <p class="titulo-producto">VERDIGER</p><br>
                                             <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
                                             <figcaption>
                                                 <button class="boton-ficha-producto">ver ficha</button>
@@ -181,7 +187,7 @@
                                     </div>
                                     <button id="prevButton"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton"><img src="img/next-arrow.png"></button>
-                                </div>
+                                </div>        
                             </details>
                         </li>
                         <li>
@@ -191,6 +197,7 @@
                                     y la calidad de los cultivos.</p>
                                 <div class="lista-productos-foliar" id="galeria-maxicorrectores">
                                     <figure>
+                                        <p class="titulo-producto">MAXIBORO</p><br>
                                         <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11">
                                         <figcaption>
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -203,6 +210,7 @@
                                         </figcaption>
                                     </figure><br>
                                     <figure>
+                                        <p class="titulo-producto">MAXICALCIO</p><br>
                                         <img src="img/prod-maxi-foliar-MAXICALCIO.png">
                                         <figcaption>
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -235,6 +243,7 @@
                                 <div class="slideshow-fosfito">
                                     <div class="slide-fosfito">
                                         <figure>
+                                            <p class="titulo-producto">FOSFITO DE Ca</p><br>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 13">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -247,6 +256,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
+                                            <p class="titulo-producto">FOSFITO DE Cu</p><br>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 14">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -259,6 +269,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
+                                            <p class="titulo-producto">FOSFITO DE Mg</p><br>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 15">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -273,6 +284,7 @@
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
+                                            <p class="titulo-producto">FOSFITO DE Mn</p><br>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 16">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -285,6 +297,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
+                                            <p class="titulo-producto">FOSFITO DE POTASIO</p><br>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 17">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -297,6 +310,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
+                                            <p class="titulo-producto">FOSFITO DE Zn</p><br>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 18">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -334,6 +348,11 @@
                                     Contienen macronutrientes, micronutrientes quelatados, aminoácidos libres, ácidos húmicos micorrizas arbusculares y microorganismos aeróbicos que lo transforman en un fertilizante complejo orgánico y biológico.
                                     Ideales para riego por goteo, fertirriego, chorreado y en riego por manto.
                                 </p>
+                                <div class="lista-productos-suelo">
+                                    <img src="img/FOL-K-1000Lts.png"><br>
+                                    <img src="img/FOL-MIX-1000Lts.png"><br>
+                                    <img src="img/FOL-suelo-1000Lts.png"><br>
+                                </div>
                             </details>
                         </li>
                         <li>
@@ -346,6 +365,9 @@
                                     – Incrementa disponibilidad y captación de los nutrientes.<br>
                                     – Aumenta rendimiento, calidad y sanidad de los cultivos.
                                 </p>
+                                <div class="lista-productos-promotor">
+                                    <img src="img/PROMOTOR DE CRECIMIENTO.png"><br>
+                                </div>
                             </details>
                         </li>
                         <li>

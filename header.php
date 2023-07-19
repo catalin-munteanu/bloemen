@@ -11,7 +11,6 @@
                 <li class="nav-menu-element"><a href="cultivos.php">Cultivos</a></li>
                 <li class="nav-menu-element"><a href="productos.php">Productos</a></li>
                 <li class="nav-menu-element"><a href="distribuidores.php">Distribuidores</a></li>
-                <li class="nav-menu-element"><a href="suma-tu-proyecto.php">Sumá tu proyecto</a></li>
                 <li class="nav-menu-element"><a href="index.php#ancla-nosotros">Nosotros</a></li>
                 <li class="nav-menu-element"><a href="index.php#ancla-contacto">Contacto</a></li>
             </ul>

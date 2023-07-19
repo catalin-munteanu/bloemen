@@ -47,7 +47,7 @@
 
                     figure {
                         width: calc(33.33% - 10px);
-                        /* Adjust the width as needed */
+                        padding: 0 5%;
                         height: auto;
                         margin-bottom: 10px;
                         display: flex;
@@ -56,7 +56,10 @@
 
                         p.titulo-producto {
                             display: inline-block;
-                            font-size: 32;
+                            margin: 5% 0;
+                            font-size: 32px;
+                            font-weight: 800;
+                            text-align: center;
                         }
 
                         figcaption {
@@ -65,7 +68,7 @@
                             text-align: center;
 
                             .boton-ficha-producto {
-                                display: inline-block; /* Ensures the button respects text-align */
+                                display: inline-block;
                                 margin: 20px;
                                 width: 190px;
                                 height: 53px;
@@ -82,11 +85,11 @@
                                 top: 50%;
                                 left: 50%;
                                 transform: translate(-50%, -50%);
-                    
+
                                 .modal-prod-img {
                                     max-height: 90vh;
                                 }
-                    
+
                                 .close-boton-prod {
                                     position: absolute;
                                     width: 40px;
@@ -94,13 +97,13 @@
                                     right: 20px;
                                     background: none;
                                     border: none;
-                    
+
                                     img {
                                         width: 40px;
                                     }
                                 }
                             }
-                    
+
                             .modal-prod::backdrop {
                                 background: rgba($color: #000000, $alpha: 0.7)
                             }
@@ -154,5 +157,85 @@
             }
         }
     }
+}
 
+@media (max-width: 1023px) {
+
+    .detalle-productos {
+
+        .productos-foliar,
+        .productos-suelo {
+
+            ul {
+                
+                li {
+
+                    .slide,
+                    .slide-fosfito,
+                    .lista-productos-foliar {
+
+                        figure {
+
+                            p.titulo-producto {
+
+                                font-size: 16px;
+                            }
+
+                            figcaption {
+
+                                .boton-ficha-producto {
+                                    width: 50px;
+                                    height: 20px;
+                                    font-size: 12px;
+                                    margin: 10px;
+                                }
+                            }
+                        }
+                    }
+
+                    button#prevButton,
+                    button#nextButton,
+                    button#prevButton-fosfito,
+                    button#nextButton-fosfito {
+    
+                        img {
+                            width: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.productos-suelo {
+    .lista-productos-suelo {
+        display: flex;
+        flex-direction: column;
+        img {
+            margin: 10%;
+            max-width: 100%;
+        }
+    }
+    .lista-productos-promotor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            margin: 2% 10%;
+            max-width: 80%;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+    .productos-suelo {
+        .lista-productos-suelo {
+            flex-direction: row;
+            img {
+                margin: 5%;
+                max-width: 25%;
+            }
+        }
+    }
 }

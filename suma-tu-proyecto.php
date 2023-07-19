@@ -1,3 +1,34 @@
+<?php
+if (
+    isset($_POST['mail-ideas'])
+    && (isset($_POST['nombre-ideas']))
+    && (isset($_POST['consulta-ideas']))
+) {
+    $success = false;
+
+    if (
+        !empty(strip_tags($_POST['mail-ideas'])) &&
+        !empty(strip_tags($_POST['nombre-ideas'])) &&
+        !empty(strip_tags($_POST['consulta-ideas']))
+    ) {
+        $to      = 'catalinapampin@gmail.com';
+        $subject = 'Mensaje dejado en Formulario de Contacto';
+        $message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
+		Nombre: ' . strip_tags($_POST['nombre-ideas']) . '<br>
+		Consulta: ' . strip_tags($_POST['consulta-ideas']) . '<br>
+		Mail: ' . strip_tags($_POST['mail-ideas']) . '<br>
+		IP: ' . $_SERVER['REMOTE_ADDR'];
+
+        $headers  = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+        $headers .= "From: <bloemen5450@gmail.com>" . "\r\n";
+
+        if (mail($to, $subject, $message, $headers)) {
+            $success = true;
+        }
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -25,7 +56,7 @@
             </article>
         </section>
 
-        <section class="proyecto-tipos">
+        <section class="proyecto-tipos" id="proyecto-tipos">
 
             <article class="ideas-proyectos">
                 <details>
@@ -33,18 +64,33 @@
                         <img src="img/suma-01-ideas-proyectos.png">
                         <h3 class="uppercase-text">Ideas y proyectos</h3>
                     </summary>
-                    <form class="form-ideas-proyectos">
-                        <label for="nombre">Nombre/Razón Social</label><br>
-                        <input type="text" name="nombre" class="nombreForm" required><br>
-                        <label>Localidad</label><br>
-                        <input type="text" name="localidad" class="localidadForm" required><br>
-                        <label>Email</label><br>
-                        <input type="text" name="email" class="emailForm" required><br>
-                        <label>Teléfono</label><br>
-                        <input type="text" name="telefono" class="telefonoForm" required><br>
-                        <label>Consulta</label><br>
-                        <textarea name="consulta" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-                    </form>
+                    <?php
+                    if (isset($success)) {
+                        if ($success) {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Gracias, hemos recibido tu consulta. En breve te estaremos contactando.</h2></article>';
+                        } else {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Parece que ha habido un error. Vuelva a intentarlo más tarde.</h2></article>';
+                        }
+                    } else {
+                    ?>
+                        <form action="#proyecto-tipos" method="POST" id="form-ideas-proyectos" class="form-ideas-proyectos">
+                            <label for="nombre">Nombre/Razón Social</label><br>
+                            <input type="text" name="nombre-ideas" id="nombre-ideas" class="nombreForm" required><br>
+                            <label>Localidad</label><br>
+                            <input type="text" name="localidad" class="localidadForm" required><br>
+                            <label>Email</label><br>
+                            <input type="email" name="mail-ideas" id="mail-ideas" class="emailForm" required><br>
+                            <label>Teléfono</label><br>
+                            <input type="text" name="telefono" class="telefonoForm" required><br>
+                            <label>Consulta</label><br>
+                            <textarea name="consulta-ideas" id="consulta-ideas" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+                            <div class="input-container">
+                                <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-ideas">
+                            </div>
+                        </form>
+                    <?php
+                    }
+                    ?>
                 </details>
             </article>
 
@@ -54,18 +100,33 @@
                         <img src="img/suma-02-soluciones.png">
                         <h3 class="uppercase-text">Soluciones sustentables para empresas</h3>
                     </summary>
-                    <form class="form-soluciones-sustentables">
-                        <label for="nombre">Nombre/Razón Social</label><br>
-                        <input type="text" name="nombre" class="nombreForm" required><br>
-                        <label>Localidad</label><br>
-                        <input type="text" name="localidad" class="localidadForm" required><br>
-                        <label>Email</label><br>
-                        <input type="text" name="email" class="emailForm" required><br>
-                        <label>Teléfono</label><br>
-                        <input type="text" name="telefono" class="telefonoForm" required><br>
-                        <label>Consulta</label><br>
-                        <textarea name="consulta" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-                    </form>
+                    <?php
+                    if (isset($success)) {
+                        if ($success) {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Gracias, hemos recibido tu consulta. En breve te estaremos contactando.</h2></article>';
+                        } else {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Parece que ha habido un error. Vuelva a intentarlo más tarde.</h2></article>';
+                        }
+                    } else {
+                    ?>
+                        <form action="#proyecto-tipos" method="POST" id="form-soluciones-sust" class="form-soluciones-sustentables">
+                            <label for="nombre">Nombre/Razón Social</label><br>
+                            <input type="text" name="nombre" id="nombre-soluciones" class="nombreForm" required><br>
+                            <label>Localidad</label><br>
+                            <input type="text" name="localidad" class="localidadForm" required><br>
+                            <label>Email</label><br>
+                            <input type="email" name="mail" id="mail-soluciones" class="emailForm" required><br>
+                            <label>Teléfono</label><br>
+                            <input type="text" name="telefono" class="telefonoForm" required><br>
+                            <label>Consulta</label><br>
+                            <textarea name="consulta" id="consulta-soluciones" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+                            <div class="input-container">
+                                <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-soluciones">
+                            </div>
+                        </form>
+                    <?php
+                    }
+                    ?>
                 </details>
             </article>
 
@@ -75,18 +136,33 @@
                         <img src="img/suma-03-cv.png">
                         <h3 class="uppercase-text">Tu CV</h3>
                     </summary>
-                    <form class="form-tu-cv">
-                        <label for="nombre">Nombre/Razón Social</label><br>
-                        <input type="text" name="nombre" class="nombreForm" required><br>
-                        <label>Localidad</label><br>
-                        <input type="text" name="localidad" class="localidadForm" required><br>
-                        <label>Email</label><br>
-                        <input type="text" name="email" class="emailForm" required><br>
-                        <label>Teléfono</label><br>
-                        <input type="text" name="telefono" class="telefonoForm" required><br>
-                        <label>Consulta</label><br>
-                        <textarea name="consulta" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-                    </form>
+                    <?php
+                    if (isset($success)) {
+                        if ($success) {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Gracias, hemos recibido tu consulta. En breve te estaremos contactando.</h2></article>';
+                        } else {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Parece que ha habido un error. Vuelva a intentarlo más tarde.</h2></article>';
+                        }
+                    } else {
+                    ?>
+                        <form action="#proyecto-tipos" method="POST" id="form-cv" class="form-tu-cv">
+                            <label for="nombre">Nombre/Razón Social</label><br>
+                            <input type="text" name="nombre" id="nombre-cv" class="nombreForm" required><br>
+                            <label>Localidad</label><br>
+                            <input type="text" name="localidad" class="localidadForm" required><br>
+                            <label>Email</label><br>
+                            <input type="email" name="mail" id="mail-cv" class="emailForm" required><br>
+                            <label>Teléfono</label><br>
+                            <input type="text" name="telefono" class="telefonoForm" required><br>
+                            <label>Consulta</label><br>
+                            <textarea name="consulta" id="consulta-cv" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+                            <div class="input-container">
+                                <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-cv">
+                            </div>
+                        </form>
+                    <?php
+                    }
+                    ?>
                 </details>
             </article>
 
@@ -96,25 +172,40 @@
                         <img src="img/suma-04-desarrollo.png">
                         <h3 class="uppercase-text">Desarrollo de propuestas</h3>
                     </summary>
-                    <form class="form-desarrollo-propuestas">
-                        <label for="nombre">Nombre/Razón Social</label><br>
-                        <input type="text" name="nombre" class="nombreForm" required><br>
-                        <label>Localidad</label><br>
-                        <input type="text" name="localidad" class="localidadForm" required><br>
-                        <label>Email</label><br>
-                        <input type="text" name="email" class="emailForm" required><br>
-                        <label>Teléfono</label><br>
-                        <input type="text" name="telefono" class="telefonoForm" required><br>
-                        <label>Consulta</label><br>
-                        <textarea name="consulta" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-                    </form>
+                    <?php
+                    if (isset($success)) {
+                        if ($success) {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Gracias, hemos recibido tu consulta. En breve te estaremos contactando.</h2></article>';
+                        } else {
+                            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Parece que ha habido un error. Vuelva a intentarlo más tarde.</h2></article>';
+                        }
+                    } else {
+                    ?>
+                        <form action="#proyecto-tipos" method="POST" id="form-desarrollo-proy" class="form-desarrollo-propuestas">
+                            <label for="nombre">Nombre/Razón Social</label><br>
+                            <input type="text" name="nombre" id="nombre-desarrollo" class="nombreForm" required><br>
+                            <label>Localidad</label><br>
+                            <input type="text" name="localidad" class="localidadForm" required><br>
+                            <label>Email</label><br>
+                            <input type="email" name="mail" id="mail-desarrollo" class="emailForm" required><br>
+                            <label>Teléfono</label><br>
+                            <input type="text" name="telefono" class="telefonoForm" required><br>
+                            <label>Consulta</label><br>
+                            <textarea name="consulta" id="consulta-desarrollo" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+                            <div class="input-container">
+                                <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-desarrollo">
+                            </div>
+                        </form>
+                    <?php
+                    }
+                    ?>
                 </details>
             </article>
 
         </section>
 
         <div id="cont-whatsapp-fixed">
-          <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
+            <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
         </div>
 
     </main>

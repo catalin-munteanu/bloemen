@@ -288,6 +288,22 @@ img {
 .contacto div.gradient-background form input {
   height: 31px;
 }
+.contacto div.gradient-background form .input-container {
+  display: flex;
+  justify-content: center;
+}
+.contacto div.gradient-background form .input-container input#botonContacto {
+  margin: 20px;
+  width: 121px;
+  height: 46px;
+  background-color: #009B3E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
 .contacto div.gradient-background div.footer-index .footerInsertado {
   text-align: center;
 }
@@ -462,7 +478,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .slide-fosfito figure,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure {
   width: calc(33.33% - 10px);
-  /* Adjust the width as needed */
+  padding: 0 5%;
   height: auto;
   margin-bottom: 10px;
   display: flex;
@@ -476,7 +492,10 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .slide-fosfito figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure p.titulo-producto {
   display: inline-block;
-  font-size: 32;
+  margin: 5% 0;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption,
@@ -493,7 +512,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .slide figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .boton-ficha-producto {
-  display: inline-block; /* Ensures the button respects text-align */
+  display: inline-block;
   margin: 20px;
   width: 190px;
   height: 53px;
@@ -604,6 +623,64 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   margin: 0 10px;
 }
 
+@media (max-width: 1023px) {
+  .detalle-productos .productos-foliar ul li .slide figure p.titulo-producto,
+  .detalle-productos .productos-foliar ul li .slide-fosfito figure p.titulo-producto,
+  .detalle-productos .productos-foliar ul li .lista-productos-foliar figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li .slide figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li .slide-fosfito figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li .lista-productos-foliar figure p.titulo-producto {
+    font-size: 16px;
+  }
+  .detalle-productos .productos-foliar ul li .slide figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .slide figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .boton-ficha-producto {
+    width: 50px;
+    height: 20px;
+    font-size: 12px;
+    margin: 10px;
+  }
+  .detalle-productos .productos-foliar ul li button#prevButton img,
+  .detalle-productos .productos-foliar ul li button#nextButton img,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito img,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito img,
+  .detalle-productos .productos-suelo ul li button#prevButton img,
+  .detalle-productos .productos-suelo ul li button#nextButton img,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito img,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito img {
+    width: 20px;
+  }
+}
+.productos-suelo .lista-productos-suelo {
+  display: flex;
+  flex-direction: column;
+}
+.productos-suelo .lista-productos-suelo img {
+  margin: 10%;
+  max-width: 100%;
+}
+.productos-suelo .lista-productos-promotor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productos-suelo .lista-productos-promotor img {
+  margin: 2% 10%;
+  max-width: 80%;
+}
+
+@media (min-width: 1024px) {
+  .productos-suelo .lista-productos-suelo {
+    flex-direction: row;
+  }
+  .productos-suelo .lista-productos-suelo img {
+    margin: 5%;
+    max-width: 25%;
+  }
+}
 .mapa-y-detalles {
   text-align: center;
   background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
@@ -686,6 +763,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .proyecto-tipos article details summary {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .proyecto-tipos article details summary img {
   width: 95px;
@@ -719,6 +797,26 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .proyecto-tipos article details .form-tu-cv input {
   height: 31px;
 }
+.proyecto-tipos article details .form-ideas-proyectos .input-container,
+.proyecto-tipos article details .form-tu-cv .input-container {
+  display: flex;
+  justify-content: center;
+}
+.proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-ideas,
+.proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-cv,
+.proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-ideas,
+.proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-cv {
+  margin: 20px;
+  width: 121px;
+  height: 46px;
+  background-color: #009B3E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
 .proyecto-tipos article details .form-soluciones-sustentables,
 .proyecto-tipos article details .form-desarrollo-propuestas {
   background-color: #009B3E;
@@ -741,6 +839,26 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .proyecto-tipos article details .form-soluciones-sustentables input,
 .proyecto-tipos article details .form-desarrollo-propuestas input {
   height: 31px;
+}
+.proyecto-tipos article details .form-soluciones-sustentables .input-container,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container {
+  display: flex;
+  justify-content: center;
+}
+.proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-soluciones,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-desarrollo,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-soluciones,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-desarrollo {
+  margin: 20px;
+  width: 121px;
+  height: 46px;
+  background-color: #009B3E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {

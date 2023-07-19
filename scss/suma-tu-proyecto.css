@@ -5,6 +5,7 @@
 .proyecto-tipos article details summary {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .proyecto-tipos article details summary img {
   width: 95px;
@@ -38,6 +39,26 @@
 .proyecto-tipos article details .form-tu-cv input {
   height: 31px;
 }
+.proyecto-tipos article details .form-ideas-proyectos .input-container,
+.proyecto-tipos article details .form-tu-cv .input-container {
+  display: flex;
+  justify-content: center;
+}
+.proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-ideas,
+.proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-cv,
+.proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-ideas,
+.proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-cv {
+  margin: 20px;
+  width: 121px;
+  height: 46px;
+  background-color: #009B3E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
 .proyecto-tipos article details .form-soluciones-sustentables,
 .proyecto-tipos article details .form-desarrollo-propuestas {
   background-color: #009B3E;
@@ -60,6 +81,26 @@
 .proyecto-tipos article details .form-soluciones-sustentables input,
 .proyecto-tipos article details .form-desarrollo-propuestas input {
   height: 31px;
+}
+.proyecto-tipos article details .form-soluciones-sustentables .input-container,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container {
+  display: flex;
+  justify-content: center;
+}
+.proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-soluciones,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-desarrollo,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-soluciones,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-desarrollo {
+  margin: 20px;
+  width: 121px;
+  height: 46px;
+  background-color: #009B3E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 }
 
 @media (min-width: 1024px) {

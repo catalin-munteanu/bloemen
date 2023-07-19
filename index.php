@@ -1,3 +1,34 @@
+<?php
+if (
+  isset($_POST['mail'])
+  && (isset($_POST['nombre']))
+  && (isset($_POST['consulta']))
+) {
+  $success = false;
+
+  if (
+    !empty(strip_tags($_POST['mail'])) &&
+    !empty(strip_tags($_POST['nombre'])) &&
+    !empty(strip_tags($_POST['consulta']))
+  ) {
+    $to      = 'bloemen5450@gmail.com';
+    $subject = 'Mensaje dejado en Formulario de Contacto';
+    $message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
+		Nombre: ' . strip_tags($_POST['nombre']) . '<br>
+		Consulta: ' . strip_tags($_POST['consulta']) . '<br>
+		Mail: ' . strip_tags($_POST['mail']) . '<br>
+		IP: ' . $_SERVER['REMOTE_ADDR'];
+
+    $headers  = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+    $headers .= "From: <noreply@bloemen.com.ar>" . "\r\n";
+
+    if (mail($to, $subject, $message, $headers)) {
+      $success = true;
+    }
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -106,18 +137,33 @@
     <section class="contacto" id="ancla-contacto">
       <h2 class="contacto-title uppercase-text">Contacto</h2>
       <div class="gradient-background">
-        <form>
-          <label for="nombre">Nombre/Razón Social</label><br>
-          <input type="text" name="nombre" class="nombreForm" required><br>
-          <label>Localidad</label><br>
-          <input type="text" name="localidad" class="localidadForm" required><br>
-          <label>Email</label><br>
-          <input type="text" name="email" class="emailForm" required><br>
-          <label>Teléfono</label><br>
-          <input type="text" name="telefono" class="telefonoForm" required><br>
-          <label>Consulta</label><br>
-          <textarea name="consulta" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-        </form>
+        <?php
+        if (isset($success)) {
+          if ($success) {
+            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Gracias, hemos recibido tu consulta. En breve te estaremos contactando.</h2></article>';
+          } else {
+            echo '<div style="text-align: center;color: #FFFFFF;font-size:24px;font-weight:400;padding: 2em;">Parece que ha habido un error. Vuelva a intentarlo más tarde.</h2></article>';
+          }
+        } else {
+        ?>
+          <form action="#ancla-contacto" method="POST" id="form-contacto">
+            <label for="nombre">Nombre/Razón Social</label><br>
+            <input type="text" name="nombre" id="nombre" class="nombreForm" required><br>
+            <label>Localidad</label><br>
+            <input type="text" name="localidad" class="localidadForm" required><br>
+            <label>Email</label><br>
+            <input type="email" name="mail" id="mail" class="emailForm" required><br>
+            <label>Teléfono</label><br>
+            <input type="text" name="telefono" class="telefonoForm" required><br>
+            <label>Consulta</label><br>
+            <textarea name="consulta" id="consulta" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+            <div class="input-container">
+              <input type="submit" value="ENVIAR" aria-label="Enviar" id="botonContacto">
+            </div>
+          </form>
+        <?php
+        }
+        ?>
         <div class="footer-index">
           <article class="footerInsertado">
             <img src="img/footer-logo.png">

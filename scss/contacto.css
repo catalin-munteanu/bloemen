@@ -32,6 +32,22 @@
 .contacto div.gradient-background form input {
   height: 31px;
 }
+.contacto div.gradient-background form .input-container {
+  display: flex;
+  justify-content: center;
+}
+.contacto div.gradient-background form .input-container input#botonContacto {
+  margin: 20px;
+  width: 121px;
+  height: 46px;
+  background-color: #009B3E;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
 .contacto div.gradient-background div.footer-index .footerInsertado {
   text-align: center;
 }
