@@ -187,7 +187,7 @@
                                     </div>
                                     <button id="prevButton"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton"><img src="img/next-arrow.png"></button>
-                                </div>        
+                                </div>
                             </details>
                         </li>
                         <li>
@@ -348,10 +348,45 @@
                                     Contienen macronutrientes, micronutrientes quelatados, aminoácidos libres, ácidos húmicos micorrizas arbusculares y microorganismos aeróbicos que lo transforman en un fertilizante complejo orgánico y biológico.
                                     Ideales para riego por goteo, fertirriego, chorreado y en riego por manto.
                                 </p>
-                                <div class="lista-productos-suelo">
-                                    <img src="img/FOL-K-1000Lts.png"><br>
-                                    <img src="img/FOL-MIX-1000Lts.png"><br>
-                                    <img src="img/FOL-suelo-1000Lts.png"><br>
+                                <div class="lista-productos-suelo" id="galeria-fol">
+                                    <figure>
+                                        <p class="titulo-producto">FOL K</p><br>
+                                        <img src="img/FOL-K-1000Lts.png" alt="Imagen FOL K"><br>
+                                        <figcaption>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-19">
+                                                <img class="modal-prod-img" src="img/ft-19-fol-k.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
+                                        </figcaption>
+                                    </figure><br>
+                                    <figure>
+                                        <p class="titulo-producto">FOL MIX</p><br>
+                                        <img src="img/FOL-MIX-1000Lts.png" alt="Imagen FOL MIX"><br>
+                                        <figcaption>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-20">
+                                                <img class="modal-prod-img" src="img/ft-20-fol-mix.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
+                                        </figcaption>
+                                    </figure><br>
+                                    <figure>
+                                        <p class="titulo-producto">FOL SUELO</p><br>
+                                        <img src="img/FOL-suelo-1000Lts.png"><br>
+                                        <figcaption>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-21">
+                                                <img class="modal-prod-img" src="img/ft-21-fol-suelo.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
+                                        </figcaption>
                                 </div>
                             </details>
                         </li>
@@ -366,7 +401,19 @@
                                     – Aumenta rendimiento, calidad y sanidad de los cultivos.
                                 </p>
                                 <div class="lista-productos-promotor">
-                                    <img src="img/PROMOTOR DE CRECIMIENTO.png"><br>
+                                    <figure>
+                                        <p class="titulo-producto">PROMOTOR DE CRECIMIENTO</p><br>
+                                        <img src="img/PROMOTOR DE CRECIMIENTO.png" alt="Imagen Promotor de Crecimiento"><br>
+                                        <figcaption>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-22">
+                                                <img class="modal-prod-img" src="img/ft-22-promotor.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
+                                        </figcaption>
+                                    </figure><br>
                                 </div>
                             </details>
                         </li>
@@ -378,6 +425,34 @@
                                     Poseen un importante contenido de nutrientes y micronutrientes quelatados.
                                     La forma de pellet permite mecanizar su distribución, realizando una importante reducción de los costos de mano de obra.
                                 </p>
+                                <div class="lista-productos-solidos">
+                                    <figure>
+                                        <p class="titulo-producto">BioBloemen 15N</p><br>
+                                        <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
+                                        <figcaption>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-23">
+                                                <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
+                                        </figcaption>
+                                    </figure><br>
+                                    <figure>
+                                        <p class="titulo-producto">Bloemen 12</p><br>
+                                        <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                        <figcaption>
+                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                            <dialog class="modal-prod" id="modal-prod-24">
+                                                <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                <button class="boton-ficha-producto close-boton-prod">
+                                                    <img src="img/burger-close.png" alt="Cerrar">
+                                                </button>
+                                            </dialog>
+                                        </figcaption>
+                                    </figure><br>
+                                </div>
                             </details>
                         </li>
                     </ul>

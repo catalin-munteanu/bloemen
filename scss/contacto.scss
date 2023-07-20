@@ -31,6 +31,11 @@
                 width: 100%;
                 border-radius: 5px;
                 margin: 0.3em 0 1em;
+                padding: 0 0.5em;
+            }
+
+            textarea {
+                padding: 0.5em;
             }
 
             input {
@@ -100,6 +105,12 @@
 
                 input {
                     height: 51px;
+                    font-size: 16px;
+                }
+
+                textarea {
+                    height: 200px;
+                    font-size: 16px;
                 }
             }
 

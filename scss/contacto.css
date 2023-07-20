@@ -28,6 +28,10 @@
   width: 100%;
   border-radius: 5px;
   margin: 0.3em 0 1em;
+  padding: 0 0.5em;
+}
+.contacto div.gradient-background form textarea {
+  padding: 0.5em;
 }
 .contacto div.gradient-background form input {
   height: 31px;
@@ -77,6 +81,11 @@
   }
   .contacto div.gradient-background form input {
     height: 51px;
+    font-size: 16px;
+  }
+  .contacto div.gradient-background form textarea {
+    height: 200px;
+    font-size: 16px;
   }
   .contacto div.gradient-background div.footer-index {
     width: 100%;
