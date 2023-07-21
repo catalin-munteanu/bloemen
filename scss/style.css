@@ -472,7 +472,9 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   padding: 2% 10%;
 }
 .detalle-productos .productos-foliar ul li .slideshow-amino-desktop,
-.detalle-productos .productos-suelo ul li .slideshow-amino-desktop {
+.detalle-productos .productos-foliar ul li .slideshow-fosfito-desktop,
+.detalle-productos .productos-suelo ul li .slideshow-amino-desktop,
+.detalle-productos .productos-suelo ul li .slideshow-fosfito-desktop {
   display: none;
 }
 .detalle-productos .productos-foliar ul li .slide,
