@@ -31,8 +31,10 @@
 }
 .detalle-productos .productos-foliar ul li .slideshow,
 .detalle-productos .productos-foliar ul li .slideshow-fosfito,
+.detalle-productos .productos-foliar ul li .slideshow-amino-desktop,
 .detalle-productos .productos-suelo ul li .slideshow,
-.detalle-productos .productos-suelo ul li .slideshow-fosfito {
+.detalle-productos .productos-suelo ul li .slideshow-fosfito,
+.detalle-productos .productos-suelo ul li .slideshow-amino-desktop {
   display: flex;
   position: relative;
   flex-wrap: wrap;
@@ -40,41 +42,51 @@
   width: 100%;
   padding: 2% 10%;
 }
-.detalle-productos .productos-foliar ul li .slide,
-.detalle-productos .productos-foliar ul li .slide-fosfito,
-.detalle-productos .productos-suelo ul li .slide,
-.detalle-productos .productos-suelo ul li .slide-fosfito {
+.detalle-productos .productos-foliar ul li .slideshow-amino-desktop,
+.detalle-productos .productos-suelo ul li .slideshow-amino-desktop {
   display: none;
 }
 .detalle-productos .productos-foliar ul li .slide,
 .detalle-productos .productos-foliar ul li .slide-fosfito,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop,
+.detalle-productos .productos-suelo ul li .slide,
+.detalle-productos .productos-suelo ul li .slide-fosfito,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop {
+  display: none;
+}
+.detalle-productos .productos-foliar ul li .slide,
+.detalle-productos .productos-foliar ul li .slide-fosfito,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos,
 .detalle-productos .productos-suelo ul li .slide,
 .detalle-productos .productos-suelo ul li .slide-fosfito,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor,
 .detalle-productos .productos-suelo ul li .lista-productos-solidos {
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   transition: transform 0.3s ease;
 }
 .detalle-productos .productos-foliar ul li .slide figure,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure,
 .detalle-productos .productos-suelo ul li .slide figure,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure,
 .detalle-productos .productos-suelo ul li .lista-productos-solidos figure {
-  width: calc(33.33% - 10px);
+  width: calc(100% - 10px);
   padding: 0 5%;
   height: auto;
   margin-bottom: 10px;
@@ -84,30 +96,34 @@
 }
 .detalle-productos .productos-foliar ul li .slide figure p.titulo-producto,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure p.titulo-producto,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure p.titulo-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure p.titulo-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure p.titulo-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure p.titulo-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .slide figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure p.titulo-producto,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure p.titulo-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-solidos figure p.titulo-producto {
   display: inline-block;
   margin: 5% 0;
-  font-size: 32px;
+  font-size: 16px;
   font-weight: 800;
   text-align: center;
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption,
 .detalle-productos .productos-suelo ul li .slide figure figcaption,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption,
@@ -117,35 +133,39 @@
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .boton-ficha-producto,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .boton-ficha-producto,
 .detalle-productos .productos-suelo ul li .lista-productos-solidos figure figcaption .boton-ficha-producto {
   display: inline-block;
-  margin: 20px;
-  width: 190px;
-  height: 53px;
+  margin: 10px;
+  width: 50px;
+  height: 20px;
   background-color: #4660a6;
   color: #fff;
-  font-size: 24px;
+  font-size: 12px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .modal-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .modal-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .modal-prod,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .modal-prod,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .modal-prod,
@@ -157,12 +177,14 @@
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod .modal-prod-img,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .modal-prod .modal-prod-img,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .modal-prod .modal-prod-img,
@@ -171,12 +193,14 @@
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .modal-prod .close-boton-prod,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .modal-prod .close-boton-prod,
@@ -190,12 +214,14 @@
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod .close-boton-prod img,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .modal-prod .close-boton-prod img,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .modal-prod .close-boton-prod img,
@@ -204,12 +230,14 @@
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .modal-prod::backdrop,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .modal-prod::backdrop,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .modal-prod::backdrop,
@@ -242,19 +270,21 @@
 .detalle-productos .productos-suelo ul li button#nextButton img,
 .detalle-productos .productos-suelo ul li button#prevButton-fosfito img,
 .detalle-productos .productos-suelo ul li button#nextButton-fosfito img {
-  width: 80px;
+  width: 20px;
 }
 .detalle-productos .productos-foliar ul li button#prevButton,
 .detalle-productos .productos-foliar ul li button#prevButton-fosfito,
 .detalle-productos .productos-suelo ul li button#prevButton,
 .detalle-productos .productos-suelo ul li button#prevButton-fosfito {
   left: 0;
+  padding: 8px 16px 8px 0;
 }
 .detalle-productos .productos-foliar ul li button#nextButton,
 .detalle-productos .productos-foliar ul li button#nextButton-fosfito,
 .detalle-productos .productos-suelo ul li button#nextButton,
 .detalle-productos .productos-suelo ul li button#nextButton-fosfito {
   right: 0;
+  padding: 8px 0 8px 16px;
 }
 .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores,
 .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores {
@@ -268,57 +298,30 @@
   margin: 0 10px;
 }
 
-@media (max-width: 1023px) {
-  .detalle-productos .productos-foliar ul li .slide figure p.titulo-producto,
-  .detalle-productos .productos-foliar ul li .slide-fosfito figure p.titulo-producto,
-  .detalle-productos .productos-foliar ul li .lista-productos-foliar figure p.titulo-producto,
-  .detalle-productos .productos-suelo ul li .slide figure p.titulo-producto,
-  .detalle-productos .productos-suelo ul li .slide-fosfito figure p.titulo-producto,
-  .detalle-productos .productos-suelo ul li .lista-productos-foliar figure p.titulo-producto {
-    font-size: 16px;
-  }
-  .detalle-productos .productos-foliar ul li .slide figure figcaption .boton-ficha-producto,
-  .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .boton-ficha-producto,
-  .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .boton-ficha-producto,
-  .detalle-productos .productos-suelo ul li .slide figure figcaption .boton-ficha-producto,
-  .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .boton-ficha-producto,
-  .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .boton-ficha-producto {
-    width: 50px;
-    height: 20px;
-    font-size: 12px;
-    margin: 10px;
-  }
-  .detalle-productos .productos-foliar ul li button#prevButton img,
-  .detalle-productos .productos-foliar ul li button#nextButton img,
-  .detalle-productos .productos-foliar ul li button#prevButton-fosfito img,
-  .detalle-productos .productos-foliar ul li button#nextButton-fosfito img,
-  .detalle-productos .productos-suelo ul li button#prevButton img,
-  .detalle-productos .productos-suelo ul li button#nextButton img,
-  .detalle-productos .productos-suelo ul li button#prevButton-fosfito img,
-  .detalle-productos .productos-suelo ul li button#nextButton-fosfito img {
-    width: 20px;
-  }
-}
-.productos-suelo .lista-productos-suelo,
-.productos-suelo .lista-productos-solidos {
-  display: flex;
-  flex-direction: column;
-}
-.productos-suelo .lista-productos-suelo figure,
-.productos-suelo .lista-productos-solidos figure {
-  margin: 10%;
-  max-width: 100%;
-}
-.productos-suelo .lista-productos-promotor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.productos-suelo .lista-productos-promotor figure {
-  margin: 2% 10%;
-  max-width: 80%;
-}
+/* .productos-suelo {
 
+    .lista-productos-suelo,
+    .lista-productos-solidos {
+        display: flex;
+        flex-direction: column;
+
+        figure {
+            margin: 10%;
+            max-width: 100%;
+        }
+    }
+
+    .lista-productos-promotor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        figure {
+            margin: 2% 10%;
+            max-width: 80%;
+        }
+    }
+}*/
 @media (min-width: 1024px) {
   .productos-suelo .lista-productos-suelo {
     flex-direction: row;
@@ -333,5 +336,202 @@
   .productos-suelo .lista-productos-solidos figure {
     margin: 5%;
     max-width: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .detalle-productos .productos-foliar ul li,
+  .detalle-productos .productos-suelo ul li {
+    /*div#galeria-maxicorrectores {
+        display: flex;
+        padding: 2% 10%;
+        justify-content: center;
+
+        figure {
+            width: calc(33.33% - 10px);
+            margin: 0 10px;
+        }
+    }*/
+    /*img {
+        margin: 1em 0;
+    }*/
+  }
+  .detalle-productos .productos-foliar ul li .slideshow,
+  .detalle-productos .productos-foliar ul li .slideshow-fosfito,
+  .detalle-productos .productos-suelo ul li .slideshow,
+  .detalle-productos .productos-suelo ul li .slideshow-fosfito {
+    display: none;
+  }
+  .detalle-productos .productos-foliar ul li .slideshow-amino-desktop,
+  .detalle-productos .productos-foliar ul li .slideshow-fosfito-desktop,
+  .detalle-productos .productos-suelo ul li .slideshow-amino-desktop,
+  .detalle-productos .productos-suelo ul li .slideshow-fosfito-desktop {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100%;
+    padding: 2% 10%;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop {
+    display: none;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop {
+    justify-content: center;
+    width: 100%;
+    transition: transform 0.3s ease;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure {
+    width: calc(33.33% - 10px);
+    padding: 0 5%;
+    height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure p.titulo-producto,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure p.titulo-producto {
+    display: inline-block;
+    margin: 5% 0;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption {
+    position: relative;
+    text-align: center;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .boton-ficha-producto {
+    display: inline-block;
+    margin: 20px;
+    width: 190px;
+    height: 53px;
+    background-color: #4660a6;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .modal-prod,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .modal-prod {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod .modal-prod-img,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .modal-prod .modal-prod-img,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod .modal-prod-img,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .modal-prod .modal-prod-img {
+    max-height: 90vh;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .modal-prod .close-boton-prod,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .modal-prod .close-boton-prod {
+    position: absolute;
+    width: 40px;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod img,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .modal-prod .close-boton-prod img,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod .close-boton-prod img,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .modal-prod .close-boton-prod img {
+    width: 40px;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod::backdrop,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .modal-prod::backdrop,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .modal-prod::backdrop,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .modal-prod::backdrop {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  .detalle-productos .productos-foliar ul li button#prevButton,
+  .detalle-productos .productos-foliar ul li button#nextButton,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito,
+  .detalle-productos .productos-foliar ul li button#prevButton-amino-d,
+  .detalle-productos .productos-foliar ul li button#nextButton-amino-d,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito-d,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito-d,
+  .detalle-productos .productos-suelo ul li button#prevButton,
+  .detalle-productos .productos-suelo ul li button#nextButton,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito,
+  .detalle-productos .productos-suelo ul li button#prevButton-amino-d,
+  .detalle-productos .productos-suelo ul li button#nextButton-amino-d,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito-d,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito-d {
+    background: none;
+    border: none;
+    color: #333;
+    padding: 8px 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    transition: 0.6s ease;
+  }
+  .detalle-productos .productos-foliar ul li button#prevButton img,
+  .detalle-productos .productos-foliar ul li button#nextButton img,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito img,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito img,
+  .detalle-productos .productos-foliar ul li button#prevButton-amino-d img,
+  .detalle-productos .productos-foliar ul li button#nextButton-amino-d img,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito-d img,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito-d img,
+  .detalle-productos .productos-suelo ul li button#prevButton img,
+  .detalle-productos .productos-suelo ul li button#nextButton img,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito img,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito img,
+  .detalle-productos .productos-suelo ul li button#prevButton-amino-d img,
+  .detalle-productos .productos-suelo ul li button#nextButton-amino-d img,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito-d img,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito-d img {
+    width: 80px;
+  }
+  .detalle-productos .productos-foliar ul li button#prevButton,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito,
+  .detalle-productos .productos-foliar ul li button#prevButton-amino-d,
+  .detalle-productos .productos-foliar ul li button#prevButton-fosfito-d,
+  .detalle-productos .productos-suelo ul li button#prevButton,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito,
+  .detalle-productos .productos-suelo ul li button#prevButton-amino-d,
+  .detalle-productos .productos-suelo ul li button#prevButton-fosfito-d {
+    left: 0;
+    padding: 8px 16px;
+  }
+  .detalle-productos .productos-foliar ul li button#nextButton,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito,
+  .detalle-productos .productos-foliar ul li button#nextButton-amino-d,
+  .detalle-productos .productos-foliar ul li button#nextButton-fosfito-d,
+  .detalle-productos .productos-suelo ul li button#nextButton,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito,
+  .detalle-productos .productos-suelo ul li button#nextButton-amino-d,
+  .detalle-productos .productos-suelo ul li button#nextButton-fosfito-d {
+    right: 0;
+    padding: 8px 16px;
   }
 }/*# sourceMappingURL=productos.css.map */

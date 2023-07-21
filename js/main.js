@@ -66,7 +66,7 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// Slider productos
+// Slider productos mobile
 
 document.addEventListener('DOMContentLoaded', () => {
   var slides = document.querySelectorAll('.slide');
@@ -93,6 +93,45 @@ document.addEventListener('DOMContentLoaded', () => {
   // Button event listeners
   var prevButton = document.getElementById('prevButton');
   var nextButton = document.getElementById('nextButton');
+
+  prevButton.addEventListener('click', function () {
+    showPrevious();
+    showSlide(currentSlide - 1);
+  });
+
+  nextButton.addEventListener('click', function () {
+    showNext();
+    showSlide(currentSlide + 1);
+  })
+});
+
+// Slider productos desktop
+
+document.addEventListener('DOMContentLoaded', () => {
+  var slides = document.querySelectorAll('.slide-amino-desktop');
+  var currentSlide = 0;
+
+  function showSlide(n) {
+    slides[currentSlide].style.display = 'none';
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].style.display = 'flex';
+  }
+
+  function showPrevious() {
+    var previousSlide = (currentSlide - 1 + slides.length) % slides.length;
+    slides[previousSlide].style.display = 'flex';
+  }
+
+  function showNext() {
+    var nextSlide = (currentSlide + 1) % slides.length;
+    slides[nextSlide].style.display = 'flex';
+  }
+
+  showSlide(0); // Show the first slide
+
+  // Button event listeners
+  var prevButton = document.getElementById('prevButton-amino-d');
+  var nextButton = document.getElementById('nextButton-amino-d');
 
   prevButton.addEventListener('click', function () {
     showPrevious();
@@ -132,6 +171,45 @@ document.addEventListener('DOMContentLoaded', () => {
   // Button event listeners
   var prevButton = document.getElementById('prevButton-fosfito');
   var nextButton = document.getElementById('nextButton-fosfito');
+
+  prevButton.addEventListener('click', function () {
+    showPrevious();
+    showSlide(currentSlide - 1);
+  });
+
+  nextButton.addEventListener('click', function () {
+    showNext();
+    showSlide(currentSlide + 1);
+  })
+});
+
+// Slider fosfitos desktop
+
+document.addEventListener('DOMContentLoaded', () => {
+  var slides = document.querySelectorAll('.slide-fosfito-desktop');
+  var currentSlide = 0;
+
+  function showSlide(n) {
+    slides[currentSlide].style.display = 'none';
+    currentSlide = (n + slides.length) % slides.length;
+    slides[currentSlide].style.display = 'flex';
+  }
+
+  function showPrevious() {
+    var previousSlide = (currentSlide - 1 + slides.length) % slides.length;
+    slides[previousSlide].style.display = 'flex';
+  }
+
+  function showNext() {
+    var nextSlide = (currentSlide + 1) % slides.length;
+    slides[nextSlide].style.display = 'flex';
+  }
+
+  showSlide(0); // Show the first slide
+
+  // Button event listeners
+  var prevButton = document.getElementById('prevButton-fosfito-d');
+  var nextButton = document.getElementById('nextButton-fosfito-d');
 
   prevButton.addEventListener('click', function () {
     showPrevious();
