@@ -578,14 +578,30 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .lista-productos-solidos figure figcaption .boton-ficha-producto {
   display: inline-block;
   margin: 10px;
-  width: 50px;
-  height: 20px;
+  width: 80px;
+  height: 30px;
   background-color: #4660a6;
   color: #fff;
   font-size: 12px;
   border: none;
   border-radius: 50px;
   cursor: pointer;
+}
+.detalle-productos .productos-foliar ul li .slide figure figcaption .ficha-nodisp,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .ficha-nodisp,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .ficha-nodisp,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .ficha-nodisp,
+.detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .ficha-nodisp,
+.detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .ficha-nodisp,
+.detalle-productos .productos-foliar ul li .lista-productos-solidos figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .slide figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .ficha-nodisp,
+.detalle-productos .productos-suelo ul li .lista-productos-solidos figure figcaption .ficha-nodisp {
+  font-size: 10px;
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal-prod,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal-prod,
@@ -718,14 +734,20 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   padding: 8px 0 8px 16px;
 }
 .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores,
-.detalle-productos .productos-suelo ul li div#galeria-maxicorrectores {
+.detalle-productos .productos-foliar ul li div#galeria-fol,
+.detalle-productos .productos-suelo ul li div#galeria-maxicorrectores,
+.detalle-productos .productos-suelo ul li div#galeria-fol {
   display: flex;
+  flex-direction: column;
   padding: 2% 10%;
   justify-content: center;
+  align-items: center;
 }
 .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure,
-.detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure {
-  width: calc(33.33% - 10px);
+.detalle-productos .productos-foliar ul li div#galeria-fol figure,
+.detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure,
+.detalle-productos .productos-suelo ul li div#galeria-fol figure {
+  width: calc(100% - 10px);
   margin: 0 10px;
 }
 
@@ -754,38 +776,42 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
     }
 }*/
 @media (min-width: 1024px) {
-  .productos-suelo .lista-productos-suelo {
+  .detalle-productos .productos-suelo .lista-productos-suelo {
     flex-direction: row;
   }
-  .productos-suelo .lista-productos-suelo figure {
+  .detalle-productos .productos-suelo .lista-productos-suelo figure {
     margin: 2%;
     max-width: 30%;
   }
-  .productos-suelo .lista-productos-solidos {
+  .detalle-productos .productos-suelo ul li .lista-productos-solidos {
+    display: flex;
     flex-direction: row;
   }
-  .productos-suelo .lista-productos-solidos figure {
+  .detalle-productos .productos-suelo ul li .lista-productos-solidos figure {
     margin: 5%;
     max-width: 40%;
   }
+  .detalle-productos .productos-suelo ul li .lista-productos-solidos figure p.titulo-producto {
+    display: inline-block;
+    margin: 5% 0;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .detalle-productos .productos-suelo ul li .lista-productos-solidos figure figcaption button.boton-ficha-producto {
+    display: inline-block;
+    margin: 20px;
+    width: 190px;
+    height: 53px;
+    background-color: #4660a6;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+  }
 }
 @media (min-width: 1024px) {
-  .detalle-productos .productos-foliar ul li,
-  .detalle-productos .productos-suelo ul li {
-    /*div#galeria-maxicorrectores {
-        display: flex;
-        padding: 2% 10%;
-        justify-content: center;
-
-        figure {
-            width: calc(33.33% - 10px);
-            margin: 0 10px;
-        }
-    }*/
-    /*img {
-        margin: 1em 0;
-    }*/
-  }
   .detalle-productos .productos-foliar ul li .slideshow,
   .detalle-productos .productos-foliar ul li .slideshow-fosfito,
   .detalle-productos .productos-suelo ul li .slideshow,
@@ -860,6 +886,12 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
     border: none;
     border-radius: 50px;
     cursor: pointer;
+  }
+  .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .ficha-nodisp,
+  .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .ficha-nodisp,
+  .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .ficha-nodisp,
+  .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption .ficha-nodisp {
+    font-size: 20px;
   }
   .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .modal-prod,
   .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption .modal-prod,
@@ -964,6 +996,45 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   .detalle-productos .productos-suelo ul li button#nextButton-fosfito-d {
     right: 0;
     padding: 8px 16px;
+  }
+  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores,
+  .detalle-productos .productos-foliar ul li div#galeria-fol,
+  .detalle-productos .productos-foliar ul li .lista-productos-promotor,
+  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores,
+  .detalle-productos .productos-suelo ul li div#galeria-fol,
+  .detalle-productos .productos-suelo ul li .lista-productos-promotor {
+    display: flex;
+    flex-direction: row;
+  }
+  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure,
+  .detalle-productos .productos-foliar ul li div#galeria-fol figure,
+  .detalle-productos .productos-foliar ul li .lista-productos-promotor figure,
+  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure,
+  .detalle-productos .productos-suelo ul li div#galeria-fol figure,
+  .detalle-productos .productos-suelo ul li .lista-productos-promotor figure {
+    width: calc(33.33% - 10px);
+  }
+  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure p.titulo-producto,
+  .detalle-productos .productos-foliar ul li div#galeria-fol figure p.titulo-producto,
+  .detalle-productos .productos-foliar ul li .lista-productos-promotor figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li div#galeria-fol figure p.titulo-producto,
+  .detalle-productos .productos-suelo ul li .lista-productos-promotor figure p.titulo-producto {
+    display: inline-block;
+    margin: 5% 0;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+  }
+  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure button.boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li div#galeria-fol figure button.boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li .lista-productos-promotor figure button.boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure button.boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li div#galeria-fol figure button.boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .lista-productos-promotor figure button.boton-ficha-producto {
+    width: 190px;
+    height: 53px;
+    font-size: 24px;
   }
 }
 .mapa-y-detalles {

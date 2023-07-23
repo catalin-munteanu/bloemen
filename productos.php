@@ -148,7 +148,7 @@
                                     </div>
                                     <div class="slide">
                                         <figure>
-                                            <p class="titulo-producto">CORRECTOR de Ca</p>
+                                            <p class="titulo-producto">CORRECTOR de Ca</p><br>
                                             <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -163,7 +163,7 @@
                                     </div>
                                     <div class="slide">
                                         <figure>
-                                            <p class="titulo-producto">CORRECTOR de N</p>
+                                            <p class="titulo-producto">CORRECTOR de N</p><br>
                                             <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -181,7 +181,7 @@
                                             <p class="titulo-producto">VERDIGER</p><br>
                                             <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -317,7 +317,7 @@
                                             <p class="titulo-producto">VERDIGER</p><br>
                                             <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
                                             <figcaption>
-                                                <button class="boton-ficha-producto">ver ficha</button>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
