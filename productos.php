@@ -647,33 +647,186 @@
                                     Poseen un importante contenido de nutrientes y micronutrientes quelatados.
                                     La forma de pellet permite mecanizar su distribución, realizando una importante reducción de los costos de mano de obra.
                                 </p>
-                                <div class="lista-productos-solidos">
-                                    <figure>
-                                        <p class="titulo-producto">BioBloemen 15N</p><br>
-                                        <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
-                                        <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-23">
-                                                <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
-                                        </figcaption>
-                                    </figure><br>
-                                    <figure>
-                                        <p class="titulo-producto">Bloemen 12</p><br>
-                                        <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
-                                        <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-24">
-                                                <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
-                                        </figcaption>
-                                    </figure><br>
+                                <!--<div class="lista-productos-solidos">-->
+                                <div class="slideshow-solidos">
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">BioBloemen</p><br>
+                                            <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-23">
+                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">BioBloemen 15N</p><br>
+                                            <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-23">
+                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen 12</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen 17N</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">Blocompost</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <button id="prevButton-solidos"><img src="img/prev-arrow.png"></button>
+                                    <button id="nextButton-solidos"><img src="img/next-arrow.png"></button>
+                                </div>
+                                <div class="slideshow-solidos-desktop">
+                                    <div class="slide-solidos-desktop">
+                                        <figure>
+                                            <p class="titulo-producto">BioBloemen</p><br>
+                                            <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-23">
+                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">BioBloemen 15N</p><br>
+                                            <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-23">
+                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos-desktop">
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen 12</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen 17N</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">Blocompost</p><br>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-24">
+                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <button id="prevButton-solidos-desktop"><img src="img/prev-arrow.png"></button>
+                                    <button id="nextButton-solidos-desktop"><img src="img/next-arrow.png"></button>
                                 </div>
                             </details>
                         </li>
