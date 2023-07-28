@@ -340,8 +340,8 @@
 
                                 .boton-ficha-producto {
                                     display: inline-block;
-                                    margin: 20px;
-                                    width: 190px;
+                                    margin: 20px 0;
+                                    width: calc(100% - 10px);
                                     height: 53px;
                                     background-color: #4660a6;
                                     color: #fff;
