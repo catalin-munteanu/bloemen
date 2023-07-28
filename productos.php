@@ -334,7 +334,7 @@
                                 <div class="lista-productos-foliar" id="galeria-maxicorrectores">
                                     <figure>
                                         <p class="titulo-producto">MAXIBORO</p><br>
-                                        <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11">
+                                        <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11"><br>
                                         <figcaption>
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-11">
@@ -347,7 +347,7 @@
                                     </figure><br>
                                     <figure>
                                         <p class="titulo-producto">MAXICALCIO</p><br>
-                                        <img src="img/prod-maxi-foliar-MAXICALCIO.png">
+                                        <img src="img/prod-maxi-foliar-MAXICALCIO.png"><br>
                                         <figcaption>
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-12">
@@ -371,7 +371,7 @@
                                 <div class="slideshow-fosfito">
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Ca</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Ca</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 13">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -386,7 +386,7 @@
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Cu</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Cu</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 14">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -401,7 +401,7 @@
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Mg</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Mg</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 15">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -416,7 +416,7 @@
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Mn</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Mn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 16">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -431,7 +431,7 @@
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE POTASIO</p><br>
+                                            <p class="titulo-producto">FOSFITO DE POTASIO</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 17">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -446,7 +446,7 @@
                                     </div>
                                     <div class="slide-fosfito">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Zn</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Zn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 18">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -465,7 +465,7 @@
                                 <div class="slideshow-fosfito-desktop">
                                     <div class="slide-fosfito-desktop">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Ca</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Ca</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 13">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -478,7 +478,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Cu</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Cu</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 14">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -491,7 +491,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Mg</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Mg</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 15">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -506,7 +506,7 @@
                                     </div>
                                     <div class="slide-fosfito-desktop">
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Mn</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Mn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 16">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -519,7 +519,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE POTASIO</p><br>
+                                            <p class="titulo-producto">FOSFITO DE POTASIO</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 17">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -532,7 +532,7 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">FOSFITO DE Zn</p><br>
+                                            <p class="titulo-producto">FOSFITO DE Zn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 18">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -624,7 +624,7 @@
                                 </p>
                                 <div class="lista-productos-promotor">
                                     <figure>
-                                        <p class="titulo-producto">PROMOTOR DE CRECIMIENTO</p><br>
+                                        <p class="titulo-producto">PROMOTOR DE CRECIMIENTO</p>
                                         <img src="img/PROMOTOR DE CRECIMIENTO.png" alt="Imagen Promotor de Crecimiento"><br>
                                         <figcaption>
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
