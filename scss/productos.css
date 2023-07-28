@@ -474,11 +474,11 @@
   .detalle-productos .productos-suelo ul li .slide-solidos-desktop figure {
     width: calc(33.33% - 10px);
     padding: 0 5%;
-    height: auto;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 470px;
   }
   .detalle-productos .productos-foliar ul li .slide-amino-desktop figure p.titulo-producto,
   .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure p.titulo-producto,
@@ -491,6 +491,7 @@
     font-size: 32px;
     font-weight: 800;
     text-align: center;
+    height: 80px;
   }
   .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption,
   .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption,

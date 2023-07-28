@@ -232,7 +232,7 @@
                                     </div>
                                     <div class="slide-amino-desktop">
                                         <figure>
-                                            <p class="titulo-producto">BIOBLOEMEN</p><br>
+                                            <p class="titulo-producto">BIOBLOEMEN</p>
                                             <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -314,7 +314,7 @@
                                     </div>
                                     <div class="slide-amino-desktop">
                                         <figure>
-                                            <p class="titulo-producto">VERDIGER</p><br>
+                                            <p class="titulo-producto">VERDIGER</p>
                                             <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
                                             <figcaption>
                                                 <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
@@ -651,7 +651,7 @@
                                 <div class="slideshow-solidos">
                                     <div class="slide-solidos">
                                         <figure>
-                                            <p class="titulo-producto">BioBloemen</p><br>
+                                            <p class="titulo-producto">BioBloemen</p>
                                             <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -666,22 +666,25 @@
                                     </div>
                                     <div class="slide-solidos">
                                         <figure>
-                                            <p class="titulo-producto">BioBloemen 15N</p><br>
+                                            <p class="titulo-producto">BioBloemen 15N</p>
                                             <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-23">
-                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
                                     <div class="slide-solidos">
                                         <figure>
-                                            <p class="titulo-producto">Bloemen</p><br>
+                                            <p class="titulo-producto">Bloemen</p>
+                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <figcaption>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-solidos">
+                                        <figure>
+                                            <p class="titulo-producto">Bloemen 12</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -696,42 +699,21 @@
                                     </div>
                                     <div class="slide-solidos">
                                         <figure>
-                                            <p class="titulo-producto">Bloemen 12</p><br>
+                                            <p class="titulo-producto">Bloemen 17N</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
                                     <div class="slide-solidos">
                                         <figure>
-                                            <p class="titulo-producto">Bloemen 17N</p><br>
+                                            <p class="titulo-producto">Blocompost</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div class="slide-solidos">
-                                        <figure>
-                                            <p class="titulo-producto">Blocompost</p><br>
-                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
-                                            <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <img class="modal-prod-img" src="img/ft-25-blocompost.png">
                                                     <button class="boton-ficha-producto close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
@@ -745,7 +727,7 @@
                                 <div class="slideshow-solidos-desktop">
                                     <div class="slide-solidos-desktop">
                                         <figure>
-                                            <p class="titulo-producto">BioBloemen</p><br>
+                                            <p class="titulo-producto">BioBloemen</p>
                                             <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -758,35 +740,23 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">BioBloemen 15N</p><br>
+                                            <p class="titulo-producto">BioBloemen 15N</p>
                                             <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-23">
-                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">Bloemen</p><br>
+                                            <p class="titulo-producto">Bloemen</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
                                     <div class="slide-solidos-desktop">
                                         <figure>
-                                            <p class="titulo-producto">Bloemen 12</p><br>
+                                            <p class="titulo-producto">Bloemen 12</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
@@ -799,25 +769,19 @@
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">Bloemen 17N</p><br>
+                                            <p class="titulo-producto">Bloemen 17N</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
-                                            <p class="titulo-producto">Blocompost</p><br>
+                                            <p class="titulo-producto">Blocompost</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
+                                                    <img class="modal-prod-img" src="img/ft-25-blocompost.png">
                                                     <button class="boton-ficha-producto close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
