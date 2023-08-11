@@ -321,21 +321,3 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Flores distribuidores
 
-// Get all province image elements
-const provinceImages = document.querySelectorAll('.province-img');
-
-// Attach click event listeners to each province image
-provinceImages.forEach(image => {
-    image.addEventListener('click', () => {
-        // Hide all province info articles
-        const allProvinceInfo = document.querySelectorAll('.province-info');
-        allProvinceInfo.forEach(info => {
-            info.style.display = 'none';
-        });
-
-        // Show the clicked province's info
-        const provinceId = image.id.split('-')[2]; // Extract the numeric part of the ID
-        const provinceInfoArticle = document.getElementById(`province-info-${provinceId}`);
-        provinceInfoArticle.style.display = 'block';
-    });
-});

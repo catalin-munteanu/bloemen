@@ -1213,6 +1213,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .mapa-y-detalles .province-info {
   text-align: center;
   display: none;
+  scroll-margin-top: 100px;
 }
 .mapa-y-detalles .province-info img {
   max-width: 90%;

@@ -49,7 +49,7 @@
                 <img src="img/MENDOZA_TIER.png" class="img-distr-mendoza">
             </article>
 
-            <article class="distribuidores-rionegro province-info">
+            <article class="distribuidores-rionegro province-info" id="province-info-2">
                 <img src="img/RIONEGRO_AGROFERTIL.png" class="img-distr-rn">
                 <img src="img/RIONEGRO_AGROPECUARIANATALINI.png" class="img-distr-rn">
                 <img src="img/RIONEGRO_AGROROCA.png" class="img-distr-rn">
@@ -57,53 +57,85 @@
                 <img src="img/RIONEGRO_TODOAGRO.png" class="img-distr-rn">
             </article>
 
-            <article class="distribuidores-sanjuan province-info">
+            <article class="distribuidores-sanjuan province-info" id="province-info-3">
                 <img src="img/SANJUAN_AGUAFERTIL.png" class="img-distr-sanjuan">
                 <img src="img/SANJUAN_SIMBIOS.png" class="img-distr-sanjuan">
             </article>
 
-            <article class="distribuidores-cordoba province-info">
+            <article class="distribuidores-cordoba province-info" id="province-info-4">
                 <img src="img/CORDOBA_AYAX.png" class="img-distr-cordoba">
             </article>
 
-            <article class="distribuidores-entrerios province-info">
+            <article class="distribuidores-entrerios province-info" id="province-info-5">
                 <img src="img/ENTRERIOS_MONTARAZ.png" class="img-distr-entrerios">
             </article>
 
-            <article class="distribuidores-corrientes province-info">
+            <article class="distribuidores-corrientes province-info" id="province-info-6">
                 <img src="img/CORRIENTES_RAMSES.png" class="img-distr-corrientes">
             </article>
 
-            <article class="distribuidores-tucuman province-info">
+            <article class="distribuidores-tucuman province-info" id="province-info-7">
                 <img src="img/TUCUMAN_APUDANDRES.png" class="img-distr-tucuman">
                 <img src="img/TUCUMAN_ISASGUILLERMO.png" class="img-distr-tucuman">
                 <img src="img/TUCUMAN_TUCAGRO.png" class="img-distr-tucuman">
             </article>
 
-            <article class="distribuidores-bsas province-info">
+            <article class="distribuidores-bsas province-info" id="province-info-8">
                 <img src="img/BSAS_AGROLURO.png" class="img-distr-bsas">
                 <img src="img/BSAS_CPD.png" class="img-distr-bsas">
                 <img src="img/BSAS_OCTAVIOSEMILLAS.png" class="img-distr-bsas">
                 <img src="img/BSAS_TECNOBIO.png" class="img-distr-bsas">
             </article>
 
-            <article class="distribuidores-misiones province-info">
+            <article class="distribuidores-misiones province-info" id="province-info-9">
                 <img src="img/MISIONES_.png" class="img-distr-misiones">
             </article>
 
-            <article class="distribuidores-neuquen province-info">
+            <article class="distribuidores-neuquen province-info" id="province-info-10">
                 <img src="img/NEUQUEN_CARLOSASAD.png" class="img-distr-neuquen">
             </article>
 
         </section>
 
         <div id="cont-whatsapp-fixed">
-          <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
+            <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
         </div>
 
     </main>
 
     <?php require_once 'footer.php'; ?>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const mapArticle = document.querySelector(".mapa-distribuidores");
+            const provinceArticles = document.querySelectorAll(".province-info");
+
+            mapArticle.addEventListener("click", function(event) {
+                if (event.target.classList.contains("province-img")) {
+                    const provinceId = event.target.id.replace("province-img-", "");
+
+                    // Hide all province articles
+                    provinceArticles.forEach(article => {
+                        article.style.display = "none";
+                    });
+
+                    // Display the selected province article
+                    const selectedProvinceArticle = document.getElementById("province-info-" + provinceId);
+                    if (selectedProvinceArticle) {
+                        selectedProvinceArticle.style.display = "block";
+
+                        // Scroll to the selected province article
+                        selectedProvinceArticle.scrollIntoView({
+                            behavior: "smooth"
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+
+
 
 </body>
 
