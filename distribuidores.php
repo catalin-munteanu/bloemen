@@ -30,13 +30,14 @@
                 <img src="img/mapa-distribuidores.svg" class="mapa-argentina">
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-mendoza" id="province-img-1">
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-rio-negro" id="province-img-2">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-santa-cruz" id="province-img-3">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-san-juan" id="province-img-4">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-cordoba" id="province-img-5">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-entre-rios" id="province-img-6">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-corrientes" id="province-img-7">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-tucuman" id="province-img-8">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-buenos-aires" id="province-img-9">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-san-juan" id="province-img-3">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-cordoba" id="province-img-4">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-entre-rios" id="province-img-5">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-corrientes" id="province-img-6">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-tucuman" id="province-img-7">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-buenos-aires" id="province-img-8">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-misiones" id="province-img-9">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-neuquen" id="province-img-10">
             </article>
 
             <article class="distribuidores-mendoza province-info">
@@ -55,13 +56,6 @@
                 <img src="img/RIONEGRO_RICARDONATALINI.png" class="img-distr-rn">
                 <img src="img/RIONEGRO_TODOAGRO.png" class="img-distr-rn">
             </article>
-
-            <!--<article class="distribuidores-sanxxxxxx">
-                <img src="img/BSAS_AGROLURO.png" class="img-distr-bsas">
-                <img src="img/BSAS_CPD.png" class="img-distr-bsas">
-                <img src="img/BSAS_OCTAVIOSEMILLAS.png" class="img-distr-bsas">
-                <img src="img/BSAS_TECNOBIO.png" class="img-distr-bsas">
-            </article>-->
 
             <article class="distribuidores-sanjuan province-info">
                 <img src="img/SANJUAN_AGUAFERTIL.png" class="img-distr-sanjuan">
