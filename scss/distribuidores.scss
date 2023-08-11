@@ -19,6 +19,7 @@
             width: 8%;
             left: 14%;
             top: 38%;
+            cursor: pointer;
         }
 
         .logo-distr-rio-negro {
@@ -26,6 +27,7 @@
             width: 8%;
             left: 20%;
             top: 54%;
+            cursor: pointer;
         }
 
         .logo-distr-san-juan {
@@ -33,6 +35,7 @@
             width: 8%;
             left: 12%;
             top: 28%;
+            cursor: pointer;
         }
 
         .logo-distr-cordoba {
@@ -40,6 +43,7 @@
             width: 8%;
             left: 39%;
             top: 31%;
+            cursor: pointer;
         }
 
         .logo-distr-entre-rios {
@@ -47,6 +51,7 @@
             width: 8%;
             left: 62%;
             top: 32%;
+            cursor: pointer;
         }
 
         .logo-distr-corrientes {
@@ -54,6 +59,7 @@
             width: 8%;
             left: 71%;
             top: 23%;
+            cursor: pointer;
         }
 
         .logo-distr-tucuman {
@@ -61,6 +67,7 @@
             width: 8%;
             left: 30.7%;
             top: 17%;
+            cursor: pointer;
         }
 
         .logo-distr-buenos-aires {
@@ -68,6 +75,7 @@
             width: 8%;
             left: 56%;
             top: 43%;
+            cursor: pointer;
         }
 
         .logo-distr-misiones {
@@ -75,6 +83,7 @@
             width: 8%;
             left: 92%;
             top: 18%;
+            cursor: pointer;
         }
 
         .logo-distr-neuquen {
@@ -82,11 +91,13 @@
             width: 8%;
             left: 9%;
             top: 49%;
+            cursor: pointer;
         }
     }
 
     .province-info {
         text-align: center;
+        display: none;
 
         img {
             max-width: 90%;

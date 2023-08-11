@@ -18,63 +18,74 @@
   width: 8%;
   left: 14%;
   top: 38%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-rio-negro {
   position: absolute;
   width: 8%;
   left: 20%;
   top: 54%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-san-juan {
   position: absolute;
   width: 8%;
   left: 12%;
   top: 28%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-cordoba {
   position: absolute;
   width: 8%;
   left: 39%;
   top: 31%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-entre-rios {
   position: absolute;
   width: 8%;
   left: 62%;
   top: 32%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-corrientes {
   position: absolute;
   width: 8%;
   left: 71%;
   top: 23%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-tucuman {
   position: absolute;
   width: 8%;
   left: 30.7%;
   top: 17%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-buenos-aires {
   position: absolute;
   width: 8%;
   left: 56%;
   top: 43%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-misiones {
   position: absolute;
   width: 8%;
   left: 92%;
   top: 18%;
+  cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-neuquen {
   position: absolute;
   width: 8%;
   left: 9%;
   top: 49%;
+  cursor: pointer;
 }
 .mapa-y-detalles .province-info {
   text-align: center;
+  display: none;
 }
 .mapa-y-detalles .province-info img {
   max-width: 90%;

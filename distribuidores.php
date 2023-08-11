@@ -40,7 +40,7 @@
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-neuquen" id="province-img-10">
             </article>
 
-            <article class="distribuidores-mendoza province-info">
+            <article class="distribuidores-mendoza province-info" id="province-info-1">
                 <img src="img/MENDOZA_AGRODAYSE.png" class="img-distr-mendoza">
                 <img src="img/MENDOZA_AGROINNOVA.png" class="img-distr-mendoza">
                 <img src="img/MENDOZA_AGRONET.png" class="img-distr-mendoza">
