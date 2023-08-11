@@ -1,34 +1,3 @@
-<?php
-if (
-    isset($_POST['mail-ideas'])
-    && (isset($_POST['nombre-ideas']))
-    && (isset($_POST['consulta-ideas']))
-) {
-    $success = false;
-
-    if (
-        !empty(strip_tags($_POST['mail-ideas'])) &&
-        !empty(strip_tags($_POST['nombre-ideas'])) &&
-        !empty(strip_tags($_POST['consulta-ideas']))
-    ) {
-        $to      = 'catalinapampin@gmail.com';
-        $subject = 'Mensaje dejado en Formulario de Contacto';
-        $message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
-		Nombre: ' . strip_tags($_POST['nombre-ideas']) . '<br>
-		Consulta: ' . strip_tags($_POST['consulta-ideas']) . '<br>
-		Mail: ' . strip_tags($_POST['mail-ideas']) . '<br>
-		IP: ' . $_SERVER['REMOTE_ADDR'];
-
-        $headers  = "MIME-Version: 1.0" . "\r\n";
-        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-        $headers .= "From: <bloemen5450@gmail.com>" . "\r\n";
-
-        if (mail($to, $subject, $message, $headers)) {
-            $success = true;
-        }
-    }
-}
-?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -41,7 +10,7 @@ if (
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
     <script src="js/main.js"></script>
-    <title>Bloemen - Fertilizantes Sustentables | Productos</title>
+    <title>Bloemen - Fertilizantes Sustentables | Sumá tu proyecto</title>
 </head>
 
 <body>

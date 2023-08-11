@@ -141,7 +141,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  width: 100vw;
+  width: 100%;
   /*max-width: 1000px;*/
   position: relative;
 }
@@ -1232,6 +1232,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .proyecto-tipos {
   padding: 24px;
   background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
+  min-height: calc(100vh - 433px);
 }
 .proyecto-tipos article details summary {
   display: flex;
@@ -1348,6 +1349,10 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   }
   .proyecto-tipos article {
     width: 25%;
+    margin: 0 1%;
+  }
+  .proyecto-tipos article details summary h3 {
+    font-size: 20px;
   }
 }
 footer {
@@ -1356,6 +1361,7 @@ footer {
   align-items: center;
   color: white;
   background-image: linear-gradient(to bottom right, #009B3E, #3A57D8);
+  width: 100%;
 }
 footer .datos-contacto {
   text-align: center;

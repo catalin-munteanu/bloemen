@@ -2,6 +2,7 @@
 
     padding: 24px;
     background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
+    min-height: calc(100vh - 433px);
 
     article {
 
@@ -122,10 +123,21 @@
 @media (min-width: 1024px) {
 
     .proyecto-tipos {
-        display: flex;
+        display: flex;       
 
         article {
             width: 25%;
+            margin: 0 1%;
+
+            details {
+
+                summary {
+
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            }
         }
     }
 
