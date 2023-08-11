@@ -1194,10 +1194,21 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   left: 56%;
   top: 43%;
 }
+.mapa-y-detalles .province-info {
+  text-align: center;
+}
+.mapa-y-detalles .province-info img {
+  max-width: 90%;
+  padding: 2%;
+}
 
 @media (min-width: 1024px) {
   .mapa-y-detalles .mapa-distribuidores .mapa-argentina {
     width: 45vw;
+  }
+  .mapa-y-detalles .province-info img {
+    max-width: 30%;
+    padding: 2%;
   }
 }
 .proyecto-tipos {
@@ -1248,14 +1259,18 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 }
 .proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-ideas,
 .proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-cv,
+.proyecto-tipos article details .form-ideas-proyectos .input-container button#archivos-contacto-ideas,
+.proyecto-tipos article details .form-ideas-proyectos .input-container button#archivos-contacto-cv,
 .proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-ideas,
-.proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-cv {
+.proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-cv,
+.proyecto-tipos article details .form-tu-cv .input-container button#archivos-contacto-ideas,
+.proyecto-tipos article details .form-tu-cv .input-container button#archivos-contacto-cv {
   margin: 20px;
   width: 121px;
   height: 46px;
   background-color: #009B3E;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 800;
   border: none;
   border-radius: 50px;
@@ -1291,14 +1306,18 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 }
 .proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-soluciones,
 .proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-desarrollo,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container button#archivos-contacto-soluciones,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container button#archivos-contacto-desarrollo,
 .proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-soluciones,
-.proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-desarrollo {
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-desarrollo,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container button#archivos-contacto-soluciones,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container button#archivos-contacto-desarrollo {
   margin: 20px;
   width: 121px;
   height: 46px;
   background-color: #009B3E;
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 800;
   border: none;
   border-radius: 50px;

@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css">
     <script src="js/main.js"></script>
-    <title>Bloemen - Fertilizantes Sustentables | Productos</title>
+    <title>Bloemen - Fertilizantes Sustentables | Distribuidores</title>
 </head>
 
 <body>
@@ -28,15 +28,77 @@
         <section class="mapa-y-detalles">
             <article class="mapa-distribuidores">
                 <img src="img/mapa-distribuidores.svg" class="mapa-argentina">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-mendoza">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-rio-negro">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-santa-cruz">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-san-juan">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-cordoba">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-entre-rios">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-corrientes">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-tucuman">
-                <img src="img/logo-bloemen-map.png" class="logo-distr-buenos-aires">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-mendoza" id="province-img-1">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-rio-negro" id="province-img-2">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-santa-cruz" id="province-img-3">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-san-juan" id="province-img-4">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-cordoba" id="province-img-5">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-entre-rios" id="province-img-6">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-corrientes" id="province-img-7">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-tucuman" id="province-img-8">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-buenos-aires" id="province-img-9">
+            </article>
+
+            <article class="distribuidores-mendoza province-info">
+                <img src="img/MENDOZA_AGRODAYSE.png" class="img-distr-mendoza">
+                <img src="img/MENDOZA_AGROINNOVA.png" class="img-distr-mendoza">
+                <img src="img/MENDOZA_AGRONET.png" class="img-distr-mendoza">
+                <img src="img/MENDOZA_FRANCA.png" class="img-distr-mendoza">
+                <img src="img/MENDOZA_SIMBIOS.png" class="img-distr-mendoza">
+                <img src="img/MENDOZA_TIER.png" class="img-distr-mendoza">
+            </article>
+
+            <article class="distribuidores-rionegro province-info">
+                <img src="img/RIONEGRO_AGROFERTIL.png" class="img-distr-rn">
+                <img src="img/RIONEGRO_AGROPECUARIANATALINI.png" class="img-distr-rn">
+                <img src="img/RIONEGRO_AGROROCA.png" class="img-distr-rn">
+                <img src="img/RIONEGRO_RICARDONATALINI.png" class="img-distr-rn">
+                <img src="img/RIONEGRO_TODOAGRO.png" class="img-distr-rn">
+            </article>
+
+            <!--<article class="distribuidores-sanxxxxxx">
+                <img src="img/BSAS_AGROLURO.png" class="img-distr-bsas">
+                <img src="img/BSAS_CPD.png" class="img-distr-bsas">
+                <img src="img/BSAS_OCTAVIOSEMILLAS.png" class="img-distr-bsas">
+                <img src="img/BSAS_TECNOBIO.png" class="img-distr-bsas">
+            </article>-->
+
+            <article class="distribuidores-sanjuan province-info">
+                <img src="img/SANJUAN_AGUAFERTIL.png" class="img-distr-sanjuan">
+                <img src="img/SANJUAN_SIMBIOS.png" class="img-distr-sanjuan">
+            </article>
+
+            <article class="distribuidores-cordoba province-info">
+                <img src="img/CORDOBA_AYAX.png" class="img-distr-cordoba">
+            </article>
+
+            <article class="distribuidores-entrerios province-info">
+                <img src="img/ENTRERIOS_MONTARAZ.png" class="img-distr-entrerios">
+            </article>
+
+            <article class="distribuidores-corrientes province-info">
+                <img src="img/CORRIENTES_RAMSES.png" class="img-distr-corrientes">
+            </article>
+
+            <article class="distribuidores-tucuman province-info">
+                <img src="img/TUCUMAN_APUDANDRES.png" class="img-distr-tucuman">
+                <img src="img/TUCUMAN_ISASGUILLERMO.png" class="img-distr-tucuman">
+                <img src="img/TUCUMAN_TUCAGRO.png" class="img-distr-tucuman">
+            </article>
+
+            <article class="distribuidores-bsas province-info">
+                <img src="img/BSAS_AGROLURO.png" class="img-distr-bsas">
+                <img src="img/BSAS_CPD.png" class="img-distr-bsas">
+                <img src="img/BSAS_OCTAVIOSEMILLAS.png" class="img-distr-bsas">
+                <img src="img/BSAS_TECNOBIO.png" class="img-distr-bsas">
+            </article>
+
+            <article class="distribuidores-misiones province-info">
+                <img src="img/MISIONES_.png" class="img-distr-misiones">
+            </article>
+
+            <article class="distribuidores-neuquen province-info">
+                <img src="img/NEUQUEN_CARLOSASAD.png" class="img-distr-neuquen">
             </article>
 
         </section>

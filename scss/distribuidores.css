@@ -67,9 +67,20 @@
   left: 56%;
   top: 43%;
 }
+.mapa-y-detalles .province-info {
+  text-align: center;
+}
+.mapa-y-detalles .province-info img {
+  max-width: 90%;
+  padding: 2%;
+}
 
 @media (min-width: 1024px) {
   .mapa-y-detalles .mapa-distribuidores .mapa-argentina {
     width: 45vw;
+  }
+  .mapa-y-detalles .province-info img {
+    max-width: 30%;
+    padding: 2%;
   }
 }/*# sourceMappingURL=distribuidores.css.map */

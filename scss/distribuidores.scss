@@ -78,6 +78,15 @@
         }
     }
 
+    .province-info {
+        text-align: center;
+
+        img {
+            max-width: 90%;
+            padding: 2%;
+        }
+    }
+
 }
 
 @media (min-width: 1024px) {
@@ -89,5 +98,14 @@
                 width: 45vw;
             }
         }
+
+        .province-info {
+    
+            img {
+                max-width: 30%;
+                padding: 2%;
+            }
+        }
+
     }
 }

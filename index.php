@@ -11,7 +11,7 @@ if (
     !empty(strip_tags($_POST['nombre'])) &&
     !empty(strip_tags($_POST['consulta']))
   ) {
-    $to      = 'bloemen5450@gmail.com';
+    $to      = 'bloemen@bloemen.com.ar';
     $subject = 'Mensaje dejado en Formulario de Contacto';
     $message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
 		Nombre: ' . strip_tags($_POST['nombre']) . '<br>

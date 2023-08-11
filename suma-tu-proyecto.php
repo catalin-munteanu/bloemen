@@ -86,6 +86,7 @@ if (
                             <textarea name="consulta-ideas" id="consulta-ideas" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
                             <div class="input-container">
                                 <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-ideas">
+                                <button id="archivos-contacto-ideas">CARGAR ARCHIVOS</button>
                             </div>
                         </form>
                     <?php
@@ -122,6 +123,7 @@ if (
                             <textarea name="consulta" id="consulta-soluciones" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
                             <div class="input-container">
                                 <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-soluciones">
+                                <button id="archivos-contacto-soluciones">CARGAR ARCHIVOS</button>
                             </div>
                         </form>
                     <?php
@@ -158,6 +160,7 @@ if (
                             <textarea name="consulta" id="consulta-cv" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
                             <div class="input-container">
                                 <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-cv">
+                                <button id="archivos-contacto-cv">CARGAR ARCHIVOS</button>
                             </div>
                         </form>
                     <?php
@@ -194,6 +197,7 @@ if (
                             <textarea name="consulta" id="consulta-desarrollo" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
                             <div class="input-container">
                                 <input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-desarrollo">
+                                <button id="archivos-contacto-desarrollo">CARGAR ARCHIVOS</button>
                             </div>
                         </form>
                     <?php
