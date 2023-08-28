@@ -48,12 +48,10 @@
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-1">
-                                                    <div class="dialog-container">
-                                                        <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
-                                                        <button class="boton-ficha-producto close-boton-prod">
-                                                            <img src="img/burger-close.png" alt="Cerrar">
-                                                        </button>
-                                                    </div>
+                                                    <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -198,12 +196,10 @@
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-1">
-                                                    <div class="dialog-container">
-                                                        <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
-                                                        <button class="boton-ficha-producto close-boton-prod">
-                                                            <img src="img/burger-close.png" alt="Cerrar">
-                                                        </button>
-                                                    </div>
+                                                    <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
+                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
                                                 </dialog>
                                             </figcaption>
                                         </figure>

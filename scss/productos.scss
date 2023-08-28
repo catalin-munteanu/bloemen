@@ -50,7 +50,8 @@
                 .slide-fosfito,
                 .slide-amino-desktop,
                 .slide-solidos,
-                .slide-solidos-desktop {
+                .slide-solidos-desktop
+                 {
                     display: none;
                 }
 
@@ -110,26 +111,21 @@
                                 top: 50%;
                                 left: 50%;
                                 transform: translate(-50%, -50%);
-                                background: transparent;
 
-                                div.dialog-container {
-                                    display: flex;
+                                .modal-prod-img {
+                                    max-height: 90vh;
+                                }
 
-                                    .modal-prod-img {
-                                        max-height: 90vh;
-                                    }
+                                .close-boton-prod {
+                                    position: absolute;
+                                    width: 40px;
+                                    top: 20px;
+                                    right: 20px;
+                                    background: none;
+                                    border: none;
 
-                                    .close-boton-prod {
-                                        /*position: absolute;*/
-                                        width: 30px;
-                                        /*top: 5%;
-                                        right: 5%;*/
-                                        background: none;
-                                        border: none;
-
-                                        img {
-                                            width: 30px;
-                                        }
+                                    img {
+                                        width: 40px;
                                     }
                                 }
                             }
@@ -365,25 +361,20 @@
                                     left: 50%;
                                     transform: translate(-50%, -50%);
 
-                                    div.dialog-container {
-                                        display: flex;
+                                    .modal-prod-img {
+                                        max-height: 90vh;
+                                    }
 
-                                        .modal-prod-img {
-                                            max-height: 90vh;
-                                        }
+                                    .close-boton-prod {
+                                        position: absolute;
+                                        width: 40px;
+                                        top: 20px;
+                                        right: 20px;
+                                        background: none;
+                                        border: none;
 
-                                        .close-boton-prod {
-                                            /* position: absolute; */
-                                            width: 45px;
-                                            padding-left: 15px;
-                                            /* top: 5%;
-                                            right: 5%; */
-                                            background: none;
-                                            border: none;
-
-                                            img {
-                                                width: 30px;
-                                            }
+                                        img {
+                                            width: 40px;
                                         }
                                     }
                                 }
