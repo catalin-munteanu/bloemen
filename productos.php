@@ -185,6 +185,45 @@
                                             </figcaption>
                                         </figure>
                                     </div>
+                                    <div class="slide">
+                                        <figure>
+                                            <p class="titulo-producto">BLONOS</p><br>
+                                            <img src="img/BLONOS.png" alt="Image 10-1">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-9">
+                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-11.png">
+                                                    <button class="close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide">
+                                        <figure>
+                                            <p class="titulo-producto">BLONOS 20N</p><br>
+                                            <img src="img/BLONOS 20N.png" alt="Image 10-2">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-9">
+                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-10.png">
+                                                    <button class="close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide">
+                                        <figure>
+                                            <p class="titulo-producto">PROMOTOR DE CRECIMIENTO FOLIAR</p><br>
+                                            <img src="img/PROMOTOR DE CRECIMIENTO FOLIAR.png" alt="Image 10-3">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
                                     <button id="prevButton"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton"><img src="img/next-arrow.png"></button>
                                 </div>
@@ -316,6 +355,41 @@
                                         <figure>
                                             <p class="titulo-producto">VERDIGER</p>
                                             <img src="img/prod-foliar-VERDIGER.png" alt="Image 10">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">BLONOS</p><br>
+                                            <img src="img/BLONOS.png" alt="Image 10-1">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-9">
+                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-11.png">
+                                                    <button class="close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                        <figure>
+                                            <p class="titulo-producto">BLONOS 20N</p><br>
+                                            <img src="img/BLONOS 20N.png" alt="Image 10-2">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-9">
+                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-10.png">
+                                                    <button class="close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-amino-desktop">
+                                        <figure>
+                                            <p class="titulo-producto">PROMOTOR</p><br>
+                                            <img src="img/PROMOTOR DE CRECIMIENTO FOLIAR.png" alt="Image 10-3">
                                             <figcaption>
                                                 <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
@@ -494,6 +568,15 @@
                                             </figcaption>
                                         </figure>
                                     </div>
+                                    <div class="slide-fosfito">
+                                        <figure>
+                                            <p class="titulo-producto">BLOFOS K</p>
+                                            <img src="img/BLOFOS K.png" alt="Image 18-1">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
                                     <button id="prevButton-fosfito"><img src="img/prev-arrow.png"></button>
                                     <button id="nextButton-fosfito"><img src="img/next-arrow.png"></button>
                                 </div>
@@ -577,6 +660,15 @@
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-fosfito-desktop">
+                                        <figure>
+                                            <p class="titulo-producto">BLOFOS K</p>
+                                            <img src="img/BLOFOS K.png" alt="Image 18-1">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
