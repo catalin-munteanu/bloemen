@@ -31,7 +31,8 @@
                 .slideshow-fosfito,
                 .slideshow-amino-desktop,
                 .slideshow-solidos,
-                .slideshow-solidos-desktop {
+                .slideshow-solidos-desktop,
+                .slideshow-maxicorrectores {
                     display: flex;
                     position: relative;
                     flex-wrap: wrap;
@@ -42,7 +43,8 @@
 
                 .slideshow-amino-desktop,
                 .slideshow-fosfito-desktop,
-                .slideshow-solidos-desktop {
+                .slideshow-solidos-desktop,
+                #galeria-maxicorrectores {
                     display: none;
                 }
 
@@ -50,8 +52,8 @@
                 .slide-fosfito,
                 .slide-amino-desktop,
                 .slide-solidos,
-                .slide-solidos-desktop
-                 {
+                .slide-solidos-desktop,
+                .slide-maxicorrectores {
                     display: none;
                 }
 
@@ -62,7 +64,8 @@
                 .lista-productos-suelo,
                 .lista-productos-promotor,
                 .slide-solidos,
-                .slide-solidos-desktop {
+                .slide-solidos-desktop,
+                .slide-maxicorrectores {
                     justify-content: center;
                     width: 100%;
                     transition: transform 0.3s ease;
@@ -123,6 +126,7 @@
                                     right: 20px;
                                     background: none;
                                     border: none;
+                                    cursor: pointer;
 
                                     img {
                                         width: 40px;
@@ -142,7 +146,9 @@
                 button#prevButton-fosfito,
                 button#nextButton-fosfito,
                 button#prevButton-solidos,
-                button#nextButton-solidos {
+                button#nextButton-solidos,
+                button#prevButton-maxi,
+                button#nextButton-maxi {
                     background: none;
                     border: none;
                     color: #333;
@@ -160,14 +166,16 @@
 
                 button#prevButton,
                 button#prevButton-fosfito,
-                button#prevButton-solidos {
+                button#prevButton-solidos,
+                button#prevButton-maxi {
                     left: 0;
                     padding: 8px 16px 8px 0;
                 }
 
                 button#nextButton,
                 button#nextButton-fosfito,
-                button#nextButton-solidos {
+                button#nextButton-solidos,
+                button#nextButton-maxi {
                     right: 0;
                     padding: 8px 0 8px 16px;
                 }
@@ -186,39 +194,13 @@
                     }
                 }
 
-                /*img {
-                        margin: 1em 0;
-                    }*/
+                div#galeria-maxicorrectores {
+                    display: none;
+                }
             }
         }
     }
 }
-
-/* .productos-suelo {
-
-    .lista-productos-suelo,
-    .lista-productos-solidos {
-        display: flex;
-        flex-direction: column;
-
-        figure {
-            margin: 10%;
-            max-width: 100%;
-        }
-    }
-
-    .lista-productos-promotor {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        figure {
-            margin: 2% 10%;
-            max-width: 80%;
-        }
-    }
-}*/
-
 
 @media (min-width: 1024px) {
     .detalle-productos {
@@ -287,7 +269,8 @@
 
                     .slideshow,
                     .slideshow-fosfito,
-                    .slideshow-solidos {
+                    .slideshow-solidos,
+                    .slideshow-maxicorrectores {
                         display: none;
                     }
 
@@ -300,6 +283,10 @@
                         overflow: hidden;
                         width: 100%;
                         padding: 2% 10%;
+                    }
+
+                    div#galeria-maxicorrectores {
+                        display: flex;
                     }
 
                     .slide-amino-desktop,

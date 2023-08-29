@@ -49,7 +49,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-1">
                                                     <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -64,7 +64,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-2">
                                                     <img class="modal-prod-img" src="img/ft-02-amino-k.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -79,7 +79,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-3">
                                                     <img class="modal-prod-img" src="img/ft-03-amino-zn-mn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -94,7 +94,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-3">
                                                     <img class="modal-prod-img" src="img/ft-04-aminoacidos.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -109,7 +109,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-5">
                                                     <img class="modal-prod-img" src="img/ft-05-corrector-amino-b.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -124,7 +124,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-6">
                                                     <img class="modal-prod-img" src="img/ft-06-corrector-mg.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -139,7 +139,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-7">
                                                     <img class="modal-prod-img" src="img/ft-07-corrector-amino-zn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -154,7 +154,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-8">
                                                     <img class="modal-prod-img" src="img/ft-08-corrector-ca.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -169,7 +169,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-9">
                                                     <img class="modal-prod-img" src="img/ft-09-corrector-n.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -197,7 +197,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-1">
                                                     <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -210,7 +210,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-2">
                                                     <img class="modal-prod-img" src="img/ft-02-amino-k.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -223,7 +223,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-3">
                                                     <img class="modal-prod-img" src="img/ft-03-amino-zn-mn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -238,7 +238,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-3">
                                                     <img class="modal-prod-img" src="img/ft-04-aminoacidos.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -251,7 +251,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-5">
                                                     <img class="modal-prod-img" src="img/ft-05-corrector-amino-b.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -264,7 +264,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-6">
                                                     <img class="modal-prod-img" src="img/ft-06-corrector-mg.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -279,7 +279,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-7">
                                                     <img class="modal-prod-img" src="img/ft-07-corrector-amino-zn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -292,7 +292,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-8">
                                                     <img class="modal-prod-img" src="img/ft-08-corrector-ca.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -305,7 +305,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-9">
                                                     <img class="modal-prod-img" src="img/ft-09-corrector-n.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -331,6 +331,41 @@
                                 <summary class="uppercase-text">Maxicorrectores</summary>
                                 <p class="descripcion-productos">Son correctores foliares de elevada concentración de nutriente corrector, mejoran el cuajado, la floración
                                     y la calidad de los cultivos.</p>
+
+                                <div class="slideshow-maxicorrectores">
+                                    <div class="slide-maxicorrectores">
+                                        <figure>
+                                            <p class="titulo-producto">MAXIBORO</p><br>
+                                            <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-1">
+                                                    <img class="modal-prod-img" src="img/ft-11-maxiboro.png">
+                                                    <button class="close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-maxicorrectores">
+                                        <figure>
+                                            <p class="titulo-producto">MAXICALCIO</p><br>
+                                            <img src="img/prod-maxi-foliar-MAXICALCIO.png" alt="Image 2">
+                                            <figcaption>
+                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
+                                                <dialog class="modal-prod" id="modal-prod-2">
+                                                    <img class="modal-prod-img" src="img/ft-12-maxicalcio.png">
+                                                    <button class="close-boton-prod">
+                                                        <img src="img/burger-close.png" alt="Cerrar">
+                                                    </button>
+                                                </dialog>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <button id="prevButton-maxi"><img src="img/prev-arrow.png"></button>
+                                    <button id="nextButton-maxi"><img src="img/next-arrow.png"></button>
+                                </div>
                                 <div class="lista-productos-foliar" id="galeria-maxicorrectores">
                                     <figure>
                                         <p class="titulo-producto">MAXIBORO</p><br>
@@ -339,7 +374,7 @@
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-11">
                                                 <img class="modal-prod-img" src="img/ft-11-maxiboro.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
+                                                <button class="close-boton-prod">
                                                     <img src="img/burger-close.png" alt="Cerrar">
                                                 </button>
                                             </dialog>
@@ -352,7 +387,7 @@
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-12">
                                                 <img class="modal-prod-img" src="img/ft-12-maxicalcio.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
+                                                <button class="close-boton-prod">
                                                     <img src="img/burger-close.png" alt="Cerrar">
                                                 </button>
                                             </dialog>
@@ -377,7 +412,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-13">
                                                     <img class="modal-prod-img" src="img/ft-13-fosfito-ca.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -392,7 +427,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-14">
                                                     <img class="modal-prod-img" src="img/ft-14-fosfito-cu.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -407,7 +442,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-15">
                                                     <img class="modal-prod-img" src="img/ft-15-fosfito-mg.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -422,7 +457,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-16">
                                                     <img class="modal-prod-img" src="img/ft-16-fosfito-mn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -437,7 +472,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-17">
                                                     <img class="modal-prod-img" src="img/ft-17-fosfito-potasio.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -452,7 +487,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-18">
                                                     <img class="modal-prod-img" src="img/ft-18-fosfito-zn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -471,7 +506,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-13">
                                                     <img class="modal-prod-img" src="img/ft-13-fosfito-ca.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -484,7 +519,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-14">
                                                     <img class="modal-prod-img" src="img/ft-14-fosfito-cu.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -497,7 +532,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-15">
                                                     <img class="modal-prod-img" src="img/ft-15-fosfito-mg.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -512,7 +547,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-16">
                                                     <img class="modal-prod-img" src="img/ft-16-fosfito-mn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -525,7 +560,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-17">
                                                     <img class="modal-prod-img" src="img/ft-17-fosfito-potasio.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -538,7 +573,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-18">
                                                     <img class="modal-prod-img" src="img/ft-18-fosfito-zn.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -578,7 +613,7 @@
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-19">
                                                 <img class="modal-prod-img" src="img/ft-19-fol-k.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
+                                                <button class="close-boton-prod">
                                                     <img src="img/burger-close.png" alt="Cerrar">
                                                 </button>
                                             </dialog>
@@ -591,7 +626,7 @@
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-20">
                                                 <img class="modal-prod-img" src="img/ft-20-fol-mix.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
+                                                <button class="close-boton-prod">
                                                     <img src="img/burger-close.png" alt="Cerrar">
                                                 </button>
                                             </dialog>
@@ -604,7 +639,7 @@
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-21">
                                                 <img class="modal-prod-img" src="img/ft-21-fol-suelo.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
+                                                <button class="close-boton-prod">
                                                     <img src="img/burger-close.png" alt="Cerrar">
                                                 </button>
                                             </dialog>
@@ -630,7 +665,7 @@
                                             <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                             <dialog class="modal-prod" id="modal-prod-22">
                                                 <img class="modal-prod-img" src="img/ft-22-promotor.png">
-                                                <button class="boton-ficha-producto close-boton-prod">
+                                                <button class="close-boton-prod">
                                                     <img src="img/burger-close.png" alt="Cerrar">
                                                 </button>
                                             </dialog>
@@ -657,7 +692,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-23">
                                                     <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -690,7 +725,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-24">
                                                     <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -714,7 +749,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-24">
                                                     <img class="modal-prod-img" src="img/ft-25-blocompost.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -733,7 +768,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-23">
                                                     <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -762,7 +797,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-24">
                                                     <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
@@ -782,7 +817,7 @@
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-24">
                                                     <img class="modal-prod-img" src="img/ft-25-blocompost.png">
-                                                    <button class="boton-ficha-producto close-boton-prod">
+                                                    <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
                                                 </dialog>
