@@ -1234,6 +1234,13 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   top: 49%;
   cursor: pointer;
 }
+.mapa-y-detalles .mapa-distribuidores .logo-distr-chubut {
+  position: absolute;
+  width: 8%;
+  left: 15%;
+  top: 64%;
+  cursor: pointer;
+}
 .mapa-y-detalles .province-info {
   text-align: center;
   display: none;

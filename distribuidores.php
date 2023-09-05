@@ -38,6 +38,7 @@
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-buenos-aires" id="province-img-8">
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-misiones" id="province-img-9">
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-neuquen" id="province-img-10">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-chubut" id="province-img-11">
             </article>
 
             <article class="distribuidores-mendoza province-info" id="province-info-1">
@@ -95,6 +96,10 @@
                 <img src="img/NEUQUEN_CARLOSASAD.png" class="img-distr-neuquen">
             </article>
 
+            <article class="distribuidores-chubut province-info" id="province-info-11">
+                <img src="img/CHUBUT_DEELHOYO.png" class="img-distr-chubut">
+            </article>
+
         </section>
 
         <div id="cont-whatsapp-fixed">
@@ -134,8 +139,6 @@
             });
         });
     </script>
-
-
 
 </body>
 
