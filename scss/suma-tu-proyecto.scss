@@ -1,144 +1,161 @@
 .proyecto-tipos {
+	padding: 24px;
+	background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
+	min-height: calc(100vh - 433px);
 
-    padding: 24px;
-    background-image: linear-gradient(to bottom right, rgba(0, 155, 62, 0.3), rgba(58, 87, 216, 0.3));
-    min-height: calc(100vh - 433px);
+	article {
+		details {
+			summary {
+				display: flex;
+				align-items: center;
+				cursor: pointer;
 
-    article {
+				img {
+					width: 95px;
+					margin: 10px 10px 10px 0;
+				}
 
-        details {
+				h3 {
+					font-weight: 900;
+					font-size: 24px;
+					color: #706f6f;
+				}
+			}
 
-            summary {
+			.form-ideas-proyectos,
+			.form-tu-cv {
+				background-color: #3a57d8;
+				color: #ffffff;
+				padding: 1em 28px;
+				border-radius: 5px;
 
-                display: flex;
-                align-items: center;
-                cursor: pointer;
+				label {
+					text-align: left;
+				}
 
-                img {
-                    width: 95px;
-                    margin: 10px 10px 10px 0;
-                }
+				input,
+				textarea {
+					width: 100%;
+					border-radius: 5px;
+					margin: 0.3em 0 1em;
+				}
 
-                h3 {
-                    font-weight: 900;
-                    font-size: 24px;
-                    color: #706F6F;
-                }
+				input {
+					height: 31px;
+				}
 
-            }
+				.input-container {
+					display: flex;
+					justify-content: center;
 
-            .form-ideas-proyectos,
-            .form-tu-cv {
-                background-color: #3A57D8;
-                color: #FFFFFF;
-                padding: 1em 28px;
-                border-radius: 5px;
+					input#boton-contacto-ideas,
+					input#boton-contacto-cv,
+					label#archivos-contacto-ideas,
+					label#archivos-contacto-cv {
+						margin: 20px;
+						width: 121px;
+						height: 46px;
+						background-color: #009b3e;
+						color: #fff;
+						font-size: 14px;
+						font-weight: 800;
+						border: none;
+						border-radius: 50px;
+						cursor: pointer;
+					}
 
-                label {
-                    text-align: left;
-                }
-    
-                input,
-                textarea {
-                    width: 100%;
-                    border-radius: 5px;
-                    margin: 0.3em 0 1em;
-                }
-    
-                input {
-                    height: 31px;
-                }
+					label#archivos-contacto-ideas,
+					label#archivos-contacto-cv {
+						position: relative;
+						overflow: hidden;
+						text-align: center;
+						display: flex;
+						align-items: center;
 
-                .input-container {
+						input {
+							position: absolute;
+							right: 100vw;
+						}
+					}
+				}
+			}
 
-                    display: flex;
-                    justify-content: center;
-    
-                    input#boton-contacto-ideas,
-                    input#boton-contacto-cv,
-                    button#archivos-contacto-ideas,
-                    button#archivos-contacto-cv {
-                        margin: 20px;
-                        width: 121px;
-                        height: 46px;
-                        background-color: #009B3E;
-                        color: #fff;
-                        font-size: 14px;
-                        font-weight: 800;
-                        border: none;
-                        border-radius: 50px;
-                        cursor: pointer;
-                    }
-                }
-            }
+			.form-soluciones-sustentables,
+			.form-desarrollo-propuestas {
+				background-color: #009b3e;
+				color: #ffffff;
+				padding: 1em 28px;
+				border-radius: 5px;
 
-            .form-soluciones-sustentables,
-            .form-desarrollo-propuestas {
-                background-color: #009B3E;
-                color: #FFFFFF;
-                padding: 1em 28px;
-                border-radius: 5px;
+				label {
+					text-align: left;
+				}
 
-                label {
-                    text-align: left;
-                }
-    
-                input,
-                textarea {
-                    width: 100%;
-                    border-radius: 5px;
-                    margin: 0.3em 0 1em;
-                }
-    
-                input {
-                    height: 31px;
-                }
+				input,
+				textarea {
+					width: 100%;
+					border-radius: 5px;
+					margin: 0.3em 0 1em;
+				}
 
-                .input-container {
+				input {
+					height: 31px;
+				}
 
-                    display: flex;
-                    justify-content: center;
-    
-                    input#boton-contacto-soluciones,
-                    input#boton-contacto-desarrollo,
-                    button#archivos-contacto-soluciones,
-                    button#archivos-contacto-desarrollo {
-                        margin: 20px;
-                        width: 121px;
-                        height: 46px;
-                        background-color: #3A57D8;
-                        color: #fff;
-                        font-size: 14px;
-                        font-weight: 800;
-                        border: none;
-                        border-radius: 50px;
-                        cursor: pointer;
-                    }
-                }
-            }
-        }
-    }
+				.input-container {
+					display: flex;
+					justify-content: center;
+
+					input#boton-contacto-soluciones,
+					input#boton-contacto-desarrollo,
+					label#archivos-contacto-soluciones,
+					label#archivos-contacto-desarrollo {
+						margin: 20px;
+						width: 121px;
+						height: 46px;
+						background-color: #3a57d8;
+						color: #fff;
+						font-size: 14px;
+						font-weight: 800;
+						border: none;
+						border-radius: 50px;
+						cursor: pointer;
+					}
+
+					label#archivos-contacto-soluciones,
+					label#archivos-contacto-desarrollo {
+						position: relative;
+						overflow: hidden;
+						text-align: center;
+						display: flex;
+						align-items: center;
+
+						input {
+							position: absolute;
+							right: 100vw;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 @media (min-width: 1024px) {
+	.proyecto-tipos {
+		display: flex;
 
-    .proyecto-tipos {
-        display: flex;       
+		article {
+			width: 25%;
+			margin: 0 1%;
 
-        article {
-            width: 25%;
-            margin: 0 1%;
-
-            details {
-
-                summary {
-
-                    h3 {
-                        font-size: 20px;
-                    }
-                }
-            }
-        }
-    }
-
+			details {
+				summary {
+					h3 {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+	}
 }
