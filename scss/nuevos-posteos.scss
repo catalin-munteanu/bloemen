@@ -21,6 +21,10 @@
             max-width: 86vw;
             margin: 0 7% 7%;
         }
+
+        .first-post {
+                margin: 7%;
+        }
 }
 
 @media (min-width: 1024px){
@@ -38,7 +42,7 @@
 
         .img-posteos {
             max-width: 28vw;
-            margin: 0 0 7%;
+            margin: 0;
         }
     }
 }

@@ -46,13 +46,7 @@
                                             <p class="titulo-producto">AMINO Fe</p><br>
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-1">
-                                                    <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -61,13 +55,7 @@
                                             <p class="titulo-producto">AMINO K</p><br>
                                             <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-2">
-                                                    <img class="modal-prod-img" src="img/ft-02-amino-k.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -76,13 +64,7 @@
                                             <p class="titulo-producto">AMINO Zn-Mn</p><br>
                                             <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/ft-03-amino-zn-mn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -91,13 +73,7 @@
                                             <p class="titulo-producto">BIOBLOEMEN</p><br>
                                             <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/ft-04-aminoacidos.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -106,13 +82,7 @@
                                             <p class="titulo-producto">CORRECTOR AMINO B</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-5">
-                                                    <img class="modal-prod-img" src="img/ft-05-corrector-amino-b.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -121,13 +91,7 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Mg</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-6">
-                                                    <img class="modal-prod-img" src="img/ft-06-corrector-mg.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -136,13 +100,7 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Zn</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-7">
-                                                    <img class="modal-prod-img" src="img/ft-07-corrector-amino-zn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -151,13 +109,7 @@
                                             <p class="titulo-producto">CORRECTOR de Ca</p><br>
                                             <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-8">
-                                                    <img class="modal-prod-img" src="img/ft-08-corrector-ca.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -166,13 +118,7 @@
                                             <p class="titulo-producto">CORRECTOR de N</p><br>
                                             <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/ft-09-corrector-n.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -190,13 +136,7 @@
                                             <p class="titulo-producto">BLONOS</p><br>
                                             <img src="img/BLONOS.png" alt="Image 10-1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-11.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -205,13 +145,7 @@
                                             <p class="titulo-producto">BLONOS 20N</p><br>
                                             <img src="img/BLONOS 20N.png" alt="Image 10-2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-10.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -233,39 +167,21 @@
                                             <p class="titulo-producto">AMINO Fe</p><br>
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-1">
-                                                    <img class="modal-prod-img" src="img/ft-01-amino-fe.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">AMINO K</p><br>
                                             <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-2">
-                                                    <img class="modal-prod-img" src="img/ft-02-amino-k.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">AMINO Zn-Mn</p><br>
                                             <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/ft-03-amino-zn-mn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -274,39 +190,21 @@
                                             <p class="titulo-producto">BIOBLOEMEN</p>
                                             <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/ft-04-aminoacidos.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR AMINO B</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-5">
-                                                    <img class="modal-prod-img" src="img/ft-05-corrector-amino-b.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR AMINO Mg</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-6">
-                                                    <img class="modal-prod-img" src="img/ft-06-corrector-mg.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -315,39 +213,21 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Zn</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-7">
-                                                    <img class="modal-prod-img" src="img/ft-07-corrector-amino-zn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR de Ca</p>
                                             <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-8">
-                                                    <img class="modal-prod-img" src="img/ft-08-corrector-ca.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">CORRECTOR de N</p>
                                             <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/ft-09-corrector-n.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -363,26 +243,14 @@
                                             <p class="titulo-producto">BLONOS</p><br>
                                             <img src="img/BLONOS.png" alt="Image 10-1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-11.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">BLONOS 20N</p><br>
                                             <img src="img/BLONOS 20N.png" alt="Image 10-2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-10.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -412,13 +280,7 @@
                                             <p class="titulo-producto">MAXIBORO</p><br>
                                             <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-1">
-                                                    <img class="modal-prod-img" src="img/ft-11-maxiboro.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -427,13 +289,7 @@
                                             <p class="titulo-producto">MAXICALCIO</p><br>
                                             <img src="img/prod-maxi-foliar-MAXICALCIO.png" alt="Image 2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-2">
-                                                    <img class="modal-prod-img" src="img/ft-12-maxicalcio.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -445,26 +301,14 @@
                                         <p class="titulo-producto">MAXIBORO</p><br>
                                         <img src="img/prod-maxi-foliar-MAXIBORO.png" alt="Image 11"><br>
                                         <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-11">
-                                                <img class="modal-prod-img" src="img/ft-11-maxiboro.png">
-                                                <button class="close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                         </figcaption>
                                     </figure><br>
                                     <figure>
                                         <p class="titulo-producto">MAXICALCIO</p><br>
                                         <img src="img/prod-maxi-foliar-MAXICALCIO.png"><br>
                                         <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-12">
-                                                <img class="modal-prod-img" src="img/ft-12-maxicalcio.png">
-                                                <button class="close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                         </figcaption>
                                     </figure><br>
                                 </div>
@@ -483,13 +327,7 @@
                                             <p class="titulo-producto">FOSFITO DE Ca</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 13">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-13">
-                                                    <img class="modal-prod-img" src="img/ft-13-fosfito-ca.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -498,13 +336,7 @@
                                             <p class="titulo-producto">FOSFITO DE Cu</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 14">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-14">
-                                                    <img class="modal-prod-img" src="img/ft-14-fosfito-cu.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -513,13 +345,7 @@
                                             <p class="titulo-producto">FOSFITO DE Mg</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 15">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-15">
-                                                    <img class="modal-prod-img" src="img/ft-15-fosfito-mg.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -528,13 +354,7 @@
                                             <p class="titulo-producto">FOSFITO DE Mn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 16">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-16">
-                                                    <img class="modal-prod-img" src="img/ft-16-fosfito-mn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -543,13 +363,7 @@
                                             <p class="titulo-producto">FOSFITO DE POTASIO</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 17">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-17">
-                                                    <img class="modal-prod-img" src="img/ft-17-fosfito-potasio.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -558,13 +372,7 @@
                                             <p class="titulo-producto">FOSFITO DE Zn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 18">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-18">
-                                                    <img class="modal-prod-img" src="img/ft-18-fosfito-zn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -586,39 +394,21 @@
                                             <p class="titulo-producto">FOSFITO DE Ca</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Ca.png" alt="Image 13">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-13">
-                                                    <img class="modal-prod-img" src="img/ft-13-fosfito-ca.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">FOSFITO DE Cu</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Cu.png" alt="Image 14">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-14">
-                                                    <img class="modal-prod-img" src="img/ft-14-fosfito-cu.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">FOSFITO DE Mg</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mg.png" alt="Image 15">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-15">
-                                                    <img class="modal-prod-img" src="img/ft-15-fosfito-mg.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -627,39 +417,21 @@
                                             <p class="titulo-producto">FOSFITO DE Mn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Mn.png" alt="Image 16">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-16">
-                                                    <img class="modal-prod-img" src="img/ft-16-fosfito-mn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">FOSFITO DE POTASIO</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE POTASIO.png" alt="Image 17">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-17">
-                                                    <img class="modal-prod-img" src="img/ft-17-fosfito-potasio.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">FOSFITO DE Zn</p>
                                             <img src="img/prod-fosfito-foliar-FOSFITO DE Zn.png" alt="Image 18">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-18">
-                                                    <img class="modal-prod-img" src="img/ft-18-fosfito-zn.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -702,39 +474,21 @@
                                         <p class="titulo-producto">FOL K</p><br>
                                         <img src="img/FOL-K-1000Lts.png" alt="Imagen FOL K"><br>
                                         <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-19">
-                                                <img class="modal-prod-img" src="img/ft-19-fol-k.png">
-                                                <button class="close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                         </figcaption>
                                     </figure><br>
                                     <figure>
                                         <p class="titulo-producto">FOL MIX</p><br>
                                         <img src="img/FOL-MIX-1000Lts.png" alt="Imagen FOL MIX"><br>
                                         <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-20">
-                                                <img class="modal-prod-img" src="img/ft-20-fol-mix.png">
-                                                <button class="close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                         </figcaption>
                                     </figure><br>
                                     <figure>
                                         <p class="titulo-producto">FOL SUELO</p><br>
                                         <img src="img/FOL-suelo-1000Lts.png"><br>
                                         <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-21">
-                                                <img class="modal-prod-img" src="img/ft-21-fol-suelo.png">
-                                                <button class="close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                         </figcaption>
                                 </div>
                             </details>
@@ -754,13 +508,7 @@
                                         <p class="titulo-producto">PROMOTOR DE CRECIMIENTO</p>
                                         <img src="img/PROMOTOR DE CRECIMIENTO.png" alt="Imagen Promotor de Crecimiento"><br>
                                         <figcaption>
-                                            <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                            <dialog class="modal-prod" id="modal-prod-22">
-                                                <img class="modal-prod-img" src="img/ft-22-promotor.png">
-                                                <button class="close-boton-prod">
-                                                    <img src="img/burger-close.png" alt="Cerrar">
-                                                </button>
-                                            </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                         </figcaption>
                                     </figure><br>
                                 </div>
@@ -781,13 +529,7 @@
                                             <p class="titulo-producto">BioBloemen</p>
                                             <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-23">
-                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -814,13 +556,7 @@
                                             <p class="titulo-producto">Bloemen 12</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -838,13 +574,7 @@
                                             <p class="titulo-producto">Blocompost</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-25-blocompost.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -857,13 +587,7 @@
                                             <p class="titulo-producto">BioBloemen</p>
                                             <img src="img/Bolsa-Verde.png" alt="Imagen Bolsa Verde"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-23">
-                                                    <img class="modal-prod-img" src="img/ft-23-biobloemen.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
@@ -886,13 +610,7 @@
                                             <p class="titulo-producto">Bloemen 12</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-24-bloemen-12.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                         <figure>
@@ -906,13 +624,7 @@
                                             <p class="titulo-producto">Blocompost</p>
                                             <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-24">
-                                                    <img class="modal-prod-img" src="img/ft-25-blocompost.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
-                                                </dialog>
+                                                <button class="boton-ficha-producto ficha-nodisp">ficha no disponible</button>
                                             </figcaption>
                                         </figure>
                                     </div>

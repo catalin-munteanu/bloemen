@@ -15,12 +15,12 @@
 .proyecto-tipos article details summary h3 {
   font-weight: 900;
   font-size: 24px;
-  color: #706F6F;
+  color: #706f6f;
 }
 .proyecto-tipos article details .form-ideas-proyectos,
 .proyecto-tipos article details .form-tu-cv {
-  background-color: #3A57D8;
-  color: #FFFFFF;
+  background-color: #3a57d8;
+  color: #ffffff;
   padding: 1em 28px;
   border-radius: 5px;
 }
@@ -47,16 +47,16 @@
 }
 .proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-ideas,
 .proyecto-tipos article details .form-ideas-proyectos .input-container input#boton-contacto-cv,
-.proyecto-tipos article details .form-ideas-proyectos .input-container button#archivos-contacto-ideas,
-.proyecto-tipos article details .form-ideas-proyectos .input-container button#archivos-contacto-cv,
+.proyecto-tipos article details .form-ideas-proyectos .input-container label#archivos-contacto-ideas,
+.proyecto-tipos article details .form-ideas-proyectos .input-container label#archivos-contacto-cv,
 .proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-ideas,
 .proyecto-tipos article details .form-tu-cv .input-container input#boton-contacto-cv,
-.proyecto-tipos article details .form-tu-cv .input-container button#archivos-contacto-ideas,
-.proyecto-tipos article details .form-tu-cv .input-container button#archivos-contacto-cv {
+.proyecto-tipos article details .form-tu-cv .input-container label#archivos-contacto-ideas,
+.proyecto-tipos article details .form-tu-cv .input-container label#archivos-contacto-cv {
   margin: 20px;
   width: 121px;
   height: 46px;
-  background-color: #009B3E;
+  background-color: #009b3e;
   color: #fff;
   font-size: 14px;
   font-weight: 800;
@@ -64,10 +64,27 @@
   border-radius: 50px;
   cursor: pointer;
 }
+.proyecto-tipos article details .form-ideas-proyectos .input-container label#archivos-contacto-ideas,
+.proyecto-tipos article details .form-ideas-proyectos .input-container label#archivos-contacto-cv,
+.proyecto-tipos article details .form-tu-cv .input-container label#archivos-contacto-ideas,
+.proyecto-tipos article details .form-tu-cv .input-container label#archivos-contacto-cv {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.proyecto-tipos article details .form-ideas-proyectos .input-container label#archivos-contacto-ideas input,
+.proyecto-tipos article details .form-ideas-proyectos .input-container label#archivos-contacto-cv input,
+.proyecto-tipos article details .form-tu-cv .input-container label#archivos-contacto-ideas input,
+.proyecto-tipos article details .form-tu-cv .input-container label#archivos-contacto-cv input {
+  position: absolute;
+  right: 100vw;
+}
 .proyecto-tipos article details .form-soluciones-sustentables,
 .proyecto-tipos article details .form-desarrollo-propuestas {
-  background-color: #009B3E;
-  color: #FFFFFF;
+  background-color: #009b3e;
+  color: #ffffff;
   padding: 1em 28px;
   border-radius: 5px;
 }
@@ -94,22 +111,39 @@
 }
 .proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-soluciones,
 .proyecto-tipos article details .form-soluciones-sustentables .input-container input#boton-contacto-desarrollo,
-.proyecto-tipos article details .form-soluciones-sustentables .input-container button#archivos-contacto-soluciones,
-.proyecto-tipos article details .form-soluciones-sustentables .input-container button#archivos-contacto-desarrollo,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container label#archivos-contacto-soluciones,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container label#archivos-contacto-desarrollo,
 .proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-soluciones,
 .proyecto-tipos article details .form-desarrollo-propuestas .input-container input#boton-contacto-desarrollo,
-.proyecto-tipos article details .form-desarrollo-propuestas .input-container button#archivos-contacto-soluciones,
-.proyecto-tipos article details .form-desarrollo-propuestas .input-container button#archivos-contacto-desarrollo {
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container label#archivos-contacto-soluciones,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container label#archivos-contacto-desarrollo {
   margin: 20px;
   width: 121px;
   height: 46px;
-  background-color: #3A57D8;
+  background-color: #3a57d8;
   color: #fff;
   font-size: 14px;
   font-weight: 800;
   border: none;
   border-radius: 50px;
   cursor: pointer;
+}
+.proyecto-tipos article details .form-soluciones-sustentables .input-container label#archivos-contacto-soluciones,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container label#archivos-contacto-desarrollo,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container label#archivos-contacto-soluciones,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container label#archivos-contacto-desarrollo {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.proyecto-tipos article details .form-soluciones-sustentables .input-container label#archivos-contacto-soluciones input,
+.proyecto-tipos article details .form-soluciones-sustentables .input-container label#archivos-contacto-desarrollo input,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container label#archivos-contacto-soluciones input,
+.proyecto-tipos article details .form-desarrollo-propuestas .input-container label#archivos-contacto-desarrollo input {
+  position: absolute;
+  right: 100vw;
 }
 
 @media (min-width: 1024px) {

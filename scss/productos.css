@@ -706,14 +706,22 @@
     font-weight: 800;
     text-align: center;
   }
-  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure button.boton-ficha-producto,
-  .detalle-productos .productos-foliar ul li div#galeria-fol figure button.boton-ficha-producto,
-  .detalle-productos .productos-foliar ul li .lista-productos-promotor figure button.boton-ficha-producto,
-  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure button.boton-ficha-producto,
-  .detalle-productos .productos-suelo ul li div#galeria-fol figure button.boton-ficha-producto,
-  .detalle-productos .productos-suelo ul li .lista-productos-promotor figure button.boton-ficha-producto {
+  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure figcaption button.boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li div#galeria-fol figure figcaption button.boton-ficha-producto,
+  .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption button.boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure figcaption button.boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li div#galeria-fol figure figcaption button.boton-ficha-producto,
+  .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption button.boton-ficha-producto {
     width: 190px;
     height: 53px;
     font-size: 24px;
+  }
+  .detalle-productos .productos-foliar ul li div#galeria-maxicorrectores figure figcaption button.ficha-nodisp,
+  .detalle-productos .productos-foliar ul li div#galeria-fol figure figcaption button.ficha-nodisp,
+  .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption button.ficha-nodisp,
+  .detalle-productos .productos-suelo ul li div#galeria-maxicorrectores figure figcaption button.ficha-nodisp,
+  .detalle-productos .productos-suelo ul li div#galeria-fol figure figcaption button.ficha-nodisp,
+  .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption button.ficha-nodisp {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=productos.css.map */

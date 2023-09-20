@@ -20,6 +20,9 @@
   max-width: 86vw;
   margin: 0 7% 7%;
 }
+.container-posteos .first-post {
+  margin: 7%;
+}
 
 @media (min-width: 1024px) {
   .nuevos-posteos {
@@ -34,6 +37,6 @@
   }
   .nuevos-posteos .container-posteos .img-posteos {
     max-width: 28vw;
-    margin: 0 0 7%;
+    margin: 0;
   }
 }/*# sourceMappingURL=nuevos-posteos.css.map */
