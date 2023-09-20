@@ -1178,14 +1178,14 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .mapa-y-detalles .mapa-distribuidores .logo-distr-mendoza {
   position: absolute;
   width: 8%;
-  left: 14%;
-  top: 38%;
+  left: 13%;
+  top: 33.5%;
   cursor: pointer;
 }
-.mapa-y-detalles .mapa-distribuidores .logo-distr-rio-negro {
+.mapa-y-detalles .mapa-distribuidores .logo-distr-viedma {
   position: absolute;
   width: 8%;
-  left: 20%;
+  left: 40%;
   top: 54%;
   cursor: pointer;
 }
@@ -1224,11 +1224,11 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   top: 17%;
   cursor: pointer;
 }
-.mapa-y-detalles .mapa-distribuidores .logo-distr-buenos-aires {
+.mapa-y-detalles .mapa-distribuidores .logo-distr-mdp {
   position: absolute;
   width: 8%;
-  left: 56%;
-  top: 43%;
+  left: 65.8%;
+  top: 47.6%;
   cursor: pointer;
 }
 .mapa-y-detalles .mapa-distribuidores .logo-distr-misiones {
@@ -1250,6 +1250,62 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   width: 8%;
   left: 15%;
   top: 64%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-tandil {
+  position: absolute;
+  width: 8%;
+  left: 60%;
+  top: 45%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-tres-arroyos {
+  position: absolute;
+  width: 8%;
+  left: 55%;
+  top: 48%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-villa-gesell {
+  position: absolute;
+  width: 8%;
+  left: 70.5%;
+  top: 45%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-daireaux {
+  position: absolute;
+  width: 8%;
+  left: 49%;
+  top: 43.5%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-la-rioja {
+  position: absolute;
+  width: 8%;
+  left: 21%;
+  top: 24%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-bustos {
+  position: absolute;
+  width: 8%;
+  left: 11%;
+  top: 36%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-san-rafael {
+  position: absolute;
+  width: 8%;
+  left: 15.2%;
+  top: 38.5%;
+  cursor: pointer;
+}
+.mapa-y-detalles .mapa-distribuidores .logo-distr-cipolletti {
+  position: absolute;
+  width: 8%;
+  left: 19.5%;
+  top: 49%;
   cursor: pointer;
 }
 .mapa-y-detalles .province-info {
