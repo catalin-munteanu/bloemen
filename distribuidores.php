@@ -82,8 +82,6 @@
             </article>
 
             <article class="distribuidores-bsas province-info" id="province-info-8">
-                <img src="img/BSAS_AGROLURO.png" class="img-distr-bsas">
-                <img src="img/BSAS_CPD.png" class="img-distr-bsas">
                 <img src="img/BSAS_OCTAVIOSEMILLAS.png" class="img-distr-bsas">
                 <img src="img/BSAS_TECNOBIO.png" class="img-distr-bsas">
             </article>
