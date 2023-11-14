@@ -61,7 +61,7 @@ header .logo-bloemen {
 header button#burger-menu-toggler {
   background: none;
   position: relative;
-  z-index: 3;
+  z-index: 6;
 }
 header button#burger-menu-toggler #open-mobile-menu {
   width: 36px;
@@ -110,14 +110,47 @@ body.mobile-menu-active .nav-menu {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 10% 0;
+  padding: 2%;
   height: 100vh;
   width: 100vw;
-  z-index: 1;
+  z-index: 5;
   color: #ffffff;
   background: rgba(58, 87, 216, 0.9294117647);
   font-size: 19px;
   font-weight: 500;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element a {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(1) {
+  background-color: #DF7C3E;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(2) {
+  background-color: #009B3E;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(3) {
+  background-color: #3A57D8;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(4) {
+  background-color: #8E0055;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(5) {
+  background-color: #AE2121;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(6) {
+  background-color: #17817A;
+}
+body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(7) {
+  background-color: #E4A203;
 }
 
 @media (min-width: 1024px) {
@@ -179,7 +212,7 @@ img {
 #whatsapp-fixed {
   width: 72px;
   position: fixed;
-  z-index: 4;
+  z-index: 1;
   bottom: 20px;
   right: 20px;
 }

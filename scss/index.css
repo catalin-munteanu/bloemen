@@ -46,7 +46,7 @@ img {
 #whatsapp-fixed {
   width: 72px;
   position: fixed;
-  z-index: 4;
+  z-index: 1;
   bottom: 20px;
   right: 20px;
 }
