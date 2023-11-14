@@ -77,10 +77,7 @@
                     <p class="uppercase-text nombre-cultivo">Caña de azúcar</p>
                 </button>
                 <dialog class="modal" id="modal-4">
-                    <picture>
-                        <source media="(min-width:768px)" srcset="img/ficha-cania.png">
-                        <img class="modal-img" src="img/ficha-cania-movil.png">
-                    </picture>
+                        <img class="modal-img" src="img/Plan_CañaAzucar-10.png">
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
