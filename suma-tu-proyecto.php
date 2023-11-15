@@ -80,6 +80,16 @@ if (
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="scss/style.css?v=1.01">
 	<script src="js/main.js"></script>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-5KY9W14R2J"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+		gtag('config', 'G-5KY9W14R2J');
+	</script>
 	<title>Bloemen - Fertilizantes Sustentables | Sumá tu proyecto</title>
 </head>
 
@@ -112,25 +122,25 @@ if (
 						<img src="img/suma-01-ideas-proyectos.png">
 						<h3 class="uppercase-text">Ideas y proyectos</h3>
 					</summary>
-						<form method="POST" id="form-ideas-proyectos" class="form-ideas-proyectos" enctype="multipart/form-data">
-							<input type="hidden" name="tipo" value="Ideas y proyectos">
-							<label for="nombre">Nombre/Razón Social</label><br>
-							<input type="text" name="nombre" id="nombre-ideas" class="nombreForm" required><br>
-							<label>Localidad</label><br>
-							<input type="text" name="localidad" class="localidadForm" required><br>
-							<label>Email</label><br>
-							<input type="email" name="mail" id="mail-ideas" class="emailForm" required><br>
-							<label>Teléfono</label><br>
-							<input type="text" name="telefono" class="telefonoForm" required><br>
-							<label>Consulta</label><br>
-							<textarea name="consulta" id="consulta-ideas" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-							<div class="input-container">
-								<label id="archivos-contacto-ideas">CARGAR ARCHIVOS
-									<input type="file" name="archivo">
-								</label>
-								<input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-ideas">
-							</div>
-						</form>
+					<form method="POST" id="form-ideas-proyectos" class="form-ideas-proyectos" enctype="multipart/form-data">
+						<input type="hidden" name="tipo" value="Ideas y proyectos">
+						<label for="nombre">Nombre/Razón Social</label><br>
+						<input type="text" name="nombre" id="nombre-ideas" class="nombreForm" required><br>
+						<label>Localidad</label><br>
+						<input type="text" name="localidad" class="localidadForm" required><br>
+						<label>Email</label><br>
+						<input type="email" name="mail" id="mail-ideas" class="emailForm" required><br>
+						<label>Teléfono</label><br>
+						<input type="text" name="telefono" class="telefonoForm" required><br>
+						<label>Consulta</label><br>
+						<textarea name="consulta" id="consulta-ideas" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+						<div class="input-container">
+							<label id="archivos-contacto-ideas">CARGAR ARCHIVOS
+								<input type="file" name="archivo">
+							</label>
+							<input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-ideas">
+						</div>
+					</form>
 				</details>
 			</article>
 
@@ -140,25 +150,25 @@ if (
 						<img src="img/suma-02-soluciones.png">
 						<h3 class="uppercase-text">Soluciones sustentables para empresas</h3>
 					</summary>
-						<form method="POST" id="form-soluciones-sust" class="form-soluciones-sustentables" enctype="multipart/form-data">
-							<input type="hidden" name="tipo" value="Soluciones sustentables para empresas">
-							<label for="nombre">Nombre/Razón Social</label><br>
-							<input type="text" name="nombre" id="nombre-soluciones" class="nombreForm" required><br>
-							<label>Localidad</label><br>
-							<input type="text" name="localidad" class="localidadForm" required><br>
-							<label>Email</label><br>
-							<input type="email" name="mail" id="mail-soluciones" class="emailForm" required><br>
-							<label>Teléfono</label><br>
-							<input type="text" name="telefono" class="telefonoForm" required><br>
-							<label>Consulta</label><br>
-							<textarea name="consulta" id="consulta-soluciones" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
-							<div class="input-container">
-								<label id="archivos-contacto-soluciones">CARGAR ARCHIVOS
-									<input type="file" name="archivo">
-								</label>
-								<input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-soluciones">
-							</div>
-						</form>
+					<form method="POST" id="form-soluciones-sust" class="form-soluciones-sustentables" enctype="multipart/form-data">
+						<input type="hidden" name="tipo" value="Soluciones sustentables para empresas">
+						<label for="nombre">Nombre/Razón Social</label><br>
+						<input type="text" name="nombre" id="nombre-soluciones" class="nombreForm" required><br>
+						<label>Localidad</label><br>
+						<input type="text" name="localidad" class="localidadForm" required><br>
+						<label>Email</label><br>
+						<input type="email" name="mail" id="mail-soluciones" class="emailForm" required><br>
+						<label>Teléfono</label><br>
+						<input type="text" name="telefono" class="telefonoForm" required><br>
+						<label>Consulta</label><br>
+						<textarea name="consulta" id="consulta-soluciones" class="consultaForm" rows="4" cols="22" maxlength="3000" required></textarea>
+						<div class="input-container">
+							<label id="archivos-contacto-soluciones">CARGAR ARCHIVOS
+								<input type="file" name="archivo">
+							</label>
+							<input type="submit" value="ENVIAR" aria-label="Enviar" id="boton-contacto-soluciones">
+						</div>
+					</form>
 				</details>
 			</article>
 

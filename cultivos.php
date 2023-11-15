@@ -10,6 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="scss/style.css?v=1.01">
     <script src="js/main.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KY9W14R2J"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-5KY9W14R2J');
+    </script>
     <title>Bloemen - Fertilizantes Sustentables | Cultivos</title>
 </head>
 
@@ -77,7 +88,7 @@
                     <p class="uppercase-text nombre-cultivo">Caña de azúcar</p>
                 </button>
                 <dialog class="modal" id="modal-4">
-                        <img class="modal-img" src="img/Plan_CañaAzucar-10.png">
+                    <img class="modal-img" src="img/Plan_CañaAzucar-10.png">
                     <button class="button close-button">
                         <img src="img/burger-close.png" alt="Cerrar">
                     </button>
@@ -355,7 +366,7 @@
         </section>
 
         <div id="cont-whatsapp-fixed">
-          <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
+            <img class="whatsapp-fixed" id="whatsapp-fixed" src="img/whatsapp-fixed.png">
         </div>
 
     </main>

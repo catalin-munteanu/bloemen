@@ -41,6 +41,16 @@ if (
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="scss/style.css?v=1.01">
   <script src="js/main.js"></script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KY9W14R2J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'G-5KY9W14R2J');
+  </script>
   <title>Bloemen - Fertilizantes Sustentables</title>
 </head>
 
