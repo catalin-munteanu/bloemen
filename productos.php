@@ -14,6 +14,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KY9W14R2J"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
+
         function gtag() {
             dataLayer.push(arguments);
         }
@@ -56,12 +57,28 @@
                                             <p class="titulo-producto">AMINO Fe</p><br>
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-1">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-01.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-01.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>

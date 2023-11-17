@@ -92,7 +92,7 @@
                             position: relative;
                             text-align: center;
 
-                            .boton-ficha-producto {
+                            .openModalBtn {
                                 display: inline-block;
                                 margin: 10px;
                                 width: 80px;
@@ -107,6 +107,65 @@
 
                             .ficha-nodisp {
                                 font-size: 10px;
+                            }
+
+                            .modal1 {
+                                position: fixed;
+                                top: 50%;
+                                left: 50%;
+                                transform: translate(-50%, -50%);
+                                border-radius: 10px;
+                                background: #009B3E;
+                                width: 90vw;
+                                padding: 5%;
+
+                                button.closeModalBtn {
+                                    background: transparent;
+                                    width: 20px;
+                                    /*position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    margin-right: 5%;
+                                    margin-top: 5%;*/
+                                    
+                                    img {
+                                        width: 20px;
+                                    }
+                                }
+
+                                p {
+                                    color: #FFFFFF;
+                                    font-size: 12px;
+                                    font-weight: 400;
+                                    margin: 0.5em 0;
+                                }
+                                
+                                form {
+
+                                    input {
+                                        border-radius: 5px;
+                                        width: 100%;
+                                        height: 2em;
+                                        padding: 0.5em;
+                                    }
+
+                                    button {
+                                        margin: 0.5em 0;
+                                        display: inline-block;
+                                        width: 80px;
+                                        height: 30px;
+                                        background-color: #4660a6;
+                                        color: #fff;
+                                        font-size: 12px;
+                                        border: none;
+                                        border-radius: 50px;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+
+                            .modal1::backdrop {
+                                background: rgba($color: #000000, $alpha: 0.7)
                             }
 
                             .modal-prod {

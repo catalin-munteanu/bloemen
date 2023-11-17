@@ -263,22 +263,53 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Modal productos
 
-document.addEventListener('DOMContentLoaded', () => {
-  const openButtonsProd = document.querySelectorAll('.open-boton-prod');
+document.addEventListener('DOMContentLoaded', function () {
+  // Check if the user has already submitted an email
+  var hasSubmittedEmail = document.cookie.includes('submittedEmail=true');
 
-  openButtonsProd.forEach((openButtonProd) => {
-    const modal = openButtonProd.nextElementSibling;
+  // Get all buttons that open or close modals
+  var modalButtons = document.querySelectorAll('.openModalBtn, .closeModalBtn');
 
-    openButtonProd.addEventListener('click', () => {
-      modal.showModal();
-    });
+  // Attach click event listeners to each button
+  modalButtons.forEach(function (button) {
+      button.addEventListener('click', function () {
+          var targetModalId = button.getAttribute('data-modal');
+          var targetModal = document.querySelector('.' + targetModalId);
 
-    const closeButtonProd = modal.querySelector('.close-boton-prod');
-    closeButtonProd.addEventListener('click', () => {
-      modal.close();
-    });
+          if (button.classList.contains('openModalBtn')) {
+              if (!hasSubmittedEmail) {
+                  // Open the modal
+                  targetModal.showModal();
+              } else {
+                  // User has already submitted email, open Modal 2 instead
+                  document.getElementById('modal2').showModal();
+              }
+          } else if (button.classList.contains('closeModalBtn')) {
+              // Close the modal
+              targetModal.close();
+          }
+      });
+  });
+
+  // Form submission handling
+  var emailForms = document.querySelectorAll('.emailForm');
+
+  emailForms.forEach(function (emailForm) {
+      emailForm.addEventListener('submit', function (event) {
+          event.preventDefault(); // Prevent the form from submitting in the traditional way
+
+          // Set a cookie to remember that the user has submitted their email
+          document.cookie = 'submittedEmail=true; expires=Fri, 31 Dec 9999 23:59:59 GMT';
+
+          // Close the modal
+          emailForm.closest('.modal').close();
+
+          // Open Modal 2
+          document.getElementById('modal2').showModal();
+      });
   });
 });
+
 
 // Slider suelo > sólidos mobile
 
