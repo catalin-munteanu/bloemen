@@ -92,7 +92,8 @@
                             position: relative;
                             text-align: center;
 
-                            .openModalBtn {
+                            .openModalBtn,
+                            .ficha-nodisp {
                                 display: inline-block;
                                 margin: 10px;
                                 width: 80px;
@@ -122,11 +123,11 @@
                                 button.closeModalBtn {
                                     background: transparent;
                                     width: 20px;
-                                    /*position: absolute;
+                                    /* position: absolute;
                                     right: 0;
                                     top: 0;
                                     margin-right: 5%;
-                                    margin-top: 5%;*/
+                                    margin-top: 5%; */
                                     
                                     img {
                                         width: 20px;
@@ -168,7 +169,7 @@
                                 background: rgba($color: #000000, $alpha: 0.7)
                             }
 
-                            .modal-prod {
+                           dialog.modal-productos {
                                 position: fixed;
                                 top: 50%;
                                 left: 50%;
@@ -178,7 +179,7 @@
                                     max-height: 90vh;
                                 }
 
-                                .close-boton-prod {
+                                .closeModalBtn {
                                     position: absolute;
                                     width: 40px;
                                     top: 20px;
@@ -193,7 +194,7 @@
                                 }
                             }
 
-                            .modal-prod::backdrop {
+                            dialog.modal-productos::backdrop {
                                 background: rgba($color: #000000, $alpha: 0.7)
                             }
                         }
@@ -295,7 +296,7 @@
 
                             figcaption {
 
-                                button.boton-ficha-producto {
+                                button.openModalBtn {
                                     display: inline-block;
                                     margin: 20px;
                                     width: 190px;
@@ -384,7 +385,8 @@
                                 position: relative;
                                 text-align: center;
 
-                                .boton-ficha-producto {
+                                .openModalBtn,
+                                .ficha-nodisp {
                                     display: inline-block;
                                     margin: 20px 0;
                                     width: calc(100% - 10px);

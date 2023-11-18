@@ -264,51 +264,65 @@ document.addEventListener('DOMContentLoaded', () => {
 // Modal productos
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Check if the user has already submitted an email
-  var hasSubmittedEmail = document.cookie.includes('submittedEmail=true');
+  // Function to check if email has been submitted
+  function hasSubmittedEmail() {
+    return localStorage.getItem('submittedEmail') === 'true';
+  }
 
-  // Get all buttons that open or close modals
-  var modalButtons = document.querySelectorAll('.openModalBtn, .closeModalBtn');
+  // Function to set that email has been submitted
+  function setSubmittedEmail() {
+    localStorage.setItem('submittedEmail', 'true');
+  }
 
-  // Attach click event listeners to each button
-  modalButtons.forEach(function (button) {
-      button.addEventListener('click', function () {
-          var targetModalId = button.getAttribute('data-modal');
-          var targetModal = document.querySelector('.' + targetModalId);
+  // Function to open Modal 2
+  function openModal2(modalId) {
+    var instanceNumber = modalId.split('_')[1];
+    document.getElementById('modal2_' + instanceNumber).showModal();
+  }
 
-          if (button.classList.contains('openModalBtn')) {
-              if (!hasSubmittedEmail) {
-                  // Open the modal
-                  targetModal.showModal();
-              } else {
-                  // User has already submitted email, open Modal 2 instead
-                  document.getElementById('modal2').showModal();
-              }
-          } else if (button.classList.contains('closeModalBtn')) {
-              // Close the modal
-              targetModal.close();
-          }
-      });
+  // Event listener for the "submit" button
+  function handleFormSubmission(emailForm) {
+    event.preventDefault(); // Prevent the form from submitting in the traditional way
+
+    // Set that email has been submitted
+    setSubmittedEmail();
+
+    // Close the modal
+    emailForm.closest('.modal').close();
+
+    // Open Modal 2
+    openModal2(emailForm.closest('.modal').id);
+  }
+
+  // Attach click event listeners to all buttons
+  document.querySelectorAll('.openModalBtn, .closeModalBtn').forEach(function (button) {
+    button.addEventListener('click', function () {
+      var targetModalId = button.getAttribute('data-modal');
+      var targetModal = document.getElementById(targetModalId);
+
+      if (button.classList.contains('openModalBtn')) {
+        // Show Modal 1 only if email has not been submitted
+        if (!hasSubmittedEmail()) {
+          targetModal.showModal();
+        } else {
+          // Open Modal 2 directly if email has been submitted
+          openModal2(targetModalId);
+        }
+      } else if (button.classList.contains('closeModalBtn')) {
+        targetModal.close();
+      }
+    });
   });
 
-  // Form submission handling
-  var emailForms = document.querySelectorAll('.emailForm');
-
-  emailForms.forEach(function (emailForm) {
-      emailForm.addEventListener('submit', function (event) {
-          event.preventDefault(); // Prevent the form from submitting in the traditional way
-
-          // Set a cookie to remember that the user has submitted their email
-          document.cookie = 'submittedEmail=true; expires=Fri, 31 Dec 9999 23:59:59 GMT';
-
-          // Close the modal
-          emailForm.closest('.modal').close();
-
-          // Open Modal 2
-          document.getElementById('modal2').showModal();
-      });
+  // Attach form submission handling
+  document.querySelectorAll('.emailForm').forEach(function (emailForm) {
+    emailForm.addEventListener('submit', function (event) {
+      handleFormSubmission(emailForm);
+    });
   });
 });
+
+
 
 
 // Slider suelo > sólidos mobile

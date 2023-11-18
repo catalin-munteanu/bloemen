@@ -58,12 +58,12 @@
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
                                                 <!-- Trigger button for the first modal -->
-                                                <button class="openModalBtn" data-modal="modal1">Open Modal 1</button>
+                                                <button class="openModalBtn" data-modal="modal1_1">Open Modal 1</button>
 
                                                 <!-- First modal with a form -->
-                                                <dialog class="modal modal1">
+                                                <dialog class="modal modal1" id="modal1_1">
                                                     <div>
-                                                        <button class="closeModalBtn" data-modal="modal1"><img src="img/burger-close.png"></button>
+                                                        <button class="closeModalBtn" data-modal="modal1_1"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
                                                         <form class="emailForm">
                                                             <label for="email"></label>
@@ -74,9 +74,9 @@
                                                 </dialog>
 
                                                 <!-- Second modal -->
-                                                <dialog id="modal2">
+                                                <dialog id="modal2_1" class="modal-productos">
                                                     <div>
-                                                        <button class="closeModalBtn" data-modal="modal2">Close</button>
+                                                        <button class="closeModalBtn" data-modal="modal2_1">Close</button>
                                                         <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-01.png">
                                                     </div>
                                                 </dialog>
@@ -88,12 +88,28 @@
                                             <p class="titulo-producto">AMINO K</p><br>
                                             <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-2">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-02.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_2">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_2">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_2"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_2" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_2">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-02.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -103,12 +119,28 @@
                                             <p class="titulo-producto">AMINO Zn-Mn</p><br>
                                             <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-03.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_3">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_3">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_3"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_3" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_3">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-03.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -118,12 +150,28 @@
                                             <p class="titulo-producto">BIOBLOEMEN</p><br>
                                             <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-06.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_4">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_4">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_4"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_4" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_4">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-06.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -133,12 +181,28 @@
                                             <p class="titulo-producto">CORRECTOR AMINO B</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-5">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-12.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_5">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_5">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_5"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_5" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_5">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-12.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -148,12 +212,28 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Mg</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-6">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-15.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_6">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_6">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_6"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_6" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_6">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-15.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -163,12 +243,28 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Zn</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-7">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-03.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_7">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_7">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_7"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_7" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_7">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-14.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -178,12 +274,28 @@
                                             <p class="titulo-producto">CORRECTOR de Ca</p><br>
                                             <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-8">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-13.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_8">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_8">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_8"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_8" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_8">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-13.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -193,12 +305,28 @@
                                             <p class="titulo-producto">CORRECTOR de N</p><br>
                                             <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-16.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_9">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_9">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_9"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_9" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_9">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-16.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -217,12 +345,28 @@
                                             <p class="titulo-producto">BLONOS</p><br>
                                             <img src="img/BLONOS.png" alt="Image 10-1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-11.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_10">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_10">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_10"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_10" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_10">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-11.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -232,12 +376,28 @@
                                             <p class="titulo-producto">BLONOS 20N</p><br>
                                             <img src="img/BLONOS 20N.png" alt="Image 10-2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS-10.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_11">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_11">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_11"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_11" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_11">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-10.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -260,12 +420,28 @@
                                             <p class="titulo-producto">AMINO Fe</p><br>
                                             <img src="img/prod-foliar AMINO-Fe.png" alt="Image 1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-1">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-01.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_12">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_12">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_12"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_12" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_12">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-01.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -273,12 +449,28 @@
                                             <p class="titulo-producto">AMINO K</p><br>
                                             <img src="img/prod-foliar-AMINO-K.png" alt="Image 2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-2">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-02.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_13">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_13">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_13"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_13" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_13">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-02.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -286,12 +478,28 @@
                                             <p class="titulo-producto">AMINO Zn-Mn</p><br>
                                             <img src="img/prod-foliar-Amino-ZN_MN.png" alt="Image 3">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-03.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_14">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_14">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_14"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_14" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_14">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-03.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -301,12 +509,28 @@
                                             <p class="titulo-producto">BIOBLOEMEN</p>
                                             <img src="img/prod-foliar-BIOBLOEMEN.png" alt="Image 4">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-3">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-06.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_15">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_15">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_15"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_15" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_15">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-06.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -314,12 +538,28 @@
                                             <p class="titulo-producto">CORRECTOR AMINO B</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-B.png" alt="Image 5">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-5">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-12.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_16">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_16">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_16"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_16" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_16">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-12.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -327,12 +567,28 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Mg</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Mg.png" alt="Image 6">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-6">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-15.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_17">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_17">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_17"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_17" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_17">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-15.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -342,12 +598,28 @@
                                             <p class="titulo-producto">CORRECTOR AMINO Zn</p>
                                             <img src="img/prod-foliar-CORRECTOR-AMINO-Zn.png" alt="Image 7">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-7">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-14.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_18">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_18">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_18"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_18" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_18">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-14.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -355,12 +627,28 @@
                                             <p class="titulo-producto">CORRECTOR de Ca</p>
                                             <img src="img/prod-foliar-CORRECTOR-DE-Ca-BIOBLOEMEN.png" alt="Image 8">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-8">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-13.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_19">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_19">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_19"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_19" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_19">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-13.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -368,14 +656,31 @@
                                             <p class="titulo-producto">CORRECTOR de N</p>
                                             <img src="img/prod-foliar-CORRECTOR-DE-N-BIOBLOEMEN.png" alt="Image 9">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-16.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_20">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_20">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_20"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_20" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_20">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-16.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
+
                                         </figure>
                                     </div>
                                     <div class="slide-amino-desktop">
@@ -390,12 +695,28 @@
                                             <p class="titulo-producto">BLONOS</p><br>
                                             <img src="img/BLONOS.png" alt="Image 10-1">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-11.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_21">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_21">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_21"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_21" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_21">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-11.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -403,12 +724,28 @@
                                             <p class="titulo-producto">BLONOS 20N</p><br>
                                             <img src="img/BLONOS 20N.png" alt="Image 10-2">
                                             <figcaption>
-                                                <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
-                                                <dialog class="modal-prod" id="modal-prod-9">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-10.png">
-                                                    <button class="close-boton-prod">
-                                                        <img src="img/burger-close.png" alt="Cerrar">
-                                                    </button>
+                                                <!-- Trigger button for the first modal -->
+                                                <button class="openModalBtn" data-modal="modal1_22">Open Modal 1</button>
+
+                                                <!-- First modal with a form -->
+                                                <dialog class="modal modal1" id="modal1_22">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal1_22"><img src="img/burger-close.png"></button>
+                                                        <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
+                                                        <form class="emailForm">
+                                                            <label for="email"></label>
+                                                            <input type="email" id="email" name="email" required><br>
+                                                            <button type="submit" class="uppercase-text">Enviar</button>
+                                                        </form>
+                                                    </div>
+                                                </dialog>
+
+                                                <!-- Second modal -->
+                                                <dialog id="modal2_22" class="modal-productos">
+                                                    <div>
+                                                        <button class="closeModalBtn" data-modal="modal2_22">Close</button>
+                                                        <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-10.png">
+                                                    </div>
                                                 </dialog>
                                             </figcaption>
                                         </figure>
@@ -527,7 +864,7 @@
                                             <figcaption>
                                                 <button class="boton-ficha-producto open-boton-prod">ver ficha</button>
                                                 <dialog class="modal-prod" id="modal-prod-14">
-                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-22.pngg">
+                                                    <img class="modal-prod-img" src="img/FICHAS TECNICAS FINALES-22.png">
                                                     <button class="close-boton-prod">
                                                         <img src="img/burger-close.png" alt="Cerrar">
                                                     </button>
