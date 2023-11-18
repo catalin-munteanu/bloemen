@@ -630,41 +630,41 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   position: relative;
   text-align: center;
 }
-.detalle-productos .productos-foliar ul li .slide figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .slide figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .slide figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .lista-productos-foliar figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .lista-productos-suelo figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .lista-productos-promotor figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .slide-solidos figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .slide-solidos figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .slide-solidos figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .slide-solidos-desktop figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .slide-solidos-desktop figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .slide-solidos-desktop figure figcaption .ficha-nodisp,
-.detalle-productos .productos-foliar ul li .slide-maxicorrectores figure figcaption .openModalBtn,
+.detalle-productos .productos-foliar ul li .slide-maxicorrectores figure figcaption button.openModalBtn,
 .detalle-productos .productos-foliar ul li .slide-maxicorrectores figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .slide figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .slide figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .slide figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .slide-fosfito figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .lista-productos-foliar figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .lista-productos-suelo figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .lista-productos-promotor figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .slide-solidos figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .slide-solidos figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .slide-solidos figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption .ficha-nodisp,
-.detalle-productos .productos-suelo ul li .slide-maxicorrectores figure figcaption .openModalBtn,
+.detalle-productos .productos-suelo ul li .slide-maxicorrectores figure figcaption button.openModalBtn,
 .detalle-productos .productos-suelo ul li .slide-maxicorrectores figure figcaption .ficha-nodisp {
   display: inline-block;
   margin: 10px;
@@ -1242,6 +1242,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
     right: 20px;
     background: none;
     border: none;
+    cursor: pointer;
   }
   .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption dialog.modal-productos button.closeModalBtn img,
   .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption dialog.modal-productos button.closeModalBtn img,

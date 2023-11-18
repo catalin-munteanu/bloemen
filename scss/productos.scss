@@ -92,7 +92,7 @@
                             position: relative;
                             text-align: center;
 
-                            .openModalBtn,
+                            button.openModalBtn,
                             .ficha-nodisp {
                                 display: inline-block;
                                 margin: 10px;
@@ -420,6 +420,7 @@
                                         right: 20px;
                                         background: none;
                                         border: none;
+                                        cursor: pointer;
 
                                         img {
                                             width: 40px;
