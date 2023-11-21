@@ -1,7 +1,10 @@
 <?php
+$success = false;
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
     $to = "bloemen@bloemen.com.ar"; // Email destinatario
-    $subject = "Nuevo email ingresado en bloemen.com.ar";
+    $subject = "Nuevo email ingresado en web de Bloemen";
     
     // Retrieve the email from the form
     $email = $_POST["email"];
@@ -10,12 +13,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $message = "Nuevo email ingresado: " . $email;
     
     // Additional headers
-    $headers = "From: noreply@bloemen.com.ar";
+    $headers = "From: <noreply@bloemen.com.ar>";
     
     // Send the email
-    mail($to, $subject, $message, $headers);
+    $success = mail($to, $subject, $message, $headers);
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="es">
 
