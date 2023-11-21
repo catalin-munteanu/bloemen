@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $to = "catalinalarapampin@gmail.com"; // Email destinatario
-    $subject = "Nuevo email ingresado en web de Bloemen";
+    $to = "bloemen@bloemen.com.ar"; // Email destinatario
+    $subject = "Nuevo email ingresado en bloemen.com.ar";
     
     // Retrieve the email from the form
     $email = $_POST["email"];
