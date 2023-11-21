@@ -722,7 +722,9 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   border-radius: 10px;
   background: #009B3E;
   width: 90vw;
-  padding: 5%;
+  padding: 25px;
+  max-width: 500px;
+  text-align: center; /* Center align the content */
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal1 button.closeModalBtn,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal1 button.closeModalBtn,
@@ -744,11 +746,11 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .slide-maxicorrectores figure figcaption .modal1 button.closeModalBtn {
   background: transparent;
   width: 20px;
-  /* position: absolute;
-  right: 0;
-  top: 0;
-  margin-right: 5%;
-  margin-top: 5%; */
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10px; /* Adjust the top value as needed */
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption .modal1 button.closeModalBtn img,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption .modal1 button.closeModalBtn img,
@@ -927,9 +929,10 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption dialog.modal-productos .closeModalBtn,
 .detalle-productos .productos-suelo ul li .slide-maxicorrectores figure figcaption dialog.modal-productos .closeModalBtn {
   position: absolute;
-  width: 40px;
-  top: 20px;
-  right: 20px;
+  width: 20px;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
   background: none;
   border: none;
   cursor: pointer;
@@ -952,7 +955,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
 .detalle-productos .productos-suelo ul li .slide-solidos figure figcaption dialog.modal-productos .closeModalBtn img,
 .detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption dialog.modal-productos .closeModalBtn img,
 .detalle-productos .productos-suelo ul li .slide-maxicorrectores figure figcaption dialog.modal-productos .closeModalBtn img {
-  width: 40px;
+  width: 20px;
 }
 .detalle-productos .productos-foliar ul li .slide figure figcaption dialog.modal-productos::backdrop,
 .detalle-productos .productos-foliar ul li .slide-fosfito figure figcaption dialog.modal-productos::backdrop,
@@ -1237,8 +1240,8 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption dialog.modal-productos button.closeModalBtn,
   .detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption dialog.modal-productos button.closeModalBtn {
     position: absolute;
-    width: 40px;
-    top: 20px;
+    width: 20px;
+    top: 8px;
     right: 20px;
     background: none;
     border: none;
@@ -1250,7 +1253,7 @@ section.detalle-cultivos div.un-cultivo .modal::backdrop {
   .detalle-productos .productos-suelo ul li .slide-amino-desktop figure figcaption dialog.modal-productos button.closeModalBtn img,
   .detalle-productos .productos-suelo ul li .slide-fosfito-desktop figure figcaption dialog.modal-productos button.closeModalBtn img,
   .detalle-productos .productos-suelo ul li .slide-solidos-desktop figure figcaption dialog.modal-productos button.closeModalBtn img {
-    width: 40px;
+    width: 20px;
   }
   .detalle-productos .productos-foliar ul li .slide-amino-desktop figure figcaption dialog.modal-productos::backdrop,
   .detalle-productos .productos-foliar ul li .slide-fosfito-desktop figure figcaption dialog.modal-productos::backdrop,

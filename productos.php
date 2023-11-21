@@ -1,3 +1,21 @@
+<?php
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $to = "catalinalarapampin@gmail.com"; // Email destinatario
+    $subject = "Nuevo email ingresado en web de Bloemen";
+    
+    // Retrieve the email from the form
+    $email = $_POST["email"];
+    
+    // Message
+    $message = "Nuevo email ingresado: " . $email;
+    
+    // Additional headers
+    $headers = "From: noreply@bloemen.com.ar";
+    
+    // Send the email
+    mail($to, $subject, $message, $headers);
+}
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -65,7 +83,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_1"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -96,7 +114,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_2"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -127,7 +145,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_3"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -158,7 +176,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_4"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -189,7 +207,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_5"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -220,7 +238,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_6"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -251,7 +269,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_7"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -282,7 +300,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_8"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -313,7 +331,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_9"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -353,7 +371,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_10"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -384,7 +402,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_11"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -428,7 +446,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_12"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -457,7 +475,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_13"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -486,7 +504,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_14"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -517,7 +535,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_15"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -546,7 +564,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_16"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -575,7 +593,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_17"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -606,7 +624,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_18"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -635,7 +653,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_19"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -664,7 +682,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_20"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -703,7 +721,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_21"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -732,7 +750,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_22"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -784,7 +802,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_23"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -815,7 +833,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_24"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -849,7 +867,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_25"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -878,7 +896,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_26"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -919,7 +937,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_27"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -950,7 +968,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_28"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -981,7 +999,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_29"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1012,7 +1030,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_30"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1043,7 +1061,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_31"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1074,7 +1092,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_32"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1118,7 +1136,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_33"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1147,7 +1165,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_34"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1176,7 +1194,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_35"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1207,7 +1225,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_36"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1236,7 +1254,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_37"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1265,7 +1283,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_38"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1330,7 +1348,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_39"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1359,7 +1377,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_38"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1388,7 +1406,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_41"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1430,7 +1448,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_42"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1473,7 +1491,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_43"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1522,7 +1540,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_44"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1562,7 +1580,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_45"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1597,7 +1615,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_46"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1642,7 +1660,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_47"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
@@ -1678,7 +1696,7 @@
                                                     <div>
                                                         <button class="closeModalBtn" data-modal="modal1_48"><img src="img/burger-close.png"></button>
                                                         <p class="uppercase-text">Ingresá tu mail para poder abrir el archivo</p>
-                                                        <form class="emailForm">
+                                                        <form action="" method="post" class="emailForm">
                                                             <label for="email"></label>
                                                             <input type="email" id="email" name="email" required><br>
                                                             <button type="submit" class="uppercase-text">Enviar</button>
