@@ -2,21 +2,27 @@
 $success = false;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-
     $to = "bloemen@bloemen.com.ar"; // Email destinatario
     $subject = "Nuevo email ingresado en web de Bloemen";
     
     // Retrieve the email from the form
-    $email = $_POST["email"];
+    $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
     
-    // Message
-    $message = "Nuevo email ingresado: " . $email;
-    
-    // Additional headers
-    $headers = "From: <noreply@bloemen.com.ar>";
-    
-    // Send the email
-    $success = mail($to, $subject, $message, $headers);
+    // Validate the email
+    if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        // Message
+        $message = "Nuevo email ingresado: " . $email;
+        
+        // Additional headers
+        $headers = "From: noreply@bloemen.com.ar\r\n";
+        $headers .= "Reply-To: $email\r\n";
+        
+        // Send the email
+        $success = mail($to, $subject, $message, $headers);
+    } else {
+        // Handle invalid email address
+        $success = false;
+    }
 }
 ?>
 
