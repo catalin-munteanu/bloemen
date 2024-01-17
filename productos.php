@@ -1,29 +1,31 @@
 <?php
+
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 $success = false;
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $to = "bloemen@bloemen.com.ar"; // Email destinatario
-    $subject = "Nuevo email ingresado en web de Bloemen";
-    
     // Retrieve the email from the form
     $email = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
-    
+
     // Validate the email
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        // Message
-        $message = "Nuevo email ingresado: " . $email;
-        
-        // Additional headers
-        $headers = "From: noreply@bloemen.com.ar\r\n";
-        $headers .= "Reply-To: $email\r\n";
-        
-        // Send the email
-        $success = mail($to, $subject, $message, $headers);
+        // Create or update the CSV file
+        $csvFilePath = __DIR__ . '/emails/emails.csv';
+        $csvFile = fopen($csvFilePath, 'a'); // Open the CSV file in append mode
+        fputcsv($csvFile, [$email]); // Add the email to the CSV file
+        fclose($csvFile);
+
+        $success = true;
     } else {
         // Handle invalid email address
         $success = false;
     }
 }
+
+// Return success status
+echo json_encode(['success' => $success]);
 ?>
 
 <!DOCTYPE html>

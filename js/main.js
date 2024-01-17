@@ -21,8 +21,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-// Burger menu
 
+// Burger menu
 document.addEventListener("DOMContentLoaded", function () {
   /* Funcion que maneja el menu */
   function navResponsive() {
@@ -57,6 +57,7 @@ document.addEventListener("DOMContentLoaded", function () {
   navResponsive();
 });
 
+
 // Scrolled Page class
 window.addEventListener('scroll', function () {
   if (window.scrollY > 0) {
@@ -66,8 +67,8 @@ window.addEventListener('scroll', function () {
   }
 });
 
-// Slider productos mobile
 
+// Slider productos mobile
 document.addEventListener('DOMContentLoaded', () => {
   var slides = document.querySelectorAll('.slide');
   var currentSlide = 0;
@@ -105,8 +106,8 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 });
 
-// Slider productos desktop
 
+// Slider productos desktop
 document.addEventListener('DOMContentLoaded', () => {
   var slides = document.querySelectorAll('.slide-amino-desktop');
   var currentSlide = 0;
@@ -144,8 +145,8 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 });
 
-// Slider fosfitos mobile
 
+// Slider fosfitos mobile
 document.addEventListener('DOMContentLoaded', () => {
   var slides = document.querySelectorAll('.slide-fosfito');
   var currentSlide = 0;
@@ -183,8 +184,8 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 });
 
-// Slider fosfitos desktop
 
+// Slider fosfitos desktop
 document.addEventListener('DOMContentLoaded', () => {
   var slides = document.querySelectorAll('.slide-fosfito-desktop');
   var currentSlide = 0;
@@ -222,8 +223,8 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 });
 
-// Slider maxicorrectores
 
+// Slider maxicorrectores
 document.addEventListener('DOMContentLoaded', () => {
   var slides = document.querySelectorAll('.slide-maxicorrectores');
   var currentSlide = 0;
@@ -246,6 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   showSlide(0); // Show the first slide
 
+
   // Button event listeners
   var prevButton = document.getElementById('prevButton-maxi');
   var nextButton = document.getElementById('nextButton-maxi');
@@ -261,8 +263,8 @@ document.addEventListener('DOMContentLoaded', () => {
   })
 });
 
-// Modal productos
 
+// Modal productos
 document.addEventListener('DOMContentLoaded', function () {
   // Function to check if email has been submitted
   function hasSubmittedEmail() {
