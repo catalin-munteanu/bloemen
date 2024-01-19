@@ -5,6 +5,7 @@ dialog.modal-promo-enero {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 300px 86px rgb(0, 0, 0);
 }
 dialog.modal-promo-enero dialog.modal-promo-enero::backdrop {
   background: rgba(0, 0, 0, 0.5);
