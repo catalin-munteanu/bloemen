@@ -39,8 +39,8 @@ if (
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="scss/style.css?v=1.01">
-  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="scss/style.css?v=1.02">
+  <script src="js/main.js?v=1.01"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KY9W14R2J"></script>
   <script>
@@ -83,9 +83,16 @@ if (
 
   <main>
 
+    <dialog class="modal-promo-enero" open>
+      <button class="closeModalBtnPromo" onclick="closeModal()">
+        <img src="img/burger-close.png" alt="Close">
+      </button>
+      <a class="invisibleBtn" href="https://wa.me/542235284000" target="_blank"></a>
+      <img class="modal-promo-img" src="img/desktop/PromoWEB-home.png" alt="Promo Image">
+    </dialog>
+
     <section>
       <div class="slideshow-container">
-
         <div class="mySlides fade">
           <div class="numbertext"></div>
           <picture>

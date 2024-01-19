@@ -164,6 +164,48 @@ body.mobile-menu-active .nav-menu .nav-menu-element:nth-child(7) {
     display: none;
   }
 }
+/* Modal promo */
+dialog.modal-promo-enero {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+dialog.modal-promo-enero dialog.modal-promo-enero::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
+dialog.modal-promo-enero .invisibleBtn {
+  position: absolute;
+  width: 34%;
+  height: 14%;
+  top: 69.5%;
+  left: 79%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  opacity: 0;
+}
+dialog.modal-promo-enero img.modal-promo-img {
+  max-height: 90vh;
+  max-width: 90vw;
+}
+dialog.modal-promo-enero .closeModalBtnPromo {
+  position: absolute;
+  width: 20px;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+dialog.modal-promo-enero .closeModalBtnPromo img {
+  width: 20px;
+}
+
 .mySlides {
   display: none;
 }

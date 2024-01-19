@@ -1,3 +1,17 @@
+// Modal promo
+document.addEventListener('DOMContentLoaded', function() {
+  var modalPromo = document.querySelector('.modal-promo-enero');
+  var closeModalBtnPromo = document.querySelector('.closeModalBtnPromo');
+
+  // Function to close the modal
+  function closeModal() {
+    modalPromo.close();
+  }
+
+  // Event listener for the close button
+  closeModalBtnPromo.addEventListener('click', closeModal);
+});
+
 // Modal
 document.addEventListener('DOMContentLoaded', () => {
   const openButtons = document.querySelectorAll('.open-button');
