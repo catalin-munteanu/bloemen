@@ -39,7 +39,7 @@ if (
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="scss/style.css?v=1.02">
+  <link rel="stylesheet" href="scss/style.css?v=1.04">
   <script src="js/main.js?v=1.01"></script>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5KY9W14R2J"></script>
