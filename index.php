@@ -96,8 +96,8 @@ if (
         <div class="mySlides fade">
           <div class="numbertext"></div>
           <picture>
-            <source media="(min-width:1024px)" srcset="img/index-1-desktop.webp">
-            <img src="img/index-1.webp" style="width:100%">
+            <source media="(min-width:1024px)" srcset="img/index-1-desktop.png">
+            <img src="img/index-1.png" style="width:100%">
           </picture>
           <div class="text"></div>
         </div>
@@ -105,8 +105,8 @@ if (
         <div class="mySlides fade">
           <div class="numbertext"></div>
           <picture>
-            <source media="(min-width:1024px)" srcset="img/index-2-desktop.webp">
-            <img src="img/index-2.webp" style="width:100%">
+            <source media="(min-width:1024px)" srcset="img/index-2-desktop.png">
+            <img src="img/index-2.png" style="width:100%">
           </picture>
           <div class="text"></div>
         </div>
@@ -114,8 +114,8 @@ if (
         <div class="mySlides fade">
           <div class="numbertext"></div>
           <picture>
-            <source media="(min-width:1024px)" srcset="img/index-3-desktop.webp">
-            <img src="img/index-3.webp" style="width:100%">
+            <source media="(min-width:1024px)" srcset="img/index-3-desktop.png">
+            <img src="img/index-3.png" style="width:100%">
           </picture>
           <div class="text"></div>
         </div>

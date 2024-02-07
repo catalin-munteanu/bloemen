@@ -178,10 +178,10 @@ dialog.modal-promo-enero dialog.modal-promo-enero::backdrop {
 }
 dialog.modal-promo-enero .invisibleBtn {
   position: absolute;
-  width: 34%;
-  height: 14%;
-  top: 69.5%;
-  left: 79%;
+  width: 42%;
+  height: 17%;
+  top: 67%;
+  left: 78%;
   transform: translateX(-50%);
   background: none;
   border: none;
