@@ -55,16 +55,16 @@
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-villa-gesell" id="province-img-14">
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-daireaux" id="province-img-15">
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-la-rioja" id="province-img-16">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-bustos" id="province-img-17">
-                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-san-rafael" id="province-img-18">
+                <!--<img src="img/logo-bloemen-map.png" class="province-img logo-distr-bustos" id="province-img-17">
+                <img src="img/logo-bloemen-map.png" class="province-img logo-distr-san-rafael" id="province-img-18">-->
                 <img src="img/logo-bloemen-map.png" class="province-img logo-distr-cipolletti" id="province-img-19">
             </article>
 
             <article class="distribuidores-mendoza province-info" id="province-info-1">
                 <img src="img/Mendoza.webp" class="img-distr-mendoza">
-                <img src="img/Mendoza_Guaymallen.webp" class="img-distr-mendoza">
+                <!--<img src="img/Mendoza_Guaymallen.webp" class="img-distr-mendoza">
                 <img src="img/Mendoza_Rivadavia.webp" class="img-distr-mendoza">
-                <img src="img/Mendoza_SanMartin.webp" class="img-distr-mendoza">
+                <img src="img/Mendoza_SanMartin.webp" class="img-distr-mendoza">-->
             </article>
 
             <article class="distribuidores-viedma province-info" id="province-info-2">
@@ -73,7 +73,7 @@
 
             <article class="distribuidores-sanjuan province-info" id="province-info-3">
                 <img src="img/SanJuan_1.webp" class="img-distr-sanjuan">
-                <img src="img/SanJuan_2.webp" class="img-distr-sanjuan">
+                <!--<img src="img/SanJuan_2.webp" class="img-distr-sanjuan">-->
             </article>
 
             <article class="distribuidores-cordoba province-info" id="province-info-4">
@@ -133,13 +133,13 @@
                 <img src="img/LaRioja.webp" class="img-distr-la-rioja">
             </article>
 
-            <article class="distribuidores-bustos province-info" id="province-info-17">
+            <!--<article class="distribuidores-bustos province-info" id="province-info-17">
                 <img src="img/Mendoza_EugenioBusto.webp" class="img-distr-bustos">
             </article>
 
             <article class="distribuidores-san-rafael province-info" id="province-info-18">
                 <img src="img/Mendoza_SanRafael.webp" class="img-distr-san-rafael">
-            </article>
+            </article>-->
 
             <article class="distribuidores-cipolletti province-info" id="province-info-19">
                 <img src="img/RioNegro_Cipolletti.webp" class="img-distr-cipolletti">
