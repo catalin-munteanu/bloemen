@@ -1692,7 +1692,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                                         </figure>
                                         <figure>
                                             <p class="titulo-producto">Blocompost</p>
-                                            <img src="img/Bolsa-Azul.png" alt="Imagen Bolsa Azul"><br>
+                                            <img src="img/Bolsa-Azul-2.png" alt="Imagen Bolsa Azul 2"><br>
                                             <figcaption>
                                                 <!-- Trigger button for the first modal -->
                                                 <button class="openModalBtn" data-modal="modal1_48">ver ficha</button>
