@@ -61,7 +61,7 @@
             </article>
 
             <article class="distribuidores-mendoza province-info" id="province-info-1">
-                <img src="img/Mendoza.webp" class="img-distr-mendoza">
+                <img src="img/mendoza-simbios.jpg" class="img-distr-mendoza">
                 <!--<img src="img/Mendoza_Guaymallen.webp" class="img-distr-mendoza">
                 <img src="img/Mendoza_Rivadavia.webp" class="img-distr-mendoza">
                 <img src="img/Mendoza_SanMartin.webp" class="img-distr-mendoza">-->
@@ -72,7 +72,7 @@
             </article>
 
             <article class="distribuidores-sanjuan province-info" id="province-info-3">
-                <img src="img/SanJuan_1.webp" class="img-distr-sanjuan">
+                <img src="img/san-juan-simbios.jpg" class="img-distr-sanjuan">
                 <!--<img src="img/SanJuan_2.webp" class="img-distr-sanjuan">-->
             </article>
 
@@ -130,7 +130,7 @@
             </article>
 
             <article class="distribuidores-la-rioja province-info" id="province-info-16">
-                <img src="img/LaRioja.webp" class="img-distr-la-rioja">
+                <img src="img/la-rioja-simbios.jpg" class="img-distr-la-rioja">
             </article>
 
             <!--<article class="distribuidores-bustos province-info" id="province-info-17">
